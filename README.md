@@ -1,3 +1,5 @@
+The purpose of this project is to add Chinese language support
+
 What is [FusionPBX](http://fusionpbx.com/)?
 --------------------------------------
 
