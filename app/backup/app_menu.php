@@ -1,7 +1,7 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Backup";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "备份";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Datensicherung";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "";

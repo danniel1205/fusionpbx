@@ -1,7 +1,7 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Command";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "命令行";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Befehle";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "";

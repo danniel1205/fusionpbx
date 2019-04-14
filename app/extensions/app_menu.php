@@ -1,7 +1,7 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Extensions";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "扩充";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "الأرقام الداخلية";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Nebenstellen";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "";

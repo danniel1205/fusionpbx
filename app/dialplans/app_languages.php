@@ -1,7 +1,7 @@
 <?php
 #This file was last reorganized on 27th of September 2017 01:41:51 PM UTC
 
-$text['title-dialplan_manager']['en-us'] = "Dialplan Manager";
+$text['title-dialplan_manager']['en-us'] = "拨号方案管理";
 $text['title-dialplan_manager']['ar-eg'] = "";
 $text['title-dialplan_manager']['de-at'] = "Wählplan Einstellungen"; //copied from de-de
 $text['title-dialplan_manager']['de-ch'] = "Wählplan Einstellungen"; //copied from de-de
@@ -21,7 +21,7 @@ $text['title-dialplan_manager']['ru-ru'] = "Управление Планом Н
 $text['title-dialplan_manager']['sv-se'] = "Nummerplan Inställningar";
 $text['title-dialplan_manager']['uk-ua'] = "Керування маршрутизацією";
 
-$text['title-dialplan_edit']['en-us'] = "Dialplan";
+$text['title-dialplan_edit']['en-us'] = "拨号方案";
 $text['title-dialplan_edit']['ar-eg'] = "";
 $text['title-dialplan_edit']['de-at'] = "Wählplan"; //copied from de-de
 $text['title-dialplan_edit']['de-ch'] = "Wählplan"; //copied from de-de
@@ -41,7 +41,7 @@ $text['title-dialplan_edit']['ru-ru'] = "План Нумерации";
 $text['title-dialplan_edit']['sv-se'] = "Nummerplan";
 $text['title-dialplan_edit']['uk-ua'] = "Маршрутизація";
 
-$text['title-dialplan_detail']['en-us'] = "Dialplan Detail";
+$text['title-dialplan_detail']['en-us'] = "拨号方案详情";
 $text['title-dialplan_detail']['ar-eg'] = "";
 $text['title-dialplan_detail']['de-at'] = "Wählplan Details"; //copied from de-de
 $text['title-dialplan_detail']['de-ch'] = "Wählplan Details"; //copied from de-de
@@ -61,7 +61,7 @@ $text['title-dialplan_detail']['ru-ru'] = "Подробная информаци
 $text['title-dialplan_detail']['sv-se'] = "Nummerplan Detaljer";
 $text['title-dialplan_detail']['uk-ua'] = "Деталі маршрутизації";
 
-$text['title-dialplan_add']['en-us'] = "Dialplan";
+$text['title-dialplan_add']['en-us'] = "拨号方案";
 $text['title-dialplan_add']['ar-eg'] = "";
 $text['title-dialplan_add']['de-at'] = "Wählplan"; //copied from de-de
 $text['title-dialplan_add']['de-ch'] = "Wählplan"; //copied from de-de
@@ -81,7 +81,7 @@ $text['title-dialplan_add']['ru-ru'] = "План Нумерации";
 $text['title-dialplan_add']['sv-se'] = "Nummerplan";
 $text['title-dialplan_add']['uk-ua'] = "Маршрутизація";
 
-$text['title-default_dialplan']['en-us'] = "Default Dialplan";
+$text['title-default_dialplan']['en-us'] = "默认拨号方案";
 $text['title-default_dialplan']['ar-eg'] = "";
 $text['title-default_dialplan']['de-at'] = "Standard Wählplan"; //copied from de-de
 $text['title-default_dialplan']['de-ch'] = "Standard Wählplan"; //copied from de-de
@@ -661,7 +661,7 @@ $text['option-false']['ru-ru'] = "Нет";
 $text['option-false']['sv-se'] = "Falsk";
 $text['option-false']['uk-ua'] = "Ні";
 
-$text['option-dialplan']['en-us'] = "Dialplan";
+$text['option-dialplan']['en-us'] = "拨号方案";
 $text['option-dialplan']['ar-eg'] = "";
 $text['option-dialplan']['de-at'] = "Wählplan"; //copied from de-de
 $text['option-dialplan']['de-ch'] = "Wählplan"; //copied from de-de
@@ -1141,7 +1141,7 @@ $text['label-domain']['ru-ru'] = "Домен";
 $text['label-domain']['sv-se'] = "Domän";
 $text['label-domain']['uk-ua'] = "Домен";
 
-$text['label-dialplan_detail']['en-us'] = "Dialplan Details";
+$text['label-dialplan_detail']['en-us'] = "拨号方案细节";
 $text['label-dialplan_detail']['ar-eg'] = "";
 $text['label-dialplan_detail']['de-at'] = "Wählplan Details"; //copied from de-de
 $text['label-dialplan_detail']['de-ch'] = "Wählplan Details"; //copied from de-de
@@ -1441,7 +1441,7 @@ $text['header-inbound_routes']['ru-ru'] = "Входящий Маршрут";
 $text['header-inbound_routes']['sv-se'] = "Inkommande Router";
 $text['header-inbound_routes']['uk-ua'] = "Маршрути вхідних дзвінків";
 
-$text['header-dialplan_manager']['en-us'] = "Dialplan Manager";
+$text['header-dialplan_manager']['en-us'] = "拨号方案管理";
 $text['header-dialplan_manager']['ar-eg'] = "";
 $text['header-dialplan_manager']['de-at'] = "Wählplan Einstellungen"; //copied from de-de
 $text['header-dialplan_manager']['de-ch'] = "Wählplan Einstellungen"; //copied from de-de
@@ -1461,7 +1461,7 @@ $text['header-dialplan_manager']['ru-ru'] = "Управление Планом �
 $text['header-dialplan_manager']['sv-se'] = "Nummerplan Inställningar";
 $text['header-dialplan_manager']['uk-ua'] = "Керування маршрутизацією";
 
-$text['header-dialplan_detail']['en-us'] = "Dialplan Detail";
+$text['header-dialplan_detail']['en-us'] = "拨号方案详情";
 $text['header-dialplan_detail']['ar-eg'] = "";
 $text['header-dialplan_detail']['de-at'] = "Wählplan Details"; //copied from de-de
 $text['header-dialplan_detail']['de-ch'] = "Wählplan Details"; //copied from de-de
@@ -1481,7 +1481,7 @@ $text['header-dialplan_detail']['ru-ru'] = "Подробная информац�
 $text['header-dialplan_detail']['sv-se'] = "Nummerplan Detaljer";
 $text['header-dialplan_detail']['uk-ua'] = "Деталі маршрутизації";
 
-$text['header-dialplan-edit']['en-us'] = "Dialplan";
+$text['header-dialplan-edit']['en-us'] = "拨号方案";
 $text['header-dialplan-edit']['ar-eg'] = "";
 $text['header-dialplan-edit']['de-at'] = "Wählplan"; //copied from de-de
 $text['header-dialplan-edit']['de-ch'] = "Wählplan"; //copied from de-de
@@ -1501,7 +1501,7 @@ $text['header-dialplan-edit']['ru-ru'] = "План Нумерации";
 $text['header-dialplan-edit']['sv-se'] = "Nummerplan";
 $text['header-dialplan-edit']['uk-ua'] = "Маршрутизація";
 
-$text['header-dialplan-add']['en-us'] = "Dialplan";
+$text['header-dialplan-add']['en-us'] = "拨号方案";
 $text['header-dialplan-add']['ar-eg'] = "";
 $text['header-dialplan-add']['de-at'] = "Wählplan"; //copied from de-de
 $text['header-dialplan-add']['de-ch'] = "Wählplan"; //copied from de-de
@@ -1521,7 +1521,7 @@ $text['header-dialplan-add']['ru-ru'] = "План Нумерации";
 $text['header-dialplan-add']['sv-se'] = "Nummerplan";
 $text['header-dialplan-add']['uk-ua'] = "Маршрутизація";
 
-$text['header-default_dialplan']['en-us'] = "Default Dialplan";
+$text['header-default_dialplan']['en-us'] = "默认拨号方案";
 $text['header-default_dialplan']['ar-eg'] = "";
 $text['header-default_dialplan']['de-at'] = "Standard Wählplan"; //copied from de-de
 $text['header-default_dialplan']['de-ch'] = "Standard Wählplan"; //copied from de-de
@@ -1681,7 +1681,7 @@ $text['description-dialplan_manager']['ru-ru'] = "В Плане Нумераци
 $text['description-dialplan_manager']['sv-se'] = "Nummerplanen ger en vy över några av funktionskoderna samt IVR Meny, Konferenser, Kö:er och andra destinationer.";
 $text['description-dialplan_manager']['uk-ua'] = "В маршрутизації можна побачити деякі особливості, такі як голосові меню (IVR), конференції, черги і інші напрямки.";
 
-$text['description-dialplan-edit']['en-us'] = "Dialplan include general settings.";
+$text['description-dialplan-edit']['en-us'] = "拨号方案包含默认设置";
 $text['description-dialplan-edit']['ar-eg'] = "";
 $text['description-dialplan-edit']['de-at'] = "Wählplan umfasst Standardeinstellungen"; //copied from de-de
 $text['description-dialplan-edit']['de-ch'] = "Wählplan umfasst Standardeinstellungen"; //copied from de-de

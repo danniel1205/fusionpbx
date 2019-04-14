@@ -1,6 +1,6 @@
 <?php
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Menu Manager";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "选单管理员";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Menü Einstellungen";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "Menü Einstellungen";
@@ -18,13 +18,14 @@
 	$apps[$x]['menu'][$y]['title']['ru-ru'] = "Управление меню";
 	$apps[$x]['menu'][$y]['title']['sv-se'] = "Meny Inställningar";
 	$apps[$x]['menu'][$y]['title']['uk-ua'] = "Менеджер меню";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "选单管理员";
 	$apps[$x]['menu'][$y]['uuid'] = "da3a9ab4-c28e-ea8d-50cc-e8405ac8e76e";
 	$apps[$x]['menu'][$y]['parent_uuid'] = "594d99c5-6128-9c88-ca35-4b33392cec0f";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['path'] = "/core/menu/menu.php";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Haha";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "首页";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Home";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "Home";
@@ -42,6 +43,7 @@
 	$apps[$x]['menu'][$y]['title']['ru-ru'] = "Основные";
 	$apps[$x]['menu'][$y]['title']['sv-se'] = "Hem";
 	$apps[$x]['menu'][$y]['title']['uk-ua'] = "Основне";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "首页";
 	$apps[$x]['menu'][$y]['uuid'] = "02194288-6d56-6d3e-0b1a-d53a2bc10788";
 	$apps[$x]['menu'][$y]['parent_uuid'] = "";
 	$apps[$x]['menu'][$y]['category'] = "internal";
@@ -52,7 +54,7 @@
 	$apps[$x]['menu'][$y]['groups'][] = "admin";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Accounts";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "帐户";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Konten";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "Konten";
@@ -70,6 +72,7 @@
 	$apps[$x]['menu'][$y]['title']['ru-ru'] = "Учетные Записи";
 	$apps[$x]['menu'][$y]['title']['sv-se'] = "Konton";
 	$apps[$x]['menu'][$y]['title']['uk-ua'] = "Облікові записи";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "帐户";
 	$apps[$x]['menu'][$y]['uuid'] = "bc96d773-ee57-0cdd-c3ac-2d91aba61b55";
 	$apps[$x]['menu'][$y]['parent_uuid'] = "";
 	$apps[$x]['menu'][$y]['category'] = "internal";
@@ -79,7 +82,7 @@
 	$apps[$x]['menu'][$y]['groups'][] = "admin";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Status";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "状态管理";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Status";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "Status";
@@ -97,6 +100,7 @@
 	$apps[$x]['menu'][$y]['title']['ru-ru'] = "Статус";
 	$apps[$x]['menu'][$y]['title']['sv-se'] = "Status";
 	$apps[$x]['menu'][$y]['title']['uk-ua'] = "Статус";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "状态管理";
 	$apps[$x]['menu'][$y]['uuid'] = "0438b504-8613-7887-c420-c837ffb20cb1";
 	$apps[$x]['menu'][$y]['parent_uuid'] = "";
 	$apps[$x]['menu'][$y]['category'] = "internal";
@@ -107,7 +111,7 @@
 	$apps[$x]['menu'][$y]['groups'][] = "admin";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Advanced";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "进阶";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Erweitert";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "Erweitert";
@@ -125,6 +129,7 @@
 	$apps[$x]['menu'][$y]['title']['ru-ru'] = "Дополнительные";
 	$apps[$x]['menu'][$y]['title']['sv-se'] = "Avancerad";
 	$apps[$x]['menu'][$y]['title']['uk-ua'] = "Розширені";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "进阶";
 	$apps[$x]['menu'][$y]['uuid'] = "594d99c5-6128-9c88-ca35-4b33392cec0f";
 	$apps[$x]['menu'][$y]['parent_uuid'] = "";
 	$apps[$x]['menu'][$y]['category'] = "internal";
@@ -133,7 +138,7 @@
 	$apps[$x]['menu'][$y]['order'] = "30";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Login";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "登陆";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Anmelden";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "Anmelden";
@@ -151,6 +156,7 @@
 	$apps[$x]['menu'][$y]['title']['ru-ru'] = "Войти";
 	$apps[$x]['menu'][$y]['title']['sv-se'] = "";
 	$apps[$x]['menu'][$y]['title']['uk-ua'] = "";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "登陆";
 	$apps[$x]['menu'][$y]['uuid'] = "c85bf816-b88d-40fa-8634-11b456928afa";
 	$apps[$x]['menu'][$y]['parent_uuid'] = "";
 	$apps[$x]['menu'][$y]['category'] = "internal";
@@ -159,7 +165,7 @@
 	$apps[$x]['menu'][$y]['groups'][] = "public";
 	$apps[$x]['menu'][$y]['order'] = "99";
 	$y++;
-	$apps[$x]['menu'][$y]['title']['en-us'] = 'Logout';
+	$apps[$x]['menu'][$y]['title']['en-us'] = '登出';
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = 'Abmelden';
 	$apps[$x]['menu'][$y]['title']['de-de'] = 'Abmelden';
@@ -177,6 +183,7 @@
 	$apps[$x]['menu'][$y]['title']['ru-ru'] = 'Выйти';
 	$apps[$x]['menu'][$y]['title']['sv-se'] = "";
 	$apps[$x]['menu'][$y]['title']['uk-ua'] = 'вийти';
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "登出";
 	$apps[$x]['menu'][$y]['uuid'] = '0d29e9f4-0c9b-9d8d-cd2d-454899dc9bc4';
 	$apps[$x]['menu'][$y]['parent_uuid'] = '02194288-6d56-6d3e-0b1a-d53a2bc10788';
 	$apps[$x]['menu'][$y]['category'] = 'internal';

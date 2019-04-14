@@ -1,7 +1,8 @@
 <?php
 #This file was last reorganized on 27th of September 2017 01:41:52 PM UTC
 
-$text['title-user_dashboard']['en-us'] = "Dashboard";
+//$text['title-user_dashboard']['en-us'] = "Dashboard";
+$text['title-user_dashboard']['en-us'] = "仪表板";
 $text['title-user_dashboard']['ar-eg'] = "الصفحه الرئيسيه للمستخدم";
 $text['title-user_dashboard']['de-at'] = "Benutzerübersicht"; //copied from de-de
 $text['title-user_dashboard']['de-ch'] = "Benutzerübersicht"; //copied from de-de
@@ -21,6 +22,7 @@ $text['title-user_dashboard']['ru-ru'] = "Панель пользователя"
 $text['title-user_dashboard']['sv-se'] = "Användarpanel";
 $text['title-user_dashboard']['uk-ua'] = "Панель користувача";
 
+//$text['title']['en-us'] = "Account Settings";
 $text['title']['en-us'] = "Account Settings";
 $text['title']['ar-eg'] = "إعدادات الحساب";
 $text['title']['de-at'] = "Kontoeinstellungen"; //copied from de-de
@@ -321,7 +323,7 @@ $text['login-message_attention']['ru-ru'] = "Внимание!";
 $text['login-message_attention']['sv-se'] = "Observera!";
 $text['login-message_attention']['uk-ua'] = "Увага!";
 
-$text['label-welcome']['en-us'] = "Welcome:";
+$text['label-welcome']['en-us'] = "欢迎:";
 $text['label-welcome']['ar-eg'] = "أهلا بك:";
 $text['label-welcome']['de-at'] = "Herzlich willkommen:"; //copied from de-de
 $text['label-welcome']['de-ch'] = "Herzlich willkommen:"; //copied from de-de
@@ -341,7 +343,7 @@ $text['label-welcome']['ru-ru'] = "Добро пожаловать:";
 $text['label-welcome']['sv-se'] = "Välkommen:";
 $text['label-welcome']['uk-ua'] = "Ласкаво просимо:";
 
-$text['label-voicemail']['en-us'] = "Voicemail";
+$text['label-voicemail']['en-us'] = "语音信箱";
 $text['label-voicemail']['ar-eg'] = "";
 $text['label-voicemail']['de-at'] = "Mailbox"; //copied from de-de
 $text['label-voicemail']['de-ch'] = "Mailbox"; //copied from de-de
@@ -381,7 +383,7 @@ $text['label-view_all']['ru-ru'] = "Просмотреть все";
 $text['label-view_all']['sv-se'] = "Visa Allt";
 $text['label-view_all']['uk-ua'] = "Показати всі";
 
-$text['label-value']['en-us'] = "Value";
+$text['label-value']['en-us'] = "数值";
 $text['label-value']['ar-eg'] = "";
 $text['label-value']['de-at'] = "Wert"; //copied from de-de
 $text['label-value']['de-ch'] = "Wert"; //copied from de-de
@@ -421,7 +423,7 @@ $text['label-username']['ru-ru'] = "Имя пользователя";
 $text['label-username']['sv-se'] = "Användarnamn";
 $text['label-username']['uk-ua'] = "Ім’я користувача";
 
-$text['label-users']['en-us'] = "Users";
+$text['label-users']['en-us'] = "用户";
 $text['label-users']['ar-eg'] = "";
 $text['label-users']['de-at'] = "Benutzer"; //copied from de-de
 $text['label-users']['de-ch'] = "Benutzer"; //copied from de-de
@@ -541,7 +543,7 @@ $text['label-total_destinations']['ru-ru'] = "Всего направлений"
 $text['label-total_destinations']['sv-se'] = "Totalt resmål";
 $text['label-total_destinations']['uk-ua'] = "всього Напрями";
 
-$text['label-total']['en-us'] = "Total";
+$text['label-total']['en-us'] = "总数";
 $text['label-total']['ar-eg'] = "";
 $text['label-total']['de-at'] = "Summe"; //copied from de-de
 $text['label-total']['de-ch'] = "Summe"; //copied from de-de
@@ -581,7 +583,7 @@ $text['label-time']['ru-ru'] = "Часовой пояс";
 $text['label-time']['sv-se'] = "Tidszon";
 $text['label-time']['uk-ua'] = "Часовий пояс";
 
-$text['label-system_uptime']['en-us'] = "OS Uptime";
+$text['label-system_uptime']['en-us'] = "OS正常运行时间";
 $text['label-system_uptime']['ar-eg'] = "نظام الجهوزية";
 $text['label-system_uptime']['de-at'] = "System-Uptime"; //copied from de-de
 $text['label-system_uptime']['de-ch'] = "System-Uptime"; //copied from de-de
@@ -601,7 +603,7 @@ $text['label-system_uptime']['ru-ru'] = "Время непрерывной ра�
 $text['label-system_uptime']['sv-se'] = "System Uptime";
 $text['label-system_uptime']['uk-ua'] = "час роботи системи";
 
-$text['label-system_status']['en-us'] = "System Status";
+$text['label-system_status']['en-us'] = "系统状态";
 $text['label-system_status']['ar-eg'] = "حالة النظام";
 $text['label-system_status']['de-at'] = "Systemstatus"; //copied from de-de
 $text['label-system_status']['de-ch'] = "Systemstatus"; //copied from de-de
@@ -621,7 +623,7 @@ $text['label-system_status']['ru-ru'] = "Статус системы";
 $text['label-system_status']['sv-se'] = "Systemstatus ";
 $text['label-system_status']['uk-ua'] = "стан системи";
 
-$text['label-system_counts']['en-us'] = "System Counts";
+$text['label-system_counts']['en-us'] = "系统计数";
 $text['label-system_counts']['ar-eg'] = "التهم النظام";
 $text['label-system_counts']['de-at'] = "Systemzähler"; //copied from de-de
 $text['label-system_counts']['de-ch'] = "Systemzähler"; //copied from de-de
@@ -721,7 +723,7 @@ $text['label-special_characters']['ru-ru'] = "Специальные симво�
 $text['label-special_characters']['sv-se'] = "Speciella Tecken";
 $text['label-special_characters']['uk-ua'] = "спеціальні символи";
 
-$text['label-ring_groups']['en-us'] = "Ring Groups";
+$text['label-ring_groups']['en-us'] = "环状集群";
 $text['label-ring_groups']['ar-eg'] = "";
 $text['label-ring_groups']['de-at'] = "Rufgruppen"; //copied from de-de
 $text['label-ring_groups']['de-ch'] = "Rufgruppen"; //copied from de-de
@@ -841,7 +843,7 @@ $text['label-recent_calls']['ru-ru'] = "Последние вызовы";
 $text['label-recent_calls']['sv-se'] = "Senaste Samtalen";
 $text['label-recent_calls']['uk-ua'] = "";
 
-$text['label-processor_usage']['en-us'] = "CPU Usage";
+$text['label-processor_usage']['en-us'] = "CPU用量";
 $text['label-processor_usage']['ar-eg'] = "معالج الاستخدام";
 $text['label-processor_usage']['de-at'] = "Prozessorauslastung "; //copied from de-de
 $text['label-processor_usage']['de-ch'] = "Prozessorauslastung "; //copied from de-de
@@ -921,7 +923,7 @@ $text['label-numbers']['ru-ru'] = "Номера";
 $text['label-numbers']['sv-se'] = "Nummer";
 $text['label-numbers']['uk-ua'] = "чисел";
 
-$text['label-no_voicemail_assigned']['en-us'] = "No Voicemail Assigned";
+$text['label-no_voicemail_assigned']['en-us'] = "没有语音邮件配置";
 $text['label-no_voicemail_assigned']['ar-eg'] = "لا المخصصة البريد الصوتي";
 $text['label-no_voicemail_assigned']['de-at'] = "Keine Mailbox zugewiesen"; //copied from de-de
 $text['label-no_voicemail_assigned']['de-ch'] = "Keine Mailbox zugewiesen"; //copied from de-de
@@ -961,7 +963,7 @@ $text['label-new_password']['ru-ru'] = "Новый пароль";
 $text['label-new_password']['sv-se'] = "Nytt Lösenord";
 $text['label-new_password']['uk-ua'] = "Новий пароль";
 
-$text['label-new_messages']['en-us'] = "New Messages";
+$text['label-new_messages']['en-us'] = "新信息";
 $text['label-new_messages']['ar-eg'] = "رسائل جديدة";
 $text['label-new_messages']['de-at'] = "Neue Nachrichten"; //copied from de-de
 $text['label-new_messages']['de-ch'] = "Neue Nachrichten"; //copied from de-de
@@ -981,7 +983,7 @@ $text['label-new_messages']['ru-ru'] = "Новые сообщения";
 $text['label-new_messages']['sv-se'] = "Nya Meddelanden";
 $text['label-new_messages']['uk-ua'] = "нові повідомлення";
 
-$text['label-new']['en-us'] = "New";
+$text['label-new']['en-us'] = "新项目";
 $text['label-new']['ar-eg'] = "";
 $text['label-new']['de-at'] = "Neu"; //copied from de-de
 $text['label-new']['de-ch'] = "Neu"; //copied from de-de
@@ -1041,7 +1043,7 @@ $text['label-missed']['ru-ru'] = "Пропущен";
 $text['label-missed']['sv-se'] = "Missade";
 $text['label-missed']['uk-ua'] = "";
 
-$text['label-messages']['en-us'] = "Messages";
+$text['label-messages']['en-us'] = "信息";
 $text['label-messages']['ar-eg'] = "رسائل";
 $text['label-messages']['de-at'] = "Nachrichten"; //copied from de-de
 $text['label-messages']['de-ch'] = "Nachrichten"; //copied from de-de
@@ -1141,7 +1143,7 @@ $text['label-last_24_hours']['ru-ru'] = "Последние 24 часа";
 $text['label-last_24_hours']['sv-se'] = "Senaste 24 timmarna";
 $text['label-last_24_hours']['uk-ua'] = "Останні 24 годин";
 
-$text['label-ivr_menus']['en-us'] = "IVR Menus";
+$text['label-ivr_menus']['en-us'] = "IVR 清单";
 $text['label-ivr_menus']['ar-eg'] = "";
 $text['label-ivr_menus']['de-at'] = "Automatische Vermittlungen"; //copied from de-de
 $text['label-ivr_menus']['de-ch'] = "Automatische Vermittlungen"; //copied from de-de
@@ -1181,7 +1183,7 @@ $text['label-inbound']['ru-ru'] = "Входящие";
 $text['label-inbound']['sv-se'] = "Inkommande";
 $text['label-inbound']['uk-ua'] = "Вихідний";
 
-$text['label-item']['en-us'] = "Item";
+$text['label-item']['en-us'] = "项目";
 $text['label-item']['ar-eg'] = "بند";
 $text['label-item']['de-at'] = "Objekt"; //copied from de-de
 $text['label-item']['de-ch'] = "Objekt"; //copied from de-de
@@ -1201,7 +1203,7 @@ $text['label-item']['ru-ru'] = "Пункт";
 $text['label-item']['sv-se'] = "Punkt";
 $text['label-item']['uk-ua'] = "пункт";
 
-$text['label-gateways']['en-us'] = "Gateways";
+$text['label-gateways']['en-us'] = "网关";
 $text['label-gateways']['ar-eg'] = "البوابات";
 $text['label-gateways']['de-at'] = "Gateways"; //copied from de-de
 $text['label-gateways']['de-ch'] = "Gateways"; //copied from de-de
@@ -1281,7 +1283,7 @@ $text['label-failed']['ru-ru'] = "Пропущенный";
 $text['label-failed']['sv-se'] = "Misslyckad";
 $text['label-failed']['uk-ua'] = "";
 
-$text['label-extensions']['en-us'] = "Extensions";
+$text['label-extensions']['en-us'] = "扩充";
 $text['label-extensions']['ar-eg'] = "الأرقام الداخلية";
 $text['label-extensions']['de-at'] = "Nebenstellen"; //copied from de-de
 $text['label-extensions']['de-ch'] = "Nebenstellen"; //copied from de-de
@@ -1341,7 +1343,7 @@ $text['label-email_address']['ru-ru'] = "Адрес электронной по�
 $text['label-email_address']['sv-se'] = "E-postadress";
 $text['label-email_address']['uk-ua'] = "Адреси E-Mail";
 
-$text['label-domains']['en-us'] = "Domains";
+$text['label-domains']['en-us'] = "域名";
 $text['label-domains']['ar-eg'] = "";
 $text['label-domains']['de-at'] = "Domänen"; //copied from de-de
 $text['label-domains']['de-ch'] = "Domänen"; //copied from de-de
@@ -1421,7 +1423,7 @@ $text['label-dnd']['ru-ru'] = "Не беспокоить (DND)";
 $text['label-dnd']['sv-se'] = "Stör Ej";
 $text['label-dnd']['uk-ua'] = "Не турбувати";
 
-$text['label-disk_usage']['en-us'] = "Disk Usage";
+$text['label-disk_usage']['en-us'] = "磁盘使用情况";
 $text['label-disk_usage']['ar-eg'] = "إستخدام القرص";
 $text['label-disk_usage']['de-at'] = "Festplattennutzung"; //copied from de-de
 $text['label-disk_usage']['de-ch'] = "Festplattennutzung"; //copied from de-de
@@ -1441,7 +1443,7 @@ $text['label-disk_usage']['ru-ru'] = "Использование диска";
 $text['label-disk_usage']['sv-se'] = "Disk Användning";
 $text['label-disk_usage']['uk-ua'] = "Використання диска";
 
-$text['label-disabled']['en-us'] = "Disabled";
+$text['label-disabled']['en-us'] = "已停用";
 $text['label-disabled']['ar-eg'] = "";
 $text['label-disabled']['de-at'] = "Ausgeschaltet"; //copied from de-de
 $text['label-disabled']['de-ch'] = "Ausgeschaltet"; //copied from de-de
@@ -1461,7 +1463,7 @@ $text['label-disabled']['ru-ru'] = "Отключено";
 $text['label-disabled']['sv-se'] = "Inaktiverad";
 $text['label-disabled']['uk-ua'] = "Відключено";
 
-$text['label-devices']['en-us'] = "Devices";
+$text['label-devices']['en-us'] = "装置设备";
 $text['label-devices']['ar-eg'] = "الأجهزة";
 $text['label-devices']['de-at'] = "Geräte"; //copied from de-de
 $text['label-devices']['de-ch'] = "Geräte"; //copied from de-de
@@ -1481,7 +1483,7 @@ $text['label-devices']['ru-ru'] = "Устройства";
 $text['label-devices']['sv-se'] = "Enheter";
 $text['label-devices']['uk-ua'] = "Пристрої";
 
-$text['label-destinations']['en-us'] = "Destinations";
+$text['label-destinations']['en-us'] = "目的位址";
 $text['label-destinations']['ar-eg'] = "جهات الأتصال";
 $text['label-destinations']['de-at'] = "Kopfnummern"; //copied from de-de
 $text['label-destinations']['de-ch'] = "Kopfnummern"; //copied from de-de
@@ -1521,7 +1523,7 @@ $text['label-date_time']['ru-ru'] = "Дата/Время";
 $text['label-date_time']['sv-se'] = "Datum/Tid";
 $text['label-date_time']['uk-ua'] = "Дата, час";
 
-$text['label-database_connections']['en-us'] = "DB Connections";
+$text['label-database_connections']['en-us'] = "数据库连接";
 $text['label-database_connections']['ar-eg'] = "اتصالات قاعدة البيانات";
 $text['label-database_connections']['de-at'] = "Datenbankverbindungen"; //copied from de-de
 $text['label-database_connections']['de-ch'] = "Datenbankverbindungen"; //copied from de-de
@@ -1701,7 +1703,7 @@ $text['label-callforward']['ru-ru'] = "Переадресация вызовов
 $text['label-callforward']['sv-se'] = "Vidarekoppling";
 $text['label-callforward']['uk-ua'] = "Переадресація дзвінків";
 
-$text['label-call_center_queues']['en-us'] = "CC Queues";
+$text['label-call_center_queues']['en-us'] = "CC 伫列";
 $text['label-call_center_queues']['ar-eg'] = "";
 $text['label-call_center_queues']['de-at'] = "Callcenter Warteschlangen"; //copied from de-de
 $text['label-call_center_queues']['de-ch'] = "Callcenter Warteschlangen"; //copied from de-de
@@ -1781,7 +1783,7 @@ $text['label-active_extensions']['ru-ru'] = "Активные внутренни
 $text['label-active_extensions']['sv-se'] = "Aktiva Anknytningar";
 $text['label-active_extensions']['uk-ua'] = "активні Розширення";
 
-$text['label-active_domains']['en-us'] = "Active Domains";
+$text['label-active_domains']['en-us'] = "活跃域名";
 $text['label-active_domains']['ar-eg'] = "مجالات حية";
 $text['label-active_domains']['de-at'] = "Aktive Domänen"; //copied from de-de
 $text['label-active_domains']['de-ch'] = "Aktive Domänen"; //copied from de-de
@@ -1801,7 +1803,7 @@ $text['label-active_domains']['ru-ru'] = "Активные домены";
 $text['label-active_domains']['sv-se'] = "Aktiva Domäner";
 $text['label-active_domains']['uk-ua'] = "активні домени";
 
-$text['header-user_dashboard']['en-us'] = "Dashboard";
+$text['header-user_dashboard']['en-us'] = "仪表板";
 $text['header-user_dashboard']['ar-eg'] = "الصفحه الرئيسيه للمستخدم";
 $text['header-user_dashboard']['de-at'] = "Benutzerübersicht"; //copied from de-de
 $text['header-user_dashboard']['de-ch'] = "Benutzerübersicht"; //copied from de-de
@@ -1841,7 +1843,7 @@ $text['description-user_language']['ru-ru'] = "Выберите язык.";
 $text['description-user_language']['sv-se'] = "Välj Språk";
 $text['description-user_language']['uk-ua'] = "Виберіть мову";
 
-$text['description-user_dashboard']['en-us'] = "Quickly access information and tools related to your account.";
+$text['description-user_dashboard']['en-us'] = "快速访问与您帐户的相关信息和工具";
 $text['description-user_dashboard']['ar-eg'] = "دخول سريع للمعلومات و الادوات الخاصة بحسابك";
 $text['description-user_dashboard']['de-at'] = "Schneller Zugriff auf Kontoinformationen und -funktionen"; //copied from de-de
 $text['description-user_dashboard']['de-ch'] = "Schneller Zugriff auf Kontoinformationen und -funktionen"; //copied from de-de
@@ -2061,7 +2063,7 @@ $text['check-available-ondemand-status']['ru-ru'] = "Доступен (по тр
 $text['check-available-ondemand-status']['sv-se'] = "Tillgänglig (På Begäran)";
 $text['check-available-ondemand-status']['uk-ua'] = "Доступний (на вимогу)";
 
-$text['button-voicemail']['en-us'] = "Voicemail";
+$text['button-voicemail']['en-us'] = "语音信箱";
 $text['button-voicemail']['ar-eg'] = "";
 $text['button-voicemail']['de-at'] = "Mailbox"; //copied from de-de
 $text['button-voicemail']['de-ch'] = "Mailbox"; //copied from de-de

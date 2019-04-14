@@ -1,7 +1,7 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = 'Conference Profiles';
+	$apps[$x]['menu'][$y]['title']['en-us'] = '会议简介';
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = 'Konferenzprofile';
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "";

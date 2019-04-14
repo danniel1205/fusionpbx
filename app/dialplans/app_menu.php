@@ -1,7 +1,7 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Dialplan";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "拨号方案";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Wählplan";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "";
@@ -29,7 +29,7 @@
 	$apps[$x]['menu'][$y]['groups'][] = "admin";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Dialplan Manager";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "拨号方案管理";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Wählplan Einstellungen";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "";

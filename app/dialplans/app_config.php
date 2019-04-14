@@ -1,7 +1,7 @@
 <?php
 
 	//application details
-		$apps[$x]['name'] = "Dialplan Manager";
+		$apps[$x]['name'] = "拨号方案管理";
 		$apps[$x]['uuid'] = "742714e5-8cdf-32fd-462c-cbe7e3d655db";
 		$apps[$x]['category'] = "Switch";
 		$apps[$x]['subcategory'] = "";

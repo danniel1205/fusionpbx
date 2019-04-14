@@ -1,7 +1,7 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Inbound Routes";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "入站路由";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Eingehendes Routing";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "";

@@ -21,6 +21,7 @@ $text['language-name']['ru-ru'] = "Русский - Россия";
 $text['language-name']['sv-se'] = "Svenska - Sverige";
 $text['language-name']['uk-ua'] = "Українська - Україна";
 $text['language-name']['tr-tr'] = "Türkçe - Türkiye";
+$text['language-name']['zh-cn'] = "简体中文 - 中國";
 
 $text['language-en-us']['en-us'] = "English - United States";
 $text['language-ar-eg']['en-us'] = "العربية - مصر";
@@ -42,6 +43,7 @@ $text['language-ru-ru']['en-us'] = "Русский - Россия";
 $text['language-sv-se']['en-us'] = "Svenska - Sverige";
 $text['language-uk-ua']['en-us'] = "Українська - Україна";
 $text['language-tr-tr']['tr-tr'] = "Türkçe - Türkiye";
+$text['language-zh-cn']['zh-cn'] = "简体中文 - 中國";
 
 $text['message-update']['en-us'] = "Update Completed";
 $text['message-update']['ar-eg'] = "تحديث مكتمل";

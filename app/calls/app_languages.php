@@ -1,7 +1,7 @@
 <?php
 #This file was last reorganized on 19th of September 2017 08:54:24 AM UTC
 
-$text['title']['en-us'] = "Call Routing";
+$text['title']['en-us'] = "通话路由";
 $text['title']['ar-eg'] = "توجيه الدعوة";
 $text['title']['de-at'] = "Call Routing"; //copied from de-de
 $text['title']['de-ch'] = "Call Routing"; //copied from de-de
@@ -41,7 +41,7 @@ $text['table-tools']['ru-ru'] = "Инструменты";
 $text['table-tools']['sv-se'] = "Verktyg";
 $text['table-tools']['uk-ua'] = "Інструменти";
 
-$text['table-extension']['en-us'] = "Extension";
+$text['table-extension']['en-us'] = "扩充";
 $text['table-extension']['ar-eg'] = "";
 $text['table-extension']['de-at'] = "Nebenstelle"; //copied from de-de
 $text['table-extension']['de-ch'] = "Nebenstelle"; //copied from de-de
@@ -61,7 +61,7 @@ $text['table-extension']['ru-ru'] = "Внутренний номер";
 $text['table-extension']['sv-se'] = "Anknytning";
 $text['table-extension']['uk-ua'] = "Розширення (Extention)";
 
-$text['table-description']['en-us'] = "Description";
+$text['table-description']['en-us'] = "描述";
 $text['table-description']['ar-eg'] = "";
 $text['table-description']['de-at'] = "Beschreibung"; //copied from de-de
 $text['table-description']['de-ch'] = "Beschreibung"; //copied from de-de
@@ -261,7 +261,7 @@ $text['label-ignore_busy']['ru-ru'] = "Игногировать занятост
 $text['label-ignore_busy']['sv-se'] = "Ignorera Upptaget";
 $text['label-ignore_busy']['uk-ua'] = "";
 
-$text['label-follow-me']['en-us'] = "Follow Me";
+$text['label-follow-me']['en-us'] = "跟随";
 $text['label-follow-me']['ar-eg'] = "";
 $text['label-follow-me']['de-at'] = "Anrufweiterschaltung"; //copied from de-de
 $text['label-follow-me']['de-ch'] = "Anrufweiterschaltung"; //copied from de-de
@@ -281,7 +281,7 @@ $text['label-follow-me']['ru-ru'] = "Перенаправление";
 $text['label-follow-me']['sv-se'] = "Följ Mig";
 $text['label-follow-me']['uk-ua'] = "";
 
-$text['label-dnd']['en-us'] = "Do Not Disturb";
+$text['label-dnd']['en-us'] = "勿扰设置";
 $text['label-dnd']['ar-eg'] = "";
 $text['label-dnd']['de-at'] = "Bitte nicht stören"; //copied from de-de
 $text['label-dnd']['de-ch'] = "Bitte nicht stören"; //copied from de-de
@@ -541,7 +541,7 @@ $text['label-call-prompt']['ru-ru'] = "Запрос вызова";
 $text['label-call-prompt']['sv-se'] = "Samtals Verifiering";
 $text['label-call-prompt']['uk-ua'] = "";
 
-$text['label-call-forward']['en-us'] = "Call Forward";
+$text['label-call-forward']['en-us'] = "通话转发";
 $text['label-call-forward']['ar-eg'] = "";
 $text['label-call-forward']['de-at'] = "Rufumleitung"; //copied from de-de
 $text['label-call-forward']['de-ch'] = "Rufumleitung"; //copied from de-de
@@ -561,7 +561,7 @@ $text['label-call-forward']['ru-ru'] = "Переадресация";
 $text['label-call-forward']['sv-se'] = "Vidarekoppling";
 $text['label-call-forward']['uk-ua'] = "Переадресація";
 
-$text['header-call_routing']['en-us'] = "Call Routing";
+$text['header-call_routing']['en-us'] = "通话路由";
 $text['header-call_routing']['ar-eg'] = "توجيه الدعوة";
 $text['header-call_routing']['de-at'] = "Anrufweiterleitung"; //copied from de-de
 $text['header-call_routing']['de-ch'] = "Anrufweiterleitung"; //copied from de-de

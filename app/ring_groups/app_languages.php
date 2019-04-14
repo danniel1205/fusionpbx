@@ -1001,7 +1001,7 @@ $text['label-call-forward']['ru-ru'] = "Переадресация вызова"
 $text['label-call-forward']['sv-se'] = "Vidarekoppling";
 $text['label-call-forward']['uk-ua'] = "Переадресація";
 
-$text['header-ring-group-forward']['en-us'] = "Ring Group Forward";
+$text['header-ring-group-forward']['en-us'] = "环状集群转发";
 $text['header-ring-group-forward']['ar-eg'] = "";
 $text['header-ring-group-forward']['de-at'] = "Rufgruppe weiterleiten"; //copied from de-de
 $text['header-ring-group-forward']['de-ch'] = "Rufgruppe weiterleiten"; //copied from de-de

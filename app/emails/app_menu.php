@@ -1,7 +1,7 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Emails";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "邮件";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Emails";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "";

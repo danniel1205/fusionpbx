@@ -1,7 +1,7 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Default Settings";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "默认设置";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Standardeinstellungen";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "Standardeinstellungen";

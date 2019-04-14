@@ -1,7 +1,7 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Apps";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "应用";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Applikationen";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "Applikationen";
@@ -28,8 +28,8 @@
 	$apps[$x]['menu'][$y]['groups'][] = "user";
 	$apps[$x]['menu'][$y]['groups'][] = "admin";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
-	$y++;	
-	$apps[$x]['menu'][$y]['title']['en-us'] = "App Manager";
+	$y++;
+	$apps[$x]['menu'][$y]['title']['en-us'] = "应用管理";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Applikation Verwalten";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "Applikation Verwalten";

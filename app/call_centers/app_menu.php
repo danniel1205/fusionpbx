@@ -1,7 +1,7 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Call Centers";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "通话中心";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Callcenter";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "";
@@ -28,7 +28,7 @@
 	$apps[$x]['menu'][$y]['groups'][] = "admin";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Agent Status";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "媒介状态";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Agenten Status";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "";
