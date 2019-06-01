@@ -17,7 +17,7 @@
 
 	The Initial Developer of the Original Code is
 	Mark J Crane <markjcrane@fusionpbx.com>
-	Portions created by the Initial Developer are Copyright (C) 2008-2016
+	Portions created by the Initial Developer are Copyright (C) 2008-2019
 	the Initial Developer. All Rights Reserved.
 
 	Contributor(s):
@@ -28,7 +28,6 @@
 	include "root.php";
 	require_once "resources/require.php";
 	require_once "resources/check_auth.php";
-	require_once "./resources/functions/get_call_activity.php";
 
 //check permissions
 	if (permission_exists('operator_panel_view')) {
@@ -41,20 +40,23 @@
 
 //add multi-lingual support
 	$language = new text;
-	$text = $language->get();
+	$text = $language->get(null,'app/basic_operator_panel');
 
 //get the call activity
-	$activity = get_call_activity();
-	if (is_array($activity)) foreach ($activity as $extension => $fields) {
-		if (substr_count($fields['call_group'], ',')) {
-			$tmp = explode(',', $fields['call_group']);
-			if (is_array($tmp)) foreach ($tmp as $tmp_index => $tmp_value) {
-				if (trim($tmp_value) == '') { unset($tmp[$tmp_index]); }
-				else { $groups[] = $tmp_value; }
+	$operator_panel = new basic_operator_panel;
+	$activity = $operator_panel->call_activity();
+	if (is_array($activity)) {
+		foreach ($activity as $extension => $fields) {
+			if (substr_count($fields['call_group'], ',')) {
+				$tmp = explode(',', $fields['call_group']);
+				if (is_array($tmp)) foreach ($tmp as $tmp_index => $tmp_value) {
+					if (trim($tmp_value) == '') { unset($tmp[$tmp_index]); }
+					else { $groups[] = $tmp_value; }
+				}
 			}
-		}
-		else if ($fields['call_group'] != '') {
-			$groups[] = $fields['call_group'];
+			else if ($fields['call_group'] != '') {
+				$groups[] = $fields['call_group'];
+			}
 		}
 	}
 	if (is_array($groups)) {
@@ -367,7 +369,7 @@ if (is_array($activity)) foreach ($activity as $extension => $ext) {
 		}
 		$block .= "			</td></tr></table>";
 		if (permission_exists('operator_panel_call_details')) {
-			$block .= "			<span id='op_caller_details_".$extension."'><strong>".$call_name."</strong><br>".$call_number."</span>";
+			$block .= "			<span id='op_caller_details_".$extension."'><strong>".escape($call_name)."</strong><br>".escape($call_number)."</span>";
 		}
 		$block .= "		</span>";
 		//transfer
@@ -449,6 +451,7 @@ else {
 }
 echo "<br><br>";
 
+/*
 if (if_group("superadmin") && isset($_GET['debug'])) {
 	echo '$activity<br>';
 	echo "<textarea style='width: 100%; height: 600px; overflow: scroll;' onfocus='refresh_stop();' onblur='refresh_start();'>";
@@ -461,5 +464,6 @@ if (if_group("superadmin") && isset($_GET['debug'])) {
 	print_r($_SESSION);
 	echo "</textarea>";
 }
+*/
 
 ?>
