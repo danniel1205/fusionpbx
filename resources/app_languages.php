@@ -65,6 +65,7 @@ $text['message-update']['ru-ru'] = "Обновление завершено";
 $text['message-update']['sv-se'] = "Uppdatering Klar";
 $text['message-update']['uk-ua'] = "Оновлення завершено";
 $text['message-update']['tr-tr'] = "Güncelleme Tamamlandı";
+$text['message-update']['zh-cn'] = "更新完成";
 
 $text['message-required']['en-us'] = "Please provide: ";
 $text['message-required']['ar-eg'] = "يرجى تقديم:";
