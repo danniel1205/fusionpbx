@@ -681,7 +681,7 @@ $text['option-import_duplicates_replace']['ru-ru'] = "Заменить";
 $text['option-import_duplicates_replace']['sv-se'] = "Byt Ut";
 $text['option-import_duplicates_replace']['uk-ua'] = "Замінити";
 
-$text['option-home']['en-us'] = "Haha";
+$text['option-home']['en-us'] = "Home";
 $text['option-home']['ar-eg'] = "";
 $text['option-home']['de-at'] = "Privat"; //copied from de-de
 $text['option-home']['de-ch'] = "Privat"; //copied from de-de
