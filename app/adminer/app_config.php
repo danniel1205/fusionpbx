@@ -8,7 +8,9 @@
 		$apps[$x]['version'] = "3.2.2";
 		$apps[$x]['license'] = "http://www.apache.org/licenses/LICENSE-2.0 Apache License, Version 2.0";
 		$apps[$x]['url'] = "http://www.adminer.org/";
-		$apps[$x]['description']['en-us'] = "Adminer (formerly phpMinAdmin) is a full-featured database management tool written in PHP. Adminer is available for MySQL, PostgreSQL, SQLite, MS SQL and Oracle.";
+		//$apps[$x]['description']['en-us'] = "Adminer (formerly phpMinAdmin) is a full-featured database management tool written in PHP. Adminer is available for MySQL, PostgreSQL, SQLite, MS SQL and Oracle.";
+		$apps[$x]['description']['en-us'] = "Adminer（以前叫phpminadmin）是一个用php编写的功能齐全的数据库管理工具。管理员可用于MySQL、PostgreSQL、SQlite、MS SQL和Oracle。";
+		$apps[$x]['description']['zh-cn'] = "Adminer（以前叫phpminadmin）是一个用php编写的功能齐全的数据库管理工具。管理员可用于MySQL、PostgreSQL、SQlite、MS SQL和Oracle。";
 		$apps[$x]['description']['ar-eg'] = "";
 		$apps[$x]['description']['de-at'] = "Adminer (ehemals phpMinAdmin) ist ein umfassendes Werkzeug für die Datenbankverwaltung welches in PHP geschrieben wurde. Es ist für MySQL, PostgreSQL, SQLite, MS SQL und Oracle verfügbar.";
 		$apps[$x]['description']['de-ch'] = "";

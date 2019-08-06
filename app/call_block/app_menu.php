@@ -1,7 +1,9 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Call Block";
+// 	$apps[$x]['menu'][$y]['title']['en-us'] = "Call Block";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "呼叫阻止";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "呼叫阻止";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "حظر المكالمات";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Sperrlisten";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "";
