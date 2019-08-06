@@ -8,7 +8,9 @@
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "Mozilla Public License 1.1";
 		$apps[$x]['url'] = "http://www.fusionpbx.com";
-		$apps[$x]['description']['en-us'] = "A tool to block incoming numbers.";
+// 		$apps[$x]['description']['en-us'] = "A tool to block incoming numbers.";
+		$apps[$x]['description']['en-us'] = "一种阻止来电号码的工具。";
+		$apps[$x]['description']['zh-cn'] = "一种阻止来电号码的工具。";
 		$apps[$x]['description']['ar-eg'] = "";
 		$apps[$x]['description']['de-at'] = "Ein Werkzeug um eingehende Rufnummern zu sperren.";
 		$apps[$x]['description']['de-ch'] = "";

@@ -1,6 +1,8 @@
 <?php
 
-$apps[$x]['menu'][0]['title']['en-us'] = 'Bridges';
+// $apps[$x]['menu'][0]['title']['en-us'] = 'Bridges';
+$apps[$x]['menu'][0]['title']['en-us'] = '网桥';
+$apps[$x]['menu'][0]['title']['zh-cn'] = '网桥';
 $apps[$x]['menu'][0]['title']['es-cl'] = '';
 $apps[$x]['menu'][0]['title']['fr-fr'] = '';
 $apps[$x]['menu'][0]['title']['fr-ca'] = '';
