@@ -1,7 +1,9 @@
 <?php
 #This file was last reorganized on 19th of September 2017 08:54:24 AM UTC
 
-$text['title-conference_controls']['en-us'] = "Conference Controls";
+//$text['title-conference_controls']['en-us'] = "Conference Controls";
+$text['title-conference_controls']['en-us'] = "会议控制";
+$text['title-conference_controls']['zh-cn'] = "会议控制";
 $text['title-conference_controls']['ar-eg'] = "";
 $text['title-conference_controls']['de-at'] = "Konferenzsteuerung"; //copied from de-de
 $text['title-conference_controls']['de-ch'] = "Konferenzsteuerung"; //copied from de-de
@@ -21,7 +23,9 @@ $text['title-conference_controls']['ru-ru'] = "";
 $text['title-conference_controls']['sv-se'] = "Konferens Kontroller";
 $text['title-conference_controls']['uk-ua'] = "";
 
-$text['title-conference_control']['en-us'] = "Conference Control";
+//$text['title-conference_control']['en-us'] = "Conference Control";
+$text['title-conference_control']['en-us'] = "会议控制";
+$text['title-conference_control']['zh-cn'] = "会议控制";
 $text['title-conference_control']['ar-eg'] = "";
 $text['title-conference_control']['de-at'] = "Konferenzsteuerung"; //copied from de-de
 $text['title-conference_control']['de-ch'] = "Konferenzsteuerung"; //copied from de-de
@@ -41,7 +45,9 @@ $text['title-conference_control']['ru-ru'] = "";
 $text['title-conference_control']['sv-se'] = "Konferens Kontroll";
 $text['title-conference_control']['uk-ua'] = "";
 
-$text['title_description-conference_control']['en-us'] = "Call controls enable ability to assign digits to actions. They can be used to mute, unmute, or other actions during the conference call.";
+//$text['title_description-conference_control']['en-us'] = "Call controls enable ability to assign digits to actions. They can be used to mute, unmute, or other actions during the conference call.";
+$text['title_description-conference_control']['en-us'] = "呼叫控制可以为动作分配数字。它们可用于在电话会议期间静音、取消静音或其他操作。";
+$text['title_description-conference_control']['zh-cn'] = "呼叫控制可以为动作分配数字。它们可用于在电话会议期间静音、取消静音或其他操作。";
 $text['title_description-conference_control']['ar-eg'] = "";
 $text['title_description-conference_control']['de-at'] = "Funktionen zur Anrufsteuerung können Ziffern zugeordnet werden. Diese können verschiedene Aktionen wie Stummschaltung, usw. während einer Konferenz auslösen."; //copied from de-de
 $text['title_description-conference_control']['de-ch'] = "Funktionen zur Anrufsteuerung können Ziffern zugeordnet werden. Diese können verschiedene Aktionen wie Stummschaltung, usw. während einer Konferenz auslösen."; //copied from de-de
@@ -61,7 +67,9 @@ $text['title_description-conference_control']['ru-ru'] = "";
 $text['title_description-conference_control']['sv-se'] = "Samtalskontroller möjliggör tilldelning av siffror till handlingar. De kan användas för att stänga av, avaktivera eller andra åtgärder under konferenssamtalet.";
 $text['title_description-conference_control']['uk-ua'] = "";
 
-$text['label-control_name']['en-us'] = "Name";
+//$text['label-control_name']['en-us'] = "Name";
+$text['label-control_name']['en-us'] = "名字";
+$text['label-control_name']['zh-cn'] = "名字";
 $text['label-control_name']['ar-eg'] = "";
 $text['label-control_name']['de-at'] = "Name"; //copied from de-de
 $text['label-control_name']['de-ch'] = "Name"; //copied from de-de
@@ -81,7 +89,9 @@ $text['label-control_name']['ru-ru'] = "";
 $text['label-control_name']['sv-se'] = "Namn";
 $text['label-control_name']['uk-ua'] = "";
 
-$text['description-control_name']['en-us'] = "Enter the conference control name.";
+//$text['description-control_name']['en-us'] = "Enter the conference control name.";
+$text['description-control_name']['en-us'] = "输入会议控制名称。";
+$text['description-control_name']['zh-cn'] = "输入会议控制名称。";
 $text['description-control_name']['ar-eg'] = "";
 $text['description-control_name']['de-at'] = "Geben Sie den Namen des Steuerelements ein."; //copied from de-de
 $text['description-control_name']['de-ch'] = "Geben Sie den Namen des Steuerelements ein."; //copied from de-de
@@ -101,7 +111,9 @@ $text['description-control_name']['ru-ru'] = "";
 $text['description-control_name']['sv-se'] = "Ange konferens kontroll namnet.";
 $text['description-control_name']['uk-ua'] = "";
 
-$text['label-control_enabled']['en-us'] = "Enabled";
+//$text['label-control_enabled']['en-us'] = "Enabled";
+$text['label-control_enabled']['en-us'] = "启用";
+$text['label-control_enabled']['zh-cn'] = "启用";
 $text['label-control_enabled']['ar-eg'] = "";
 $text['label-control_enabled']['de-at'] = "Aktiviert"; //copied from de-de
 $text['label-control_enabled']['de-ch'] = "Aktiviert"; //copied from de-de
@@ -121,7 +133,9 @@ $text['label-control_enabled']['ru-ru'] = "";
 $text['label-control_enabled']['sv-se'] = "Aktiverad";
 $text['label-control_enabled']['uk-ua'] = "";
 
-$text['description-control_enabled']['en-us'] = "Set the status of the control.";
+//$text['description-control_enabled']['en-us'] = "Set the status of the control.";
+$text['description-control_enabled']['en-us'] = "设置控制状态。";
+$text['description-control_enabled']['zh-cn'] = "设置控制状态。";
 $text['description-control_enabled']['ar-eg'] = "";
 $text['description-control_enabled']['de-at'] = "Setzen Sie den Status des Steuerelements"; //copied from de-de
 $text['description-control_enabled']['de-ch'] = "Setzen Sie den Status des Steuerelements"; //copied from de-de
@@ -141,7 +155,9 @@ $text['description-control_enabled']['ru-ru'] = "";
 $text['description-control_enabled']['sv-se'] = "Ange statusen för kontrollen.";
 $text['description-control_enabled']['uk-ua'] = "";
 
-$text['label-control_description']['en-us'] = "Description";
+//$text['label-control_description']['en-us'] = "Description";
+$text['label-control_description']['en-us'] = "说明";
+$text['label-control_description']['zh-cn'] = "说明";
 $text['label-control_description']['ar-eg'] = "";
 $text['label-control_description']['de-at'] = "Beschreibung"; //copied from de-de
 $text['label-control_description']['de-ch'] = "Beschreibung"; //copied from de-de
@@ -161,7 +177,9 @@ $text['label-control_description']['ru-ru'] = "";
 $text['label-control_description']['sv-se'] = "Beskrivning";
 $text['label-control_description']['uk-ua'] = "";
 
-$text['description-control_description']['en-us'] = "Enter the description.";
+//$text['description-control_description']['en-us'] = "Enter the description.";
+$text['description-control_description']['en-us'] = "输入说明。";
+$text['description-control_description']['zh-cn'] = "输入说明。";
 $text['description-control_description']['ar-eg'] = "";
 $text['description-control_description']['de-at'] = "Geben Sie eine Beschreibung ein."; //copied from de-de
 $text['description-control_description']['de-ch'] = "Geben Sie eine Beschreibung ein."; //copied from de-de
@@ -181,7 +199,9 @@ $text['description-control_description']['ru-ru'] = "";
 $text['description-control_description']['sv-se'] = "Ange beskrivningen.";
 $text['description-control_description']['uk-ua'] = "";
 
-$text['label-true']['en-us'] = "true";
+//$text['label-true']['en-us'] = "true";
+$text['label-真']['en-us'] = "真";
+$text['label-真']['zh-cn'] = "真";
 $text['label-true']['ar-eg'] = "";
 $text['label-true']['de-at'] = "ein"; //copied from de-de
 $text['label-true']['de-ch'] = "ein"; //copied from de-de
@@ -201,7 +221,9 @@ $text['label-true']['ru-ru'] = "";
 $text['label-true']['sv-se'] = "sann";
 $text['label-true']['uk-ua'] = "";
 
-$text['label-false']['en-us'] = "false";
+//$text['label-false']['en-us'] = "false";
+$text['label-假']['en-us'] = "假";
+$text['label-假']['zh-cn'] = "假";
 $text['label-false']['ar-eg'] = "";
 $text['label-false']['de-at'] = "aus"; //copied from de-de
 $text['label-false']['de-ch'] = "aus"; //copied from de-de
@@ -221,7 +243,9 @@ $text['label-false']['ru-ru'] = "";
 $text['label-false']['sv-se'] = "falsk";
 $text['label-false']['uk-ua'] = "";
 
-$text['button-add']['en-us'] = "Add";
+//$text['button-add']['en-us'] = "Add";
+$text['button-add']['en-us'] = "添加";
+$text['button-add']['zh-cn'] = "添加";
 $text['button-add']['ar-eg'] = "";
 $text['button-add']['de-at'] = "Hinzufügen"; //copied from de-de
 $text['button-add']['de-ch'] = "Hinzufügen"; //copied from de-de
@@ -241,7 +265,9 @@ $text['button-add']['ru-ru'] = "";
 $text['button-add']['sv-se'] = "Lägg Till";
 $text['button-add']['uk-ua'] = "";
 
-$text['button-edit']['en-us'] = "Edit";
+//$text['button-edit']['en-us'] = "Edit";
+$text['button-edit']['en-us'] = "编辑";
+$text['button-edit']['zh-cn'] = "编辑";
 $text['button-edit']['ar-eg'] = "";
 $text['button-edit']['de-at'] = "Bearbeiten"; //copied from de-de
 $text['button-edit']['de-ch'] = "Bearbeiten"; //copied from de-de
@@ -261,7 +287,9 @@ $text['button-edit']['ru-ru'] = "";
 $text['button-edit']['sv-se'] = "Ändra";
 $text['button-edit']['uk-ua'] = "";
 
-$text['button-delete']['en-us'] = "Delete";
+//$text['button-delete']['en-us'] = "Delete";
+$text['button-delete']['en-us'] = "删除";
+$text['button-delete']['zh-cn'] = "删除";
 $text['button-delete']['ar-eg'] = "";
 $text['button-delete']['de-at'] = "Löschen"; //copied from de-de
 $text['button-delete']['de-ch'] = "Löschen"; //copied from de-de
@@ -281,7 +309,9 @@ $text['button-delete']['ru-ru'] = "";
 $text['button-delete']['sv-se'] = "Ta Bort";
 $text['button-delete']['uk-ua'] = "";
 
-$text['button-save']['en-us'] = "Save";
+//$text['button-save']['en-us'] = "Save";
+$text['button-save']['en-us'] = "保存";
+$text['button-save']['zh-cn'] = "保存";
 $text['button-save']['ar-eg'] = "";
 $text['button-save']['de-at'] = "Speichern"; //copied from de-de
 $text['button-save']['de-ch'] = "Speichern"; //copied from de-de
@@ -301,7 +331,9 @@ $text['button-save']['ru-ru'] = "";
 $text['button-save']['sv-se'] = "Spara";
 $text['button-save']['uk-ua'] = "";
 
-$text['button-view']['en-us'] = "View";
+//$text['button-view']['en-us'] = "View";
+$text['button-view']['en-us'] = "视图";
+$text['button-view']['zh-cn'] = "视图";
 $text['button-view']['ar-eg'] = "";
 $text['button-view']['de-at'] = "Anzeigen"; //copied from de-de
 $text['button-view']['de-ch'] = "Anzeigen"; //copied from de-de
@@ -321,7 +353,9 @@ $text['button-view']['ru-ru'] = "";
 $text['button-view']['sv-se'] = "Läs";
 $text['button-view']['uk-ua'] = "";
 
-$text['button-back']['en-us'] = "Back";
+//$text['button-back']['en-us'] = "Back";
+$text['button-back']['en-us'] = "返回";
+$text['button-back']['zh-cn'] = "返回";
 $text['button-back']['ar-eg'] = "";
 $text['button-back']['de-at'] = "Zurück"; //copied from de-de
 $text['button-back']['de-ch'] = "Zurück"; //copied from de-de
@@ -341,7 +375,9 @@ $text['button-back']['ru-ru'] = "";
 $text['button-back']['sv-se'] = "Tillbaka";
 $text['button-back']['uk-ua'] = "";
 
-$text['confirm-delete']['en-us'] = "Do you really want to delete this?";
+//$text['confirm-delete']['en-us'] = "Do you really want to delete this?";
+$text['confirm-delete']['en-us'] = "你真的想删除吗？";
+$text['confirm-delete']['zh-cn'] = "你真的想删除吗？";
 $text['confirm-delete']['ar-eg'] = "";
 $text['confirm-delete']['de-at'] = "Wollen Sie das wirklich löschen?"; //copied from de-de
 $text['confirm-delete']['de-ch'] = "Wollen Sie das wirklich löschen?"; //copied from de-de
@@ -361,7 +397,9 @@ $text['confirm-delete']['ru-ru'] = "";
 $text['confirm-delete']['sv-se'] = "Vill du verkligen t abort detta?";
 $text['confirm-delete']['uk-ua'] = "";
 
-$text['message-add']['en-us'] = "Add Completed";
+//$text['message-add']['en-us'] = "Add Completed";
+$text['message-add']['en-us'] = "添加已完成";
+$text['message-add']['zh-cn'] = "添加已完成";
 $text['message-add']['ar-eg'] = "";
 $text['message-add']['de-at'] = "Erfolgreich hinzugefügt"; //copied from de-de
 $text['message-add']['de-ch'] = "Erfolgreich hinzugefügt"; //copied from de-de
@@ -381,7 +419,9 @@ $text['message-add']['ru-ru'] = "";
 $text['message-add']['sv-se'] = "Tillagd";
 $text['message-add']['uk-ua'] = "";
 
-$text['message-update']['en-us'] = "Update Completed";
+//$text['message-update']['en-us'] = "Update Completed";
+$text['message-update']['en-us'] = "更新已完成";
+$text['message-update']['zh-cn'] = "更新已完成";
 $text['message-update']['ar-eg'] = "";
 $text['message-update']['de-at'] = "Aktualisierung abgeschlossen"; //copied from de-de
 $text['message-update']['de-ch'] = "Aktualisierung abgeschlossen"; //copied from de-de
@@ -401,7 +441,9 @@ $text['message-update']['ru-ru'] = "";
 $text['message-update']['sv-se'] = "Ändring Utförd";
 $text['message-update']['uk-ua'] = "";
 
-$text['message-delete']['en-us'] = "Delete Completed";
+//$text['message-delete']['en-us'] = "Delete Completed";
+$text['message-delete']['en-us'] = "删除已完成";
+$text['message-delete']['zh-cn'] = "删除已完成";
 $text['message-delete']['ar-eg'] = "";
 $text['message-delete']['de-at'] = "Erfolgreich gelöscht"; //copied from de-de
 $text['message-delete']['de-ch'] = "Erfolgreich gelöscht"; //copied from de-de
@@ -421,7 +463,9 @@ $text['message-delete']['ru-ru'] = "";
 $text['message-delete']['sv-se'] = "Borttagen";
 $text['message-delete']['uk-ua'] = "";
 
-$text['message-required']['en-us'] = "Please provide: ";
+//$text['message-required']['en-us'] = "Please provide: ";
+$text['message-required']['en-us'] = "请提供：";
+$text['message-required']['zh-cn'] = "请提供：";
 $text['message-required']['ar-eg'] = "";
 $text['message-required']['de-at'] = "Bitte geben Sie folgendes an:"; //copied from de-de
 $text['message-required']['de-ch'] = "Bitte geben Sie folgendes an:"; //copied from de-de
@@ -441,7 +485,9 @@ $text['message-required']['ru-ru'] = "";
 $text['message-required']['sv-se'] = "Var god ange: ";
 $text['message-required']['uk-ua'] = "";
 
-$text['title-conference_control_details']['en-us'] = "Controls";
+//$text['title-conference_control_details']['en-us'] = "Controls";
+$text['title-conference_control_details']['en-us'] = "控制";
+$text['title-conference_control_details']['zh-cn'] = "控制";
 $text['title-conference_control_details']['ar-eg'] = "";
 $text['title-conference_control_details']['de-at'] = "Steuerelemente"; //copied from de-de
 $text['title-conference_control_details']['de-ch'] = "Steuerelemente"; //copied from de-de
@@ -461,7 +507,9 @@ $text['title-conference_control_details']['ru-ru'] = "";
 $text['title-conference_control_details']['sv-se'] = "Kontroller";
 $text['title-conference_control_details']['uk-ua'] = "";
 
-$text['title-conference_control_detail']['en-us'] = "Control";
+//$text['title-conference_control_detail']['en-us'] = "Control";
+$text['title-conference_control_detail']['en-us'] = "控制";
+$text['title-conference_control_detail']['zh-cn'] = "控制";
 $text['title-conference_control_detail']['ar-eg'] = "";
 $text['title-conference_control_detail']['de-at'] = "Steuern"; //copied from de-de
 $text['title-conference_control_detail']['de-ch'] = "Steuern"; //copied from de-de
@@ -481,7 +529,9 @@ $text['title-conference_control_detail']['ru-ru'] = "";
 $text['title-conference_control_detail']['sv-se'] = "Kontrol";
 $text['title-conference_control_detail']['uk-ua'] = "";
 
-$text['title_description-conference_control_detail']['en-us'] = "Call controls enable ability to assign digits to actions. They can be used to mute, unmute, or other actions during the conference call.";
+//$text['title_description-conference_control_detail']['en-us'] = "Call controls enable ability to assign digits to actions. They can be used to mute, unmute, or other actions during the conference call.";
+$text['title_description-conference_control_detail']['en-us'] = "呼叫控制可以为动作分配数字。它们可用于在电话会议期间静音、取消静音或其他操作。";
+$text['title_description-conference_control_detail']['zh-cn'] = "呼叫控制可以为动作分配数字。它们可用于在电话会议期间静音、取消静音或其他操作。";
 $text['title_description-conference_control_detail']['ar-eg'] = "";
 $text['title_description-conference_control_detail']['de-at'] = "Anrufsteuerung anhand von zugeordneten Ziffern. Diese können verschiedene Aktionen wie Stummschaltung, usw. während einer Konferenz auslösen."; //copied from de-de
 $text['title_description-conference_control_detail']['de-ch'] = "Anrufsteuerung anhand von zugeordneten Ziffern. Diese können verschiedene Aktionen wie Stummschaltung, usw. während einer Konferenz auslösen."; //copied from de-de
@@ -501,7 +551,9 @@ $text['title_description-conference_control_detail']['ru-ru'] = "";
 $text['title_description-conference_control_detail']['sv-se'] = "";
 $text['title_description-conference_control_detail']['uk-ua'] = "";
 
-$text['label-control_digits']['en-us'] = "Digits";
+//$text['label-control_digits']['en-us'] = "Digits";
+$text['label-control_digits']['en-us'] = "数字";
+$text['label-control_digits']['zh-cn'] = "数字";
 $text['label-control_digits']['ar-eg'] = "";
 $text['label-control_digits']['de-at'] = "Ziffern"; //copied from de-de
 $text['label-control_digits']['de-ch'] = "Ziffern"; //copied from de-de
@@ -521,7 +573,9 @@ $text['label-control_digits']['ru-ru'] = "";
 $text['label-control_digits']['sv-se'] = "Siffror";
 $text['label-control_digits']['uk-ua'] = "";
 
-$text['description-control_digits']['en-us'] = "Enter the digits.";
+//$text['description-control_digits']['en-us'] = "Enter the digits.";
+$text['description-control_digits']['en-us'] = "输入数字。";
+$text['description-control_digits']['zh-cn'] = "输入数字。";
 $text['description-control_digits']['ar-eg'] = "";
 $text['description-control_digits']['de-at'] = "Geben Sie die Ziffern ein."; //copied from de-de
 $text['description-control_digits']['de-ch'] = "Geben Sie die Ziffern ein."; //copied from de-de
@@ -541,7 +595,9 @@ $text['description-control_digits']['ru-ru'] = "";
 $text['description-control_digits']['sv-se'] = "Ange siffrorna.";
 $text['description-control_digits']['uk-ua'] = "";
 
-$text['label-control_action']['en-us'] = "Action";
+//$text['label-control_action']['en-us'] = "Action";
+$text['label-control_action']['en-us'] = "行动";
+$text['label-control_action']['zh-cn'] = "行动";
 $text['label-control_action']['ar-eg'] = "";
 $text['label-control_action']['de-at'] = "Aktion"; //copied from de-de
 $text['label-control_action']['de-ch'] = "Aktion"; //copied from de-de
@@ -561,7 +617,9 @@ $text['label-control_action']['ru-ru'] = "";
 $text['label-control_action']['sv-se'] = "Handling";
 $text['label-control_action']['uk-ua'] = "";
 
-$text['description-control_action']['en-us'] = "Enter the action.";
+//$text['description-control_action']['en-us'] = "Enter the action.";
+$text['description-control_action']['en-us'] = "输入操作。";
+$text['description-control_action']['zh-cn'] = "输入操作。";
 $text['description-control_action']['ar-eg'] = "";
 $text['description-control_action']['de-at'] = "Geben Sie die Aktion an."; //copied from de-de
 $text['description-control_action']['de-ch'] = "Geben Sie die Aktion an."; //copied from de-de
@@ -581,7 +639,9 @@ $text['description-control_action']['ru-ru'] = "";
 $text['description-control_action']['sv-se'] = "Ange handlingen.";
 $text['description-control_action']['uk-ua'] = "";
 
-$text['label-control_data']['en-us'] = "Data";
+//$text['label-control_data']['en-us'] = "Data";
+$text['label-control_data']['en-us'] = "数据";
+$text['label-control_data']['zh-cn'] = "数据";
 $text['label-control_data']['ar-eg'] = "";
 $text['label-control_data']['de-at'] = "Daten"; //copied from de-de
 $text['label-control_data']['de-ch'] = "Daten"; //copied from de-de
@@ -601,7 +661,9 @@ $text['label-control_data']['ru-ru'] = "";
 $text['label-control_data']['sv-se'] = "Data";
 $text['label-control_data']['uk-ua'] = "";
 
-$text['description-control_data']['en-us'] = "Enter the data.";
+//$text['description-control_data']['en-us'] = "Enter the data.";
+$text['description-control_data']['en-us'] = "输入数据。";
+$text['description-control_data']['zh-cn'] = "输入数据。";
 $text['description-control_data']['ar-eg'] = "";
 $text['description-control_data']['de-at'] = "Geben Sie die Daten ein."; //copied from de-de
 $text['description-control_data']['de-ch'] = "Geben Sie die Daten ein."; //copied from de-de
