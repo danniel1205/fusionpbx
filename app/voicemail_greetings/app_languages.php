@@ -1,7 +1,9 @@
 <?php
 #This file was last reorganized on 19th of September 2017 08:54:24 AM UTC
 
-$text['title']['en-us'] = "Voicemail Greetings";
+//$text['title']['en-us'] = "Voicemail Greetings";
+$text['title']['en-us'] = "语音信箱问候";
+$text['title']['zh-cn'] = "语音信箱问候";
 $text['title']['ar-eg'] = "";
 $text['title']['de-at'] = "Begrüßungen für Sprachnachrichten"; //copied from de-de
 $text['title']['de-ch'] = "Begrüßungen für Sprachnachrichten"; //copied from de-de
@@ -21,7 +23,9 @@ $text['title']['ru-ru'] = "";
 $text['title']['sv-se'] = "Röstbrevlåda Hälsningar";
 $text['title']['uk-ua'] = "Привітання";
 
-$text['table-size']['en-us'] = "Size";
+//$text['table-size']['en-us'] = "Size";
+$text['table-size']['en-us'] = "尺寸";
+$text['table-size']['zh-cn'] = "尺寸";
 $text['table-size']['ar-eg'] = "";
 $text['table-size']['de-at'] = "Größe"; //copied from de-de
 $text['table-size']['de-ch'] = "Größe"; //copied from de-de
@@ -41,7 +45,9 @@ $text['table-size']['ru-ru'] = "";
 $text['table-size']['sv-se'] = "Storlek";
 $text['table-size']['uk-ua'] = "Розмір";
 
-$text['table-number']['en-us'] = "#";
+//$text['table-number']['en-us'] = "#";
+$text['table-number']['en-us'] = "γ";
+$text['table-number']['zh-cn'] = "γ";
 $text['table-number']['ar-eg'] = "";
 $text['table-number']['de-at'] = "#"; //copied from de-de
 $text['table-number']['de-ch'] = "#"; //copied from de-de
@@ -61,7 +67,9 @@ $text['table-number']['ru-ru'] = "";
 $text['table-number']['sv-se'] = "#";
 $text['table-number']['uk-ua'] = "кількість";
 
-$text['table-name']['en-us'] = "Name";
+//$text['table-name']['en-us'] = "Name";
+$text['table-name']['en-us'] = "名字";
+$text['table-name']['zh-cn'] = "名字";
 $text['table-name']['ar-eg'] = "";
 $text['table-name']['de-at'] = "Name"; //copied from de-de
 $text['table-name']['de-ch'] = "Name"; //copied from de-de
@@ -81,7 +89,9 @@ $text['table-name']['ru-ru'] = "";
 $text['table-name']['sv-se'] = "Namn";
 $text['table-name']['uk-ua'] = "Назва";
 
-$text['table-filename']['en-us'] = "File Name";
+//$text['table-filename']['en-us'] = "File Name";
+$text['table-filename']['en-us'] = "文件名";
+$text['table-filename']['zh-cn'] = "文件名";
 $text['table-filename']['ar-eg'] = "";
 $text['table-filename']['de-at'] = "Dateiname"; //copied from de-de
 $text['table-filename']['de-ch'] = "Dateiname"; //copied from de-de
@@ -101,7 +111,9 @@ $text['table-filename']['ru-ru'] = "";
 $text['table-filename']['sv-se'] = "Filnamn";
 $text['table-filename']['uk-ua'] = "ім'я Файлу";
 
-$text['table-download']['en-us'] = "Download";
+//$text['table-download']['en-us'] = "Download";
+$text['table-download']['en-us'] = "下载";
+$text['table-download']['zh-cn'] = "下载";
 $text['table-download']['ar-eg'] = "";
 $text['table-download']['de-at'] = "Download"; //copied from de-de
 $text['table-download']['de-ch'] = "Download"; //copied from de-de
@@ -121,7 +133,9 @@ $text['table-download']['ru-ru'] = "";
 $text['table-download']['sv-se'] = "Ladda Ned";
 $text['table-download']['uk-ua'] = "Скачати";
 
-$text['table-description']['en-us'] = "Description";
+//$text['table-description']['en-us'] = "Description";
+$text['table-description']['en-us'] = "说明";
+$text['table-description']['zh-cn'] = "说明";
 $text['table-description']['ar-eg'] = "";
 $text['table-description']['de-at'] = "Beschreibung"; //copied from de-de
 $text['table-description']['de-ch'] = "Beschreibung"; //copied from de-de
@@ -141,7 +155,9 @@ $text['table-description']['ru-ru'] = "";
 $text['table-description']['sv-se'] = "Beskrivning";
 $text['table-description']['uk-ua'] = "Опис";
 
-$text['table-choose']['en-us'] = "Choose";
+//$text['table-choose']['en-us'] = "Choose";
+$text['table-choose']['en-us'] = "选择";
+$text['table-choose']['zh-cn'] = "选择";
 $text['table-choose']['ar-eg'] = "";
 $text['table-choose']['de-at'] = "Wähle"; //copied from de-de
 $text['table-choose']['de-ch'] = "Wähle"; //copied from de-de
@@ -161,7 +177,9 @@ $text['table-choose']['ru-ru'] = "";
 $text['table-choose']['sv-se'] = "Välj";
 $text['table-choose']['uk-ua'] = "Вибрати";
 
-$text['message-uploaded']['en-us'] = "Upload Complete";
+//$text['message-uploaded']['en-us'] = "Upload Complete";
+$text['message-uploaded']['en-us'] = "上传完成";
+$text['message-uploaded']['zh-cn'] = "上传完成";
 $text['message-uploaded']['ar-eg'] = "";
 $text['message-uploaded']['de-at'] = "Hochladen abgeschlossen"; //copied from de-de
 $text['message-uploaded']['de-ch'] = "Hochladen abgeschlossen"; //copied from de-de
@@ -181,7 +199,9 @@ $text['message-uploaded']['ru-ru'] = "";
 $text['message-uploaded']['sv-se'] = "Uppladdning Klar";
 $text['message-uploaded']['uk-ua'] = "Завантажено";
 
-$text['message-unsupported_file_type']['en-us'] = "Unsupported File Type";
+//$text['message-unsupported_file_type']['en-us'] = "Unsupported File Type";
+$text['message-unsupported_file_type']['en-us'] = "不支持的文件类型";
+$text['message-unsupported_file_type']['zh-cn'] = "不支持的文件类型";
 $text['message-unsupported_file_type']['ar-eg'] = "";
 $text['message-unsupported_file_type']['de-at'] = "Nicht unterstütztes Dateiformat"; //copied from de-de
 $text['message-unsupported_file_type']['de-ch'] = "Nicht unterstütztes Dateiformat"; //copied from de-de
@@ -201,7 +221,9 @@ $text['message-unsupported_file_type']['ru-ru'] = "";
 $text['message-unsupported_file_type']['sv-se'] = "Filtypen Supporteras Inte";
 $text['message-unsupported_file_type']['uk-ua'] = "Тип файлу не підтримується";
 
-$text['message-greeting_selected']['en-us'] = "Greeting Selected";
+//$text['message-greeting_selected']['en-us'] = "Greeting Selected";
+$text['message-greeting_selected']['en-us'] = "问候语已选定";
+$text['message-greeting_selected']['zh-cn'] = "问候语已选定";
 $text['message-greeting_selected']['ar-eg'] = "";
 $text['message-greeting_selected']['de-at'] = "Begrüßung ausgewählt"; //copied from de-de
 $text['message-greeting_selected']['de-ch'] = "Begrüßung ausgewählt"; //copied from de-de
@@ -221,7 +243,9 @@ $text['message-greeting_selected']['ru-ru'] = "";
 $text['message-greeting_selected']['sv-se'] = "Hälsning Vald";
 $text['message-greeting_selected']['uk-ua'] = "привітання Вибрані";
 
-$text['label-tools']['en-us'] = "Tools";
+//$text['label-tools']['en-us'] = "Tools";
+$text['label-tools']['en-us'] = "工具";
+$text['label-tools']['zh-cn'] = "工具";
 $text['label-tools']['ar-eg'] = "";
 $text['label-tools']['de-at'] = "Werkzeuge"; //copied from de-de
 $text['label-tools']['de-ch'] = "Werkzeuge"; //copied from de-de
@@ -241,7 +265,9 @@ $text['label-tools']['ru-ru'] = "";
 $text['label-tools']['sv-se'] = "Verktyg";
 $text['label-tools']['uk-ua'] = "Параметри";
 
-$text['label-select_a_file']['en-us'] = "Select a file...";
+//$text['label-select_a_file']['en-us'] = "Select a file...";
+$text['label-select_a_file']['en-us'] = "选择文件…";
+$text['label-select_a_file']['zh-cn'] = "选择文件…";
 $text['label-select_a_file']['ar-eg'] = "";
 $text['label-select_a_file']['de-at'] = "Wähle eine Datei aus..."; //copied from de-de
 $text['label-select_a_file']['de-ch'] = "Wähle eine Datei aus..."; //copied from de-de
@@ -261,7 +287,9 @@ $text['label-select_a_file']['ru-ru'] = "";
 $text['label-select_a_file']['sv-se'] = "Välj en fil ...";
 $text['label-select_a_file']['uk-ua'] = "Виберіть файл ...";
 
-$text['label-play']['en-us'] = "Play";
+//$text['label-play']['en-us'] = "Play";
+$text['label-play']['en-us'] = "播放";
+$text['label-play']['zh-cn'] = "播放";
 $text['label-play']['ar-eg'] = "";
 $text['label-play']['de-at'] = "Abspielen"; //copied from de-de
 $text['label-play']['de-ch'] = "Abspielen"; //copied from de-de
@@ -281,7 +309,9 @@ $text['label-play']['ru-ru'] = "";
 $text['label-play']['sv-se'] = "Spela Upp";
 $text['label-play']['uk-ua'] = "Відтворити";
 
-$text['label-pause']['en-us'] = "Pause";
+//$text['label-pause']['en-us'] = "Pause";
+$text['label-pause']['en-us'] = "暂停";
+$text['label-pause']['zh-cn'] = "暂停";
 $text['label-pause']['ar-eg'] = "";
 $text['label-pause']['de-at'] = "Pause"; //copied from de-de
 $text['label-pause']['de-ch'] = "Pause"; //copied from de-de
@@ -301,7 +331,9 @@ $text['label-pause']['ru-ru'] = "";
 $text['label-pause']['sv-se'] = "Pausa";
 $text['label-pause']['uk-ua'] = "Призупинити";
 
-$text['label-greeting']['en-us'] = "Greeting";
+//$text['label-greeting']['en-us'] = "Greeting";
+$text['label-greeting']['en-us'] = "招呼";
+$text['label-greeting']['zh-cn'] = "招呼";
 $text['label-greeting']['ar-eg'] = "";
 $text['label-greeting']['de-at'] = "Begrüßung"; //copied from de-de
 $text['label-greeting']['de-ch'] = "Begrüßung"; //copied from de-de
@@ -321,7 +353,9 @@ $text['label-greeting']['ru-ru'] = "";
 $text['label-greeting']['sv-se'] = "Hälsning";
 $text['label-greeting']['uk-ua'] = "привітання";
 
-$text['label-filename']['en-us'] = "File Name";
+//$text['label-filename']['en-us'] = "File Name";
+$text['label-filename']['en-us'] = "文件名";
+$text['label-filename']['zh-cn'] = "文件名";
 $text['label-filename']['ar-eg'] = "";
 $text['label-filename']['de-at'] = "Dateiname"; //copied from de-de
 $text['label-filename']['de-ch'] = "Dateiname"; //copied from de-de
@@ -341,7 +375,9 @@ $text['label-filename']['ru-ru'] = "";
 $text['label-filename']['sv-se'] = "Filnamn";
 $text['label-filename']['uk-ua'] = "ім'я Файлу";
 
-$text['label-edit']['en-us'] = "Edit Greeting";
+//$text['label-edit']['en-us'] = "Edit Greeting";
+$text['label-edit']['en-us'] = "编辑问候语";
+$text['label-edit']['zh-cn'] = "编辑问候语";
 $text['label-edit']['ar-eg'] = "";
 $text['label-edit']['de-at'] = "Begrüßung bearbeiten"; //copied from de-de
 $text['label-edit']['de-ch'] = "Begrüßung bearbeiten"; //copied from de-de
@@ -361,7 +397,9 @@ $text['label-edit']['ru-ru'] = "";
 $text['label-edit']['sv-se'] = "Ändra Hälsning";
 $text['label-edit']['uk-ua'] = "Редагувати";
 
-$text['label-download']['en-us'] = "Download";
+//$text['label-download']['en-us'] = "Download";
+$text['label-download']['en-us'] = "下载";
+$text['label-download']['zh-cn'] = "下载";
 $text['label-download']['ar-eg'] = "";
 $text['label-download']['de-at'] = "Herunterladen"; //copied from de-de
 $text['label-download']['de-ch'] = "Herunterladen"; //copied from de-de
@@ -381,7 +419,9 @@ $text['label-download']['ru-ru'] = "";
 $text['label-download']['sv-se'] = "Ladda Ned";
 $text['label-download']['uk-ua'] = "Завантажини";
 
-$text['label-add']['en-us'] = "Add Greeting";
+//$text['label-add']['en-us'] = "Add Greeting";
+$text['label-add']['en-us'] = "添加问候语";
+$text['label-add']['zh-cn'] = "添加问候语";
 $text['label-add']['ar-eg'] = "";
 $text['label-add']['de-at'] = "Begrüßung hinzufügen"; //copied from de-de
 $text['label-add']['de-ch'] = "Begrüßung hinzufügen"; //copied from de-de
@@ -401,7 +441,9 @@ $text['label-add']['ru-ru'] = "";
 $text['label-add']['sv-se'] = "Lägg Till Hälsning";
 $text['label-add']['uk-ua'] = "Додати привітання";
 
-$text['description-name']['en-us'] = "A name for the greeting (not parsed).";
+//$text['description-name']['en-us'] = "A name for the greeting (not parsed).";
+$text['description-name']['en-us'] = "问候语的名称（未解析）。";
+$text['description-name']['zh-cn'] = "问候语的名称（未解析）。";
 $text['description-name']['ar-eg'] = "";
 $text['description-name']['de-at'] = "Ein Namen für die Begrüßung."; //copied from de-de
 $text['description-name']['de-ch'] = "Ein Namen für die Begrüßung."; //copied from de-de
@@ -421,7 +463,9 @@ $text['description-name']['ru-ru'] = "";
 $text['description-name']['sv-se'] = "Ett namn för hälsningen.";
 $text['description-name']['uk-ua'] = "Введіть назву привітання";
 
-$text['description-info']['en-us'] = "You may enter a description here for your reference (not parsed).";
+//$text['description-info']['en-us'] = "You may enter a description here for your reference (not parsed).";
+$text['description-info']['en-us'] = "您可以在此处输入描述以供参考（未分析）。";
+$text['description-info']['zh-cn'] = "您可以在此处输入描述以供参考（未分析）。";
 $text['description-info']['ar-eg'] = "";
 $text['description-info']['de-at'] = "Sie können hier eine Beschreibung als Referenz eintragen."; //copied from de-de
 $text['description-info']['de-ch'] = "Sie können hier eine Beschreibung als Referenz eintragen."; //copied from de-de
@@ -441,7 +485,9 @@ $text['description-info']['ru-ru'] = "";
 $text['description-info']['sv-se'] = "Du kan ange en beskrivning här som din egna referens.";
 $text['description-info']['uk-ua'] = "Введіть опис";
 
-$text['description']['en-us'] = "Select the active greeting message to play for extension:";
+//$text['description']['en-us'] = "Select the active greeting message to play for extension:";
+$text['description']['en-us'] = "选择要为分机播放的活动问候语：";
+$text['description']['zh-cn'] = "选择要为分机播放的活动问候语：";
 $text['description']['ar-eg'] = "";
 $text['description']['de-at'] = "Wählen Sie die aktive Begrüßung aus, welche für diese Nebenstelle abgespielt werden soll:"; //copied from de-de
 $text['description']['de-ch'] = "Wählen Sie die aktive Begrüßung aus, welche für diese Nebenstelle abgespielt werden soll:"; //copied from de-de
@@ -461,7 +507,9 @@ $text['description']['ru-ru'] = "";
 $text['description']['sv-se'] = "Välj hälsning att som skall användas för anknytning:";
 $text['description']['uk-ua'] = "Виберіть активне привітання для розширення";
 
-$text['confirm-name']['en-us'] = "Please provide: Greeting Name";
+//$text['confirm-name']['en-us'] = "Please provide: Greeting Name";
+$text['confirm-name']['en-us'] = "请提供：问候语姓名";
+$text['confirm-name']['zh-cn'] = "请提供：问候语姓名";
 $text['confirm-name']['ar-eg'] = "";
 $text['confirm-name']['de-at'] = "Bitte bereitstellen: Namen der Begrüßung"; //copied from de-de
 $text['confirm-name']['de-ch'] = "Bitte bereitstellen: Namen der Begrüßung"; //copied from de-de
@@ -481,7 +529,9 @@ $text['confirm-name']['ru-ru'] = "";
 $text['confirm-name']['sv-se'] = "Var god ange: Hälsningsnamn";
 $text['confirm-name']['uk-ua'] = "Введіть назву привітання";
 
-$text['confirm-filename']['en-us'] = "Please provide: Greeting Filename";
+//$text['confirm-filename']['en-us'] = "Please provide: Greeting Filename";
+$text['confirm-filename']['en-us'] = "请提供：问候语文件名";
+$text['confirm-filename']['zh-cn'] = "请提供：问候语文件名";
 $text['confirm-filename']['ar-eg'] = "";
 $text['confirm-filename']['de-at'] = "Bitte bereitstellen: Dateinamen der Begrüßung"; //copied from de-de
 $text['confirm-filename']['de-ch'] = "Bitte bereitstellen: Dateinamen der Begrüßung"; //copied from de-de

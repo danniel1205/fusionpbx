@@ -838,8 +838,8 @@ $text['label-record']['sv-se'] = "Spela In";
 $text['label-record']['uk-ua'] = "Запис";
 
 //$text['label-profile']['en-us'] = "Profile";
-$text['label-profile']['en-us'] = "简况";
-$text['label-profile']['zh-cn'] = "简况";
+$text['label-profile']['en-us'] = "配置文件";
+$text['label-profile']['zh-cn'] = "配置文件";
 $text['label-profile']['ar-eg'] = "";
 $text['label-profile']['de-at'] = "Profil"; //copied from de-de
 $text['label-profile']['de-ch'] = "Profil"; //copied from de-de

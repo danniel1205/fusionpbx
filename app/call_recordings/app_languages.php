@@ -91,6 +91,7 @@ $text['label-call_recording_name']['uk-ua'] = "";
 
 //$text['description-call_recording_name']['en-us'] = "";
 $text['description-call_recording_name']['en-us'] = "";
+$text['description-call_recording_name']['zh-cn'] = "";
 $text['description-call_recording_name']['ar-eg'] = "";
 $text['description-call_recording_name']['de-at'] = "";
 $text['description-call_recording_name']['de-ch'] = "";
@@ -134,6 +135,7 @@ $text['label-call_recording_path']['uk-ua'] = "";
 
 //$text['description-call_recording_path']['en-us'] = "";
 $text['description-call_recording_path']['en-us'] = "";
+$text['description-call_recording_path']['zh-cn'] = "";
 $text['description-call_recording_path']['ar-eg'] = "";
 $text['description-call_recording_path']['de-at'] = "";
 $text['description-call_recording_path']['de-ch'] = "";
@@ -177,6 +179,7 @@ $text['label-call_recording_length']['uk-ua'] = "";
 
 //$text['description-call_recording_length']['en-us'] = "";
 $text['description-call_recording_length']['en-us'] = "";
+$text['description-call_recording_length']['zh-cn'] = "";
 $text['description-call_recording_length']['ar-eg'] = "";
 $text['description-call_recording_length']['de-at'] = "";
 $text['description-call_recording_length']['de-ch'] = "";
@@ -220,6 +223,7 @@ $text['label-call_recording_date']['uk-ua'] = "";
 
 //$text['description-call_recording_date']['en-us'] = "";
 $text['description-call_recording_date']['en-us'] = "";
+$text['description-call_recording_date']['zh-cn'] = "";
 $text['description-call_recording_date']['ar-eg'] = "";
 $text['description-call_recording_date']['de-at'] = "";
 $text['description-call_recording_date']['de-ch'] = "";
@@ -263,6 +267,7 @@ $text['label-call_direction']['uk-ua'] = "";
 
 //$text['description-call_direction']['en-us'] = "";
 $text['description-call_direction']['en-us'] = "";
+$text['description-call_direction']['zh-cn'] = "";
 $text['description-call_direction']['ar-eg'] = "";
 $text['description-call_direction']['de-at'] = "";
 $text['description-call_direction']['de-ch'] = "";
@@ -306,6 +311,7 @@ $text['label-call_recording_description']['uk-ua'] = "";
 
 //$text['description-call_recording_description']['en-us'] = "";
 $text['description-call_recording_description']['en-us'] = "";
+$text['description-call_recording_description']['zh-cn'] = "";
 $text['description-call_recording_description']['ar-eg'] = "";
 $text['description-call_recording_description']['de-at'] = "";
 $text['description-call_recording_description']['de-ch'] = "";
@@ -349,6 +355,7 @@ $text['label-call_recording_base64']['uk-ua'] = "";
 
 //$text['description-call_recording_base64']['en-us'] = "";
 $text['description-call_recording_base64']['en-us'] = "";
+$text['description-call_recording_base64']['zh-cn'] = "";
 $text['description-call_recording_base64']['ar-eg'] = "";
 $text['description-call_recording_base64']['de-at'] = "";
 $text['description-call_recording_base64']['de-ch'] = "";
