@@ -1,7 +1,9 @@
 <?php
 #This file was last reorganized on 19th of September 2017 08:54:24 AM UTC
 
-$text['label-user']['en-us'] = "User";
+//$text['label-user']['en-us'] = "User";
+$text['label-user']['en-us'] = "用户";
+$text['label-user']['zh-cn'] = "用户";
 $text['label-user']['ar-eg'] = "";
 $text['label-user']['de-at'] = "Benutzer"; //copied from de-de
 $text['label-user']['de-ch'] = "Benutzer"; //copied from de-de
@@ -21,7 +23,9 @@ $text['label-user']['ru-ru'] = "Пользователь";
 $text['label-user']['sv-se'] = "Användare";
 $text['label-user']['uk-ua'] = "Користувач";
 
-$text['label-status']['en-us'] = "Status";
+//$text['label-status']['en-us'] = "Status";
+$text['label-status']['en-us'] = "状态";
+$text['label-status']['zh-cn'] = "状态";
 $text['label-status']['ar-eg'] = "";
 $text['label-status']['de-at'] = "Status"; //copied from de-de
 $text['label-status']['de-ch'] = "Status"; //copied from de-de
@@ -41,7 +45,9 @@ $text['label-status']['ru-ru'] = "Статус";
 $text['label-status']['sv-se'] = "Status";
 $text['label-status']['uk-ua'] = "Статус";
 
-$text['label-response']['en-us'] = "Response:";
+//$text['label-response']['en-us'] = "Response:";
+$text['label-response']['en-us'] = "回复：";
+$text['label-response']['zh-cn'] = "回复：";
 $text['label-response']['ar-eg'] = "";
 $text['label-response']['de-at'] = "Antwort:"; //copied from de-de
 $text['label-response']['de-ch'] = "Antwort:"; //copied from de-de
@@ -61,7 +67,9 @@ $text['label-response']['ru-ru'] = "Отклик:";
 $text['label-response']['sv-se'] = "Respons:";
 $text['label-response']['uk-ua'] = "Відповідь:";
 
-$text['label-refresh_pause']['en-us'] = "Pause Refresh";
+//$text['label-refresh_pause']['en-us'] = "Pause Refresh";
+$text['label-refresh_pause']['en-us'] = "暂停刷新";
+$text['label-refresh_pause']['zh-cn'] = "暂停刷新";
 $text['label-refresh_pause']['ar-eg'] = "";
 $text['label-refresh_pause']['de-at'] = "Seite neu laden deaktivieren"; //copied from de-de
 $text['label-refresh_pause']['de-ch'] = "Seite neu laden deaktivieren"; //copied from de-de
@@ -81,7 +89,9 @@ $text['label-refresh_pause']['ru-ru'] = "Приостановить обновл
 $text['label-refresh_pause']['sv-se'] = "Paus Uppdatera";
 $text['label-refresh_pause']['uk-ua'] = "пауза Оновити";
 
-$text['label-refresh_enable']['en-us'] = "Enable Refresh";
+//$text['label-refresh_enable']['en-us'] = "Enable Refresh";
+$text['label-refresh_enable']['en-us'] = "启用刷新";
+$text['label-refresh_enable']['zh-cn'] = "启用刷新";
 $text['label-refresh_enable']['ar-eg'] = "";
 $text['label-refresh_enable']['de-at'] = "Seite neu laden aktivieren"; //copied from de-de
 $text['label-refresh_enable']['de-ch'] = "Seite neu laden aktivieren"; //copied from de-de
@@ -101,7 +111,9 @@ $text['label-refresh_enable']['ru-ru'] = "Включить обновление"
 $text['label-refresh_enable']['sv-se'] = "Aktivera Uppdatera";
 $text['label-refresh_enable']['uk-ua'] = "включити Оновити";
 
-$text['label-port']['en-us'] = "Port";
+//$text['label-port']['en-us'] = "Port";
+$text['label-port']['en-us'] = "端口";
+$text['label-port']['zh-cn'] = "端口";
 $text['label-port']['ar-eg'] = "";
 $text['label-port']['de-at'] = "Port"; //copied from de-de
 $text['label-port']['de-ch'] = "Port"; //copied from de-de
@@ -121,7 +133,9 @@ $text['label-port']['ru-ru'] = "Порт";
 $text['label-port']['sv-se'] = "Port";
 $text['label-port']['uk-ua'] = "Порт";
 
+//$text['label-ping']['en-us'] = "Ping";
 $text['label-ping']['en-us'] = "Ping";
+$text['label-ping']['zh-cn'] = "Ping";
 $text['label-ping']['ar-eg'] = "";
 $text['label-ping']['de-at'] = "Ping"; //copied from de-de
 $text['label-ping']['de-ch'] = "Ping"; //copied from de-de
@@ -141,7 +155,9 @@ $text['label-ping']['ru-ru'] = "Ping";
 $text['label-ping']['sv-se'] = "Ping";
 $text['label-ping']['uk-ua'] = "пінг";
 
-$text['label-message']['en-us'] = "Invalid Profile!";
+//$text['label-message']['en-us'] = "Invalid Profile!";
+$text['label-message']['en-us'] = "配置文件无效！";
+$text['label-message']['zh-cn'] = "配置文件无效！";
 $text['label-message']['ar-eg'] = "";
 $text['label-message']['de-at'] = "Ungültiges Profil!"; //copied from de-de
 $text['label-message']['de-ch'] = "Ungültiges Profil!"; //copied from de-de
@@ -161,7 +177,9 @@ $text['label-message']['ru-ru'] = "Недопустимый профиль!";
 $text['label-message']['sv-se'] = "Ogiltig Profil!";
 $text['label-message']['uk-ua'] = "Хибний профіль!";
 
-$text['label-lan_ip']['en-us'] = "LAN IP";
+//$text['label-lan_ip']['en-us'] = "LAN IP";
+$text['label-lan_ip']['en-us'] = "局域网IP";
+$text['label-lan_ip']['zh-cn'] = "局域网IP";
 $text['label-lan_ip']['ar-eg'] = "";
 $text['label-lan_ip']['de-at'] = "LAN IP"; //copied from de-de
 $text['label-lan_ip']['de-ch'] = "LAN IP"; //copied from de-de
@@ -181,7 +199,9 @@ $text['label-lan_ip']['ru-ru'] = "LAN IP";
 $text['label-lan_ip']['sv-se'] = "LAN IP";
 $text['label-lan_ip']['uk-ua'] = "LAN IP";
 
-$text['label-ip']['en-us'] = "IP";
+//$text['label-ip']['en-us'] = "IP";
+$text['label-ip']['en-us'] = "知识产权";
+$text['label-ip']['zh-cn'] = "知识产权";
 $text['label-ip']['ar-eg'] = "";
 $text['label-ip']['de-at'] = "IP"; //copied from de-de
 $text['label-ip']['de-ch'] = "IP"; //copied from de-de
@@ -201,7 +221,9 @@ $text['label-ip']['ru-ru'] = "IP-адрес";
 $text['label-ip']['sv-se'] = "IP";
 $text['label-ip']['uk-ua'] = "IP";
 
-$text['label-interval']['en-us'] = "Interval (Sec)";
+//$text['label-interval']['en-us'] = "Interval (Sec)";
+$text['label-interval']['en-us'] = "间隔（秒）";
+$text['label-interval']['zh-cn'] = "间隔（秒）";
 $text['label-interval']['ar-eg'] = "";
 $text['label-interval']['de-at'] = "Intervall (Sek)"; //copied from de-de
 $text['label-interval']['de-ch'] = "Intervall (Sek)"; //copied from de-de
@@ -221,7 +243,9 @@ $text['label-interval']['ru-ru'] = "Интервал (сек)";
 $text['label-interval']['sv-se'] = "Intervall (Sek)";
 $text['label-interval']['uk-ua'] = "Інтервал (с.)";
 
-$text['label-hostname']['en-us'] = "Hostname";
+//$text['label-hostname']['en-us'] = "Hostname";
+$text['label-hostname']['en-us'] = "主机名";
+$text['label-hostname']['zh-cn'] = "主机名";
 $text['label-hostname']['ar-eg'] = "";
 $text['label-hostname']['de-at'] = "Hostname"; //copied from de-de
 $text['label-hostname']['de-ch'] = "Hostname"; //copied from de-de
@@ -241,7 +265,9 @@ $text['label-hostname']['ru-ru'] = "Имя хоста";
 $text['label-hostname']['sv-se'] = "Hostname";
 $text['label-hostname']['uk-ua'] = "Назва хоста";
 
-$text['label-event']['en-us'] = "Event:";
+//$text['label-event']['en-us'] = "Event:";
+$text['label-event']['en-us'] = "事件：";
+$text['label-event']['zh-cn'] = "事件：";
 $text['label-event']['ar-eg'] = "";
 $text['label-event']['de-at'] = "Event:"; //copied from de-de
 $text['label-event']['de-ch'] = "Event:"; //copied from de-de
@@ -261,7 +287,9 @@ $text['label-event']['ru-ru'] = "Событие:";
 $text['label-event']['sv-se'] = "Event:";
 $text['label-event']['uk-ua'] = "Подія:";
 
-$text['label-domain']['en-us'] = "Domain";
+//$text['label-domain']['en-us'] = "Domain";
+$text['label-domain']['en-us'] = "领域";
+$text['label-domain']['zh-cn'] = "领域";
 $text['label-domain']['ar-eg'] = "";
 $text['label-domain']['de-at'] = "Domäne"; //copied from de-de
 $text['label-domain']['de-ch'] = "Domäne"; //copied from de-de
@@ -281,7 +309,9 @@ $text['label-domain']['ru-ru'] = "Домен";
 $text['label-domain']['sv-se'] = "Domän";
 $text['label-domain']['uk-ua'] = "Домен";
 
-$text['label-agent']['en-us'] = "Agent";
+//$text['label-agent']['en-us'] = "Agent";
+$text['label-agent']['en-us'] = "代理";
+$text['label-agent']['zh-cn'] = "代理";
 $text['label-agent']['ar-eg'] = "";
 $text['label-agent']['de-at'] = "Agent"; //copied from de-de
 $text['label-agent']['de-ch'] = "Agent"; //copied from de-de
@@ -301,7 +331,9 @@ $text['label-agent']['ru-ru'] = "Оператор";
 $text['label-agent']['sv-se'] = "Agent";
 $text['label-agent']['uk-ua'] = "Оператор";
 
-$text['label-contact']['en-us'] = "Contact";
+//$text['label-contact']['en-us'] = "Contact";
+$text['label-contact']['en-us'] = "联系人";
+$text['label-contact']['zh-cn'] = "联系人";
 $text['label-contact']['ar-eg'] = "";
 $text['label-contact']['de-at'] = "Kontakt"; //copied from de-de
 $text['label-contact']['de-ch'] = "Kontakt"; //copied from de-de
@@ -321,7 +353,9 @@ $text['label-contact']['ru-ru'] = "Контакт";
 $text['label-contact']['sv-se'] = "Kontakta";
 $text['label-contact']['uk-ua'] = "Контакт";
 
-$text['label-sip_profile_name']['en-us'] = "Profile";
+//$text['label-sip_profile_name']['en-us'] = "Profile";
+$text['label-sip_profile_name']['en-us'] = "配置文件";
+$text['label-sip_profile_name']['zh-cn'] = "配置文件";
 $text['label-sip_profile_name']['ar-eg'] = "";
 $text['label-sip_profile_name']['de-at'] = "Profile"; //copied from de-de
 $text['label-sip_profile_name']['de-ch'] = "Profile"; //copied from de-de
@@ -341,7 +375,9 @@ $text['label-sip_profile_name']['ru-ru'] = "Профили";
 $text['label-sip_profile_name']['sv-se'] = "Profiler";
 $text['label-sip_profile_name']['uk-ua'] = "профілі";
 
-$text['header-registrations']['en-us'] = "Registrations";
+//$text['header-registrations']['en-us'] = "Registrations";
+$text['header-registrations']['en-us'] = "注册";
+$text['header-registrations']['zh-cn'] = "注册";
 $text['header-registrations']['ar-eg'] = "";
 $text['header-registrations']['de-at'] = "Registrierungen"; //copied from de-de
 $text['header-registrations']['de-ch'] = "Registrierungen"; //copied from de-de
@@ -361,7 +397,9 @@ $text['header-registrations']['ru-ru'] = "Регистрация";
 $text['header-registrations']['sv-se'] = "Registreringar";
 $text['header-registrations']['uk-ua'] = "Реєстрації";
 
-$text['error-event-socket']['en-us'] = "Connection to Event Socket failed.";
+//$text['error-event-socket']['en-us'] = "Connection to Event Socket failed.";
+$text['error-event-socket']['en-us'] = "连接到事件套接字失败。";
+$text['error-event-socket']['zh-cn'] = "连接到事件套接字失败。";
 $text['error-event-socket']['ar-eg'] = "";
 $text['error-event-socket']['de-at'] = "Verbindung zum Event Socket fehlgeschlagen."; //copied from de-de
 $text['error-event-socket']['de-ch'] = "Verbindung zum Event Socket fehlgeschlagen."; //copied from de-de
@@ -381,7 +419,9 @@ $text['error-event-socket']['ru-ru'] = "Подключение к сокету �
 $text['error-event-socket']['sv-se'] = "Kontakten till 'Event Socket' misslyckades.";
 $text['error-event-socket']['uk-ua'] = "Помилка підключення до Event Socket";
 
-$text['button-unregister']['en-us'] = "Unregister";
+//$text['button-unregister']['en-us'] = "Unregister";
+$text['button-unregister']['en-us'] = "注销";
+$text['button-unregister']['zh-cn'] = "注销";
 $text['button-unregister']['ar-eg'] = "";
 $text['button-unregister']['de-at'] = "Unregister"; //copied from de-de
 $text['button-unregister']['de-ch'] = "Unregister"; //copied from de-de
@@ -401,7 +441,9 @@ $text['button-unregister']['ru-ru'] = "Отменить регистрацию";
 $text['button-unregister']['sv-se'] = "Avregistrera";
 $text['button-unregister']['uk-ua'] = "Розреєструвати";
 
-$text['button-reboot']['en-us'] = "Reboot";
+//$text['button-reboot']['en-us'] = "Reboot";
+$text['button-reboot']['en-us'] = "重新启动";
+$text['button-reboot']['zh-cn'] = "重新启动";
 $text['button-reboot']['ar-eg'] = "";
 $text['button-reboot']['de-at'] = "Neu starten"; //copied from de-de
 $text['button-reboot']['de-ch'] = "Neu starten"; //copied from de-de
@@ -421,7 +463,9 @@ $text['button-reboot']['ru-ru'] = "Перезагрузить";
 $text['button-reboot']['sv-se'] = "Starta Om";
 $text['button-reboot']['uk-ua'] = "Перезавантажити";
 
-$text['button-provision']['en-us'] = "Provision";
+//$text['button-provision']['en-us'] = "Provision";
+$text['button-provision']['en-us'] = "准备金";
+$text['button-provision']['zh-cn'] = "准备金";
 $text['button-provision']['ar-eg'] = "";
 $text['button-provision']['de-at'] = "Bereitstellen"; //copied from de-de
 $text['button-provision']['de-ch'] = "Bereitstellen"; //copied from de-de

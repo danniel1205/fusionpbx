@@ -266,8 +266,8 @@ $text['title-call_center']['sv-se'] = "Call Center";
 $text['title-call_center']['uk-ua'] = "Кол-центр";
 
 //$text['option-usring']['en-us'] = "us-ring";
-$text['option-usring']['en-us'] = "美国-呼叫";
-$text['option-usring']['zh-cn'] = "美国-呼叫";
+$text['option-usring']['en-us'] = "us-铃声";
+$text['option-usring']['zh-cn'] = "us-铃声";
 $text['option-usring']['ar-eg'] = "";
 $text['option-usring']['de-at'] = "us-ring"; //copied from de-de
 $text['option-usring']['de-ch'] = "us-ring"; //copied from de-de
@@ -288,8 +288,8 @@ $text['option-usring']['sv-se'] = "us-ring";
 $text['option-usring']['uk-ua'] = "us-ring";
 
 //$text['option-ukring']['en-us'] = "uk-ring";
-$text['option-ukring']['en-us'] = "英国-呼叫";
-$text['option-ukring']['zh-cn'] = "英国-呼叫";
+$text['option-ukring']['en-us'] = "uk-铃声";
+$text['option-ukring']['zh-cn'] = "uk-铃声";
 $text['option-ukring']['ar-eg'] = "";
 $text['option-ukring']['de-at'] = "uk-ring"; //copied from de-de
 $text['option-ukring']['de-ch'] = "uk-ring"; //copied from de-de
@@ -420,8 +420,8 @@ $text['option-sequentially_by_agent_order']['sv-se'] = "Sekventiellt genom Agent
 $text['option-sequentially_by_agent_order']['uk-ua'] = "";
 
 //$text['option-rsring']['en-us'] = "rs-ring";
-$text['option-rsring']['en-us'] = "rs-呼叫";
-$text['option-rsring']['zh-cn'] = "rs-呼叫";
+$text['option-rsring']['en-us'] = "rs-铃声";
+$text['option-rsring']['zh-cn'] = "rs-铃声";
 $text['option-rsring']['ar-eg'] = "";
 $text['option-rsring']['de-at'] = "rs-ring"; //copied from de-de
 $text['option-rsring']['de-ch'] = "rs-ring"; //copied from de-de
@@ -662,8 +662,8 @@ $text['option-itring']['sv-se'] = "it-ring";
 $text['option-itring']['uk-ua'] = "it-ring";
 
 //$text['option-frring']['en-us'] = "fr-ring";
-$text['option-frring']['en-us'] = "fr-呼叫";
-$text['option-frring']['zh-cn'] = "fr-呼叫";
+$text['option-frring']['en-us'] = "fr-铃声";
+$text['option-frring']['zh-cn'] = "fr-铃声";
 $text['option-frring']['ar-eg'] = "";
 $text['option-frring']['de-at'] = "fr-ring"; //copied from de-de
 $text['option-frring']['de-ch'] = "fr-ring"; //copied from de-de
@@ -684,8 +684,8 @@ $text['option-frring']['sv-se'] = "fr-ring";
 $text['option-frring']['uk-ua'] = "fr-ring";
 
 //$text['option-dering']['en-us'] = "de-ring";
-$text['option-dering']['en-us'] = "de-呼叫";
-$text['option-dering']['zh-cn'] = "de-呼叫";
+$text['option-dering']['en-us'] = "de-铃声";
+$text['option-dering']['zh-cn'] = "de-铃声";
 $text['option-dering']['ar-eg'] = "";
 $text['option-dering']['de-at'] = "de-ring"; //copied from de-de
 $text['option-dering']['de-ch'] = "de-ring"; //copied from de-de

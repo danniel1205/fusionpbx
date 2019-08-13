@@ -112,8 +112,8 @@ $text['label-ring-timeout']['sv-se'] = "Tidsgräns";
 $text['label-ring-timeout']['uk-ua'] = "Таймаут";
 
 //$text['label-ring-order']['en-us'] = "Ring Order";
-$text['label-ring-order']['en-us'] = "呼叫顺序";
-$text['label-ring-order']['zh-cn'] = "呼叫顺序";
+$text['label-ring-order']['en-us'] = "铃声顺序";
+$text['label-ring-order']['zh-cn'] = "铃声顺序";
 $text['label-ring-order']['ar-eg'] = "";
 $text['label-ring-order']['de-at'] = "Ruf Reihenfolge"; //copied from de-de
 $text['label-ring-order']['de-ch'] = "Ruf Reihenfolge"; //copied from de-de
