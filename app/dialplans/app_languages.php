@@ -420,8 +420,8 @@ $text['option-username']['sv-se'] = "Användarnamn";
 $text['option-username']['uk-ua'] = "Користувач";
 
 //$text['option-true']['en-us'] = "True";
-$text['option-true']['en-us'] = "真";
-$text['option-true']['zh-cn'] = "真";
+$text['option-true']['en-us'] = "正确";
+$text['option-true']['zh-cn'] = "正确";
 $text['option-true']['ar-eg'] = "";
 $text['option-true']['de-at'] = "Ein"; //copied from de-de
 $text['option-true']['de-ch'] = "Ein"; //copied from de-de
@@ -706,8 +706,8 @@ $text['option-hour']['sv-se'] = "Timma";
 $text['option-hour']['uk-ua'] = "Година";
 
 //$text['option-false']['en-us'] = "False";
-$text['option-false']['en-us'] = "假";
-$text['option-false']['zh-cn'] = "假";
+$text['option-false']['en-us'] = "错误";
+$text['option-false']['zh-cn'] = "错误";
 $text['option-false']['ar-eg'] = "";
 $text['option-false']['de-at'] = "Aus"; //copied from de-de
 $text['option-false']['de-ch'] = "Aus"; //copied from de-de
@@ -1124,8 +1124,8 @@ $text['label-tag']['sv-se'] = "Tag";
 $text['label-tag']['uk-ua'] = "Тег";
 
 //$text['label-number']['en-us'] = "Number";
-$text['label-number']['en-us'] = "数";
-$text['label-number']['zh-cn'] = "数";
+$text['label-number']['en-us'] = "号码";
+$text['label-number']['zh-cn'] = "号码";
 $text['label-number']['ar-eg'] = "";
 $text['label-number']['de-at'] = "Nummer"; //copied from de-de
 $text['label-number']['de-ch'] = "Nummer"; //copied from de-de

@@ -46,8 +46,8 @@ $text['table-size']['sv-se'] = "Storlek";
 $text['table-size']['uk-ua'] = "Розмір";
 
 //$text['table-number']['en-us'] = "#";
-$text['table-number']['en-us'] = "γ";
-$text['table-number']['zh-cn'] = "γ";
+$text['table-number']['en-us'] = "#";
+$text['table-number']['zh-cn'] = "#";
 $text['table-number']['ar-eg'] = "";
 $text['table-number']['de-at'] = "#"; //copied from de-de
 $text['table-number']['de-ch'] = "#"; //copied from de-de

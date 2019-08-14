@@ -2,8 +2,8 @@
 
 //Number Translations
 // $text['title-number_translations']['en-us'] = 'Number Translations';
-$text['title-number_translations']['en-us'] = '数字转换';
-$text['title-number_translations']['zh-cn'] = '数字转换';
+$text['title-number_translations']['en-us'] = '号码转换';
+$text['title-number_translations']['zh-cn'] = '号码转换';
 $text['title-number_translations']['ar-eg'] = '';
 $text['title-number_translations']['de-at'] = '';
 $text['title-number_translations']['de-ch'] = '';
@@ -24,8 +24,8 @@ $text['title-number_translations']['sv-se'] = '';
 $text['title-number_translations']['uk-ua'] = '';
 
 $text['title-number_translation']['en-us'] = 'Number Translation';
-$text['title-number_translation']['en-us'] = '数字转换';
-$text['title-number_translation']['zh-cn'] = '数字转换';
+$text['title-number_translation']['en-us'] = '号码转换';
+$text['title-number_translation']['zh-cn'] = '号码转换';
 $text['title-number_translation']['ar-eg'] = '';
 $text['title-number_translation']['de-at'] = '';
 $text['title-number_translation']['de-ch'] = '';
@@ -46,8 +46,8 @@ $text['title-number_translation']['sv-se'] = '';
 $text['title-number_translation']['uk-ua'] = '';
 
 // $text['title_description-number_translation']['en-us'] = 'Use this to translate numbers from the original number to a new number using regular expressions.';
-$text['title_description-number_translation']['en-us'] = '使用此函数可以使用正则表达式将数字从原始数字转换为新数字。';
-$text['title_description-number_translation']['zh-cn'] = '使用此函数可以使用正则表达式将数字从原始数字转换为新数字。';
+$text['title_description-number_translation']['en-us'] = '使用此函数可以使用正则表达式将号码从原始号码转换为新号码。';
+$text['title_description-number_translation']['zh-cn'] = '使用此函数可以使用正则表达式将号码从原始号码转换为新号码。';
 $text['title_description-number_translation']['ar-eg'] = '';
 $text['title_description-number_translation']['de-at'] = '';
 $text['title_description-number_translation']['de-ch'] = '';
@@ -90,8 +90,8 @@ $text['label-number_translation_detail_regex']['sv-se'] = "Vanligt uttryck";
 $text['label-number_translation_detail_regex']['uk-ua'] = "Регулярний вираз";
 
 // $text['description-number_translation_detail_regex']['en-us'] = 'Enter the regular expression that identifies the number to replace.';
-$text['description-number_translation_detail_regex']['en-us'] = '输入标识要替换的数字的正则表达式。';
-$text['description-number_translation_detail_regex']['zh-cn'] = '输入标识要替换的数字的正则表达式。';
+$text['description-number_translation_detail_regex']['en-us'] = '输入标识要替换的号码的正则表达式。';
+$text['description-number_translation_detail_regex']['zh-cn'] = '输入标识要替换的号码的正则表达式。';
 $text['description-number_translation_detail_regex']['ar-eg'] = '';
 $text['description-number_translation_detail_regex']['de-at'] = '';
 $text['description-number_translation_detail_regex']['de-ch'] = '';
@@ -134,8 +134,8 @@ $text['label-number_translation_detail_replace']['sv-se'] = "Byta ut";
 $text['label-number_translation_detail_replace']['uk-ua'] = "заміщати";
 
 // $text['description-number_translation_detail_replace']['en-us'] = 'Enter the number translation detail replace.';
-$text['description-number_translation_detail_replace']['en-us'] = '输入数字转换详细信息替换.';
-$text['description-number_translation_detail_replace']['zh-cn'] = '输入数字转换详细信息替换.';
+$text['description-number_translation_detail_replace']['en-us'] = '输入号码转换详细信息替换.';
+$text['description-number_translation_detail_replace']['zh-cn'] = '输入号码转换详细信息替换.';
 $text['description-number_translation_detail_replace']['ar-eg'] = '';
 $text['description-number_translation_detail_replace']['de-at'] = '';
 $text['description-number_translation_detail_replace']['de-ch'] = '';
@@ -222,8 +222,8 @@ $text['label-number_translation_name']['sv-se'] = '';
 $text['label-number_translation_name']['uk-ua'] = '';
 
 // $text['description-number_translation_name']['en-us'] = 'Enter the number translation name.';
-$text['description-number_translation_name']['en-us'] = '输入数字转换名称.';
-$text['description-number_translation_name']['zh-cn'] = '输入数字转换名称.';
+$text['description-number_translation_name']['en-us'] = '输入号码转换名称.';
+$text['description-number_translation_name']['zh-cn'] = '输入号码转换名称.';
 $text['description-number_translation_name']['ar-eg'] = '';
 $text['description-number_translation_name']['de-at'] = '';
 $text['description-number_translation_name']['de-ch'] = '';
@@ -308,8 +308,8 @@ $text['label-number_translation_enabled']['sv-se'] = '';
 $text['label-number_translation_enabled']['uk-ua'] = '';
 
 // $text['description-number_translation_enabled']['en-us'] = 'Enter the number translation enabled.';
-$text['description-number_translation_enabled']['en-us'] = '输入已启用的数字转换.';
-$text['description-number_translation_enabled']['zh-cn'] = '输入已启用的数字转换.';
+$text['description-number_translation_enabled']['en-us'] = '输入已启用的号码转换.';
+$text['description-number_translation_enabled']['zh-cn'] = '输入已启用的号码转换.';
 $text['description-number_translation_enabled']['ar-eg'] = '';
 $text['description-number_translation_enabled']['de-at'] = '';
 $text['description-number_translation_enabled']['de-ch'] = '';
@@ -352,8 +352,8 @@ $text['label-number_translation_description']['sv-se'] = '';
 $text['label-number_translation_description']['uk-ua'] = '';
 
 // $text['description-number_translation_description']['en-us'] = 'Enter the number translation description.';
-$text['description-number_translation_description']['en-us'] = '输入数字转换说明.';
-$text['description-number_translation_description']['zh-cn'] = '输入数字转换说明.';
+$text['description-number_translation_description']['en-us'] = '输入号码转换说明.';
+$text['description-number_translation_description']['zh-cn'] = '输入号码转换说明.';
 $text['description-number_translation_description']['ar-eg'] = '';
 $text['description-number_translation_description']['de-at'] = '';
 $text['description-number_translation_description']['de-ch'] = '';

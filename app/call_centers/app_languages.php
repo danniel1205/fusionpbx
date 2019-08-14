@@ -310,8 +310,8 @@ $text['option-ukring']['sv-se'] = "uk-ring";
 $text['option-ukring']['uk-ua'] = "uk-ring";
 
 //$text['option-true']['en-us'] = "True";
-$text['option-true']['en-us'] = "真";
-$text['option-true']['zh-cn'] = "真";
+$text['option-true']['en-us'] = "正确";
+$text['option-true']['zh-cn'] = "正确";
 $text['option-true']['ar-eg'] = "";
 $text['option-true']['de-at'] = "Ein"; //copied from de-de
 $text['option-true']['de-ch'] = "Ein"; //copied from de-de
@@ -706,8 +706,8 @@ $text['option-dering']['sv-se'] = "de-ring";
 $text['option-dering']['uk-ua'] = "de-ring";
 
 //$text['option-false']['en-us'] = "False";
-$text['option-false']['en-us'] = "假";
-$text['option-false']['zh-cn'] = "假";
+$text['option-false']['en-us'] = "错误";
+$text['option-false']['zh-cn'] = "错误";
 $text['option-false']['ar-eg'] = "";
 $text['option-false']['de-at'] = "Aus"; //copied from de-de
 $text['option-false']['de-ch'] = "Aus"; //copied from de-de
@@ -2576,8 +2576,8 @@ $text['description-caller_announce_sound']['sv-se'] = "Ett ljud som spelas upp e
 $text['description-caller_announce_sound']['uk-ua'] = "";
 
 //$text['description-caller_announce_frequency']['en-us'] = "How often should we play the announce sound. Enter a number in seconds";
-$text['description-caller_announce_frequency']['en-us'] = "应按河频率显示警告音。请输入一个数字。";
-$text['description-caller_announce_frequency']['zh-cn'] = "应按河频率显示警告音。请输入一个数字。";
+$text['description-caller_announce_frequency']['en-us'] = "应按何频率显示警告音。请输入一个数字。";
+$text['description-caller_announce_frequency']['zh-cn'] = "应按何频率显示警告音。请输入一个数字。";
 $text['description-caller_announce_frequency']['ar-eg'] = "";
 $text['description-caller_announce_frequency']['de-at'] = "Wie häufig soll der Anmeldeton abgespielt werden. Geben Sie eine Zahl in Sekunden an."; //copied from de-de
 $text['description-caller_announce_frequency']['de-ch'] = "Wie häufig soll der Anmeldeton abgespielt werden. Geben Sie eine Zahl in Sekunden an."; //copied from de-de

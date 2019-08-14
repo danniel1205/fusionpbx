@@ -112,8 +112,8 @@ $text['label-log-viewer']['sv-se'] = "Log Viewer";
 $text['label-log-viewer']['uk-ua'] = "Логи";
 
 //$text['label-line-num']['en-us'] = "Show Line Numbers";
-$text['label-line-num']['en-us'] = "显示行号";
-$text['label-line-num']['zh-cn'] = "显示行号";
+$text['label-line-num']['en-us'] = "显示线路号";
+$text['label-line-num']['zh-cn'] = "显示线路号";
 $text['label-line-num']['ar-eg'] = "";
 $text['label-line-num']['de-at'] = "Zeilennummern anzeigen"; //copied from de-de
 $text['label-line-num']['de-ch'] = "Zeilennummern anzeigen"; //copied from de-de

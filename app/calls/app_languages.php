@@ -904,8 +904,8 @@ $text['confirm-update']['sv-se'] = "Uppdatering Klar";
 $text['confirm-update']['uk-ua'] = "Оновлено";
 
 //$text['check-true']['en-us'] = "True";
-$text['check-true']['en-us'] = "真";
-$text['check-true']['zh-cn'] = "真";
+$text['check-true']['en-us'] = "正确";
+$text['check-true']['zh-cn'] = "正确";
 $text['check-true']['ar-eg'] = "";
 $text['check-true']['de-at'] = "An"; //copied from de-de
 $text['check-true']['de-ch'] = "An"; //copied from de-de
@@ -970,8 +970,8 @@ $text['check-sequence']['sv-se'] = "sekvens";
 $text['check-sequence']['uk-ua'] = "послідовно";
 
 //$text['check-false']['en-us'] = "False";
-$text['check-false']['en-us'] = "假";
-$text['check-false']['zh-cn'] = "假";
+$text['check-false']['en-us'] = "错误";
+$text['check-false']['zh-cn'] = "错误";
 $text['check-false']['ar-eg'] = "";
 $text['check-false']['de-at'] = "Aus"; //copied from de-de
 $text['check-false']['de-ch'] = "Aus"; //copied from de-de

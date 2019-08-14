@@ -200,8 +200,8 @@ $text['table-end']['sv-se'] = "Slut";
 $text['table-end']['uk-ua'] = "Кінець";
 
 //$text['table-download']['en-us'] = "Number";
-$text['table-download']['en-us'] = "数";
-$text['table-download']['zh-cn'] = "数";
+$text['table-download']['en-us'] = "号码";
+$text['table-download']['zh-cn'] = "号码";
 $text['table-download']['ar-eg'] = "";
 $text['table-download']['de-at'] = "Nummer"; //copied from de-de
 $text['table-download']['de-ch'] = "Nummer"; //copied from de-de
@@ -1168,8 +1168,8 @@ $text['label-number_alias']['sv-se'] = "Nummer Alias";
 $text['label-number_alias']['uk-ua'] = "Псевдонім номера";
 
 //$text['label-number']['en-us'] = "Number";
-$text['label-number']['en-us'] = "数";
-$text['label-number']['zh-cn'] = "数";
+$text['label-number']['en-us'] = "号码";
+$text['label-number']['zh-cn'] = "号码";
 $text['label-number']['ar-eg'] = "";
 $text['label-number']['de-at'] = "Nummer"; //copied from de-de
 $text['label-number']['de-ch'] = "Nummer"; //copied from de-de

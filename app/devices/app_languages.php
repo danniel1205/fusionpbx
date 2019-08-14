@@ -706,8 +706,8 @@ $text['label-sip_port']['sv-se'] = "Port";
 $text['label-sip_port']['uk-ua'] = "Порт";
 
 //$text['label-shared_line']['en-us'] = "Shared Line";
-$text['label-shared_line']['en-us'] = "共享行";
-$text['label-shared_line']['zh-cn'] = "共享行";
+$text['label-shared_line']['en-us'] = "共享线路";
+$text['label-shared_line']['zh-cn'] = "共享线路";
 $text['label-shared_line']['ar-eg'] = "";
 $text['label-shared_line']['de-at'] = "Gemeinsame Leitung"; //copied from de-de
 $text['label-shared_line']['de-ch'] = "Gemeinsame Leitung"; //copied from de-de
@@ -1498,8 +1498,8 @@ $text['label-local_group']['sv-se'] = "Lokal Grupp";
 $text['label-local_group']['uk-ua'] = "";
 
 //$text['label-lines']['en-us'] = "Lines";
-$text['label-lines']['en-us'] = "线";
-$text['label-lines']['zh-cn'] = "线";
+$text['label-lines']['en-us'] = "线路";
+$text['label-lines']['zh-cn'] = "线路";
 $text['label-lines']['ar-eg'] = "";
 $text['label-lines']['de-at'] = "Leitungen"; //copied from de-de
 $text['label-lines']['de-ch'] = "Leitungen"; //copied from de-de
@@ -1520,8 +1520,8 @@ $text['label-lines']['sv-se'] = "Linjer";
 $text['label-lines']['uk-ua'] = "Лінії";
 
 //$text['label-line_number']['en-us'] = "Line Number";
-$text['label-line_number']['en-us'] = "行号";
-$text['label-line_number']['zh-cn'] = "行号";
+$text['label-line_number']['en-us'] = "线路号";
+$text['label-line_number']['zh-cn'] = "线路号";
 $text['label-line_number']['ar-eg'] = "";
 $text['label-line_number']['de-at'] = "Leitungs Nummer"; //copied from de-de
 $text['label-line_number']['de-ch'] = "Leitungs Nummer"; //copied from de-de
@@ -1542,8 +1542,8 @@ $text['label-line_number']['sv-se'] = "Linje Nummer";
 $text['label-line_number']['uk-ua'] = "Номер лінії";
 
 //$text['label-line']['en-us'] = "Line";
-$text['label-line']['en-us'] = "线";
-$text['label-line']['zh-cn'] = "线";
+$text['label-line']['en-us'] = "线路";
+$text['label-line']['zh-cn'] = "线路";
 $text['label-line']['ar-eg'] = "";
 $text['label-line']['de-at'] = "Leitung"; //copied from de-de
 $text['label-line']['de-ch'] = "Leitung"; //copied from de-de
@@ -2818,8 +2818,8 @@ $text['label-device_key_type']['sv-se'] = "Typ";
 $text['label-device_key_type']['uk-ua'] = "";
 
 //$text['label-device_key_line']['en-us'] = "Line";
-$text['label-device_key_line']['en-us'] = "线";
-$text['label-device_key_line']['zh-cn'] = "线";
+$text['label-device_key_line']['en-us'] = "线路";
+$text['label-device_key_line']['zh-cn'] = "线路";
 $text['label-device_key_line']['ar-eg'] = "";
 $text['label-device_key_line']['de-at'] = "Leitung"; //copied from de-de
 $text['label-device_key_line']['de-ch'] = "Leitung"; //copied from de-de
@@ -4796,8 +4796,8 @@ $text['description-outbound_proxy']['sv-se'] = "Fyll i utgående proxy.";
 $text['description-outbound_proxy']['uk-ua'] = "";
 
 //$text['description-line_number']['en-us'] = "Select a line number.";
-$text['description-line_number']['en-us'] = "选择行号。";
-$text['description-line_number']['zh-cn'] = "选择行号。";
+$text['description-line_number']['en-us'] = "选择线路号。";
+$text['description-line_number']['zh-cn'] = "选择线路号。";
 $text['description-line_number']['ar-eg'] = "";
 $text['description-line_number']['de-at'] = "Wählen Sie eine Leitungennummer."; //copied from de-de
 $text['description-line_number']['de-ch'] = "Wählen Sie eine Leitungennummer."; //copied from de-de
@@ -4818,8 +4818,8 @@ $text['description-line_number']['sv-se'] = "Välj ett linje nummer.";
 $text['description-line_number']['uk-ua'] = "";
 
 //$text['description-extension']['en-us'] = "Assign the extension and line numbers to the device.";
-$text['description-extension']['en-us'] = "为设备分配分机号和行号。";
-$text['description-extension']['zh-cn'] = "为设备分配分机号和行号。";
+$text['description-extension']['en-us'] = "为设备分配扩展号和线路号。";
+$text['description-extension']['zh-cn'] = "为设备分配扩展号和线路号。";
 $text['description-extension']['ar-eg'] = "";
 $text['description-extension']['de-at'] = "Weisen Sie die Nebenstellen und Leitungen einem Gerät zu."; //copied from de-de
 $text['description-extension']['de-ch'] = "Weisen Sie die Nebenstellen und Leitungen einem Gerät zu."; //copied from de-de
@@ -5082,8 +5082,8 @@ $text['description-device_key_type']['sv-se'] = "Väl typ av knapp.";
 $text['description-device_key_type']['uk-ua'] = "";
 
 //$text['description-device_key_line']['en-us'] = "Select the line number.";
-$text['description-device_key_line']['en-us'] = "选择行号。";
-$text['description-device_key_line']['zh-cn'] = "选择行号。";
+$text['description-device_key_line']['en-us'] = "选择线路号。";
+$text['description-device_key_line']['zh-cn'] = "选择线路号。";
 $text['description-device_key_line']['ar-eg'] = "";
 $text['description-device_key_line']['de-at'] = "Wählen Sie die Leitungennummer."; //copied from de-de
 $text['description-device_key_line']['de-ch'] = "Wählen Sie die Leitungennummer."; //copied from de-de
