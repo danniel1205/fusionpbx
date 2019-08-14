@@ -68,8 +68,8 @@ $text['option-false']['sv-se'] = "Falsk";
 $text['option-false']['uk-ua'] = "Ні";
 
 //$text['label-view-calls']['en-us'] = "View Calls";
-$text['label-view-calls']['en-us'] = "可视调用";
-$text['label-view-calls']['zh-cn'] = "可视调用";
+$text['label-view-calls']['en-us'] = "查看呼叫";
+$text['label-view-calls']['zh-cn'] = "查看呼叫";
 $text['label-view-calls']['ar-eg'] = "";
 $text['label-view-calls']['de-at'] = "Anrufe ansehen"; //copied from de-de
 $text['label-view-calls']['de-ch'] = "Anrufe ansehen"; //copied from de-de

@@ -728,8 +728,8 @@ $text['label-download']['sv-se'] = "Ladda Ned";
 $text['label-download']['uk-ua'] = "Скачати";
 
 //$text['label-domain']['en-us'] = "Domain";
-$text['label-domain']['en-us'] = "领域";
-$text['label-domain']['zh-cn'] = "领域";
+$text['label-domain']['en-us'] = "域";
+$text['label-domain']['zh-cn'] = "域";
 $text['label-domain']['ar-eg'] = "النطاق";
 $text['label-domain']['de-at'] = "Domäne"; //copied from de-de
 $text['label-domain']['de-ch'] = "Domäne"; //copied from de-de

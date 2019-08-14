@@ -838,8 +838,8 @@ $text['description-timeout']['sv-se'] = "Antal millisekunder att vänta efter h�
 $text['description-timeout']['uk-ua'] = "";
 
 //$text['description-ring_back']['en-us'] = "Defines what the caller will hear while the destination is being called.";
-$text['description-ring_back']['en-us'] = "定义调用目标时调用方将听到的内容。";
-$text['description-ring_back']['zh-cn'] = "定义调用目标时调用方将听到的内容。";
+$text['description-ring_back']['en-us'] = "定义呼叫目标时呼叫方将听到的内容。";
+$text['description-ring_back']['zh-cn'] = "定义呼叫目标时呼叫方将听到的内容。";
 $text['description-ring_back']['ar-eg'] = "";
 $text['description-ring_back']['de-at'] = "Definiert was der Anrufer hört wenn das Ziel angerufen wird."; //copied from de-de
 $text['description-ring_back']['de-ch'] = "Definiert was der Anrufer hört wenn das Ziel angerufen wird."; //copied from de-de
@@ -882,8 +882,8 @@ $text['description-order']['sv-se'] = "Välj ordning.";
 $text['description-order']['uk-ua'] = "";
 
 //$text['description-options']['en-us'] = "Define caller options for the IVR menu.";
-$text['description-options']['en-us'] = "为IVR菜单定义调用方选项。";
-$text['description-options']['zh-cn'] = "为IVR菜单定义调用方选项。";
+$text['description-options']['en-us'] = "为IVR菜单定义呼叫方选项。";
+$text['description-options']['zh-cn'] = "为IVR菜单定义呼叫方选项。";
 $text['description-options']['ar-eg'] = "";
 $text['description-options']['de-at'] = "Geben Sie Anrufer Optionen für die Automatische Vermittlung an."; //copied from de-de
 $text['description-options']['de-ch'] = "Geben Sie Anrufer Optionen für die Automatische Vermittlung an."; //copied from de-de
@@ -1036,8 +1036,8 @@ $text['description-max_failures']['sv-se'] = "Max antal försök innan slut.";
 $text['description-max_failures']['uk-ua'] = "";
 
 //$text['description-ivr_menus']['en-us'] = "The IVR Menu plays a recording or a pre-defined phrase that presents the caller with options to choose from. Each option has a corresponding destination. The destinations can be extensions, voicemail, other IVR menus, call groups, FAX extensions, and more.";
-$text['description-ivr_menus']['en-us'] = "IVR菜单播放一段录音或一个预先定义的短语，向调用者显示可供选择的选项。每个选项都有一个对应的目的地。目的地可以是分机、语音信箱、其他IVR菜单、通话组、传真分机等。";
-$text['description-ivr_menus']['zh-cn'] = "IVR菜单播放一段录音或一个预先定义的短语，向调用者显示可供选择的选项。每个选项都有一个对应的目的地。目的地可以是分机、语音信箱、其他IVR菜单、通话组、传真分机等。";
+$text['description-ivr_menus']['en-us'] = "IVR菜单播放一段录音或一个预先定义的短语，向呼叫者显示可供选择的选项。每个选项都有一个对应的目的地。目的地可以是分机、语音信箱、其他IVR菜单、通话组、传真分机等。";
+$text['description-ivr_menus']['zh-cn'] = "IVR菜单播放一段录音或一个预先定义的短语，向呼叫者显示可供选择的选项。每个选项都有一个对应的目的地。目的地可以是分机、语音信箱、其他IVR菜单、通话组、传真分机等。";
 $text['description-ivr_menus']['ar-eg'] = "";
 $text['description-ivr_menus']['de-at'] = "Die Automatische Vermittlung spielt eine Aufnahme oder eine vordefinierte Phrase ab von welcher der Anrufe seine Optionen wählt. Jede Option hat ein entsprechendes Ziel. Das Ziel kann eine Nebenstelle, eine Mailbox eine andere Automatische Vermittlung, Rufgruppen, Fax Server und weitere Funktionen sein."; //copied from de-de
 $text['description-ivr_menus']['de-ch'] = "Die Automatische Vermittlung spielt eine Aufnahme oder eine vordefinierte Phrase ab von welcher der Anrufe seine Optionen wählt. Jede Option hat ein entsprechendes Ziel. Das Ziel kann eine Nebenstelle, eine Mailbox eine andere Automatische Vermittlung, Rufgruppen, Fax Server und weitere Funktionen sein."; //copied from de-de
@@ -1058,8 +1058,8 @@ $text['description-ivr_menus']['sv-se'] = "IVR Menyn spelar upp en inspelning el
 $text['description-ivr_menus']['uk-ua'] = "";
 
 //$text['description-ivr_menu']['en-us'] = "The IVR Menu plays a recording or a pre-defined phrase that presents the caller with options to choose from. Each option has a corresponding destination. The destinations can be extensions, voicemail, other IVR menus, call groups, FAX extensions, and more.";
-$text['description-ivr_menu']['en-us'] = "IVR菜单播放一段录音或一个预先定义的短语，向调用者显示可供选择的选项。每个选项都有一个对应的目的地。目的地可以是分机、语音信箱、其他IVR菜单、通话组、传真分机等。";
-$text['description-ivr_menu']['zh-cn'] = "IVR菜单播放一段录音或一个预先定义的短语，向调用者显示可供选择的选项。每个选项都有一个对应的目的地。目的地可以是分机、语音信箱、其他IVR菜单、通话组、传真分机等。";
+$text['description-ivr_menu']['en-us'] = "IVR菜单播放一段录音或一个预先定义的短语，向呼叫者显示可供选择的选项。每个选项都有一个对应的目的地。目的地可以是分机、语音信箱、其他IVR菜单、通话组、传真分机等。";
+$text['description-ivr_menu']['zh-cn'] = "IVR菜单播放一段录音或一个预先定义的短语，向呼叫者显示可供选择的选项。每个选项都有一个对应的目的地。目的地可以是分机、语音信箱、其他IVR菜单、通话组、传真分机等。";
 $text['description-ivr_menu']['ar-eg'] = "";
 $text['description-ivr_menu']['de-at'] = "Die Automatische Vermittlung spielt eine Aufnahme oder eine vordefinierte Phrase ab von welcher der Anrufe seine Optionen wählt. Jede Option hat ein entsprechendes Ziel. Das Ziel kann eine Nebenstelle, eine Mailbox eine andere Automatische Vermittlung, Rufgruppen, Fax Server und weitere Funktionen sein."; //copied from de-de
 $text['description-ivr_menu']['de-ch'] = "Die Automatische Vermittlung spielt eine Aufnahme oder eine vordefinierte Phrase ab von welcher der Anrufe seine Optionen wählt. Jede Option hat ein entsprechendes Ziel. Das Ziel kann eine Nebenstelle, eine Mailbox eine andere Automatische Vermittlung, Rufgruppen, Fax Server und weitere Funktionen sein."; //copied from de-de

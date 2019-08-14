@@ -1276,8 +1276,8 @@ $text['label-expression']['sv-se'] = "Uttryck";
 $text['label-expression']['uk-ua'] = "Вираз";
 
 //$text['label-domain']['en-us'] = "Domain";
-$text['label-domain']['en-us'] = "领域";
-$text['label-domain']['zh-cn'] = "领域";
+$text['label-domain']['en-us'] = "域";
+$text['label-domain']['zh-cn'] = "域";
 $text['label-domain']['ar-eg'] = "";
 $text['label-domain']['de-at'] = "Domäne"; //copied from de-de
 $text['label-domain']['de-ch'] = "Domäne"; //copied from de-de
@@ -1760,8 +1760,8 @@ $text['header-conditions_and_actions']['sv-se'] = "Tillstånd och Aktioner";
 $text['header-conditions_and_actions']['uk-ua'] = "Умови та дії";
 
 //$text['description-time_conditions']['en-us'] = "Time conditions route calls based on time conditions. You can use time conditions to send calls to an IVR Menu, External numbers, Scripts, or other destinations.";
-$text['description-time_conditions']['en-us'] = "时间条件根据时间条件路由调用。您可以使用时间条件将呼叫发送到IVR菜单、外部号码、脚本或其他目的地。";
-$text['description-time_conditions']['zh-cn'] = "时间条件根据时间条件路由调用。您可以使用时间条件将呼叫发送到IVR菜单、外部号码、脚本或其他目的地。";
+$text['description-time_conditions']['en-us'] = "时间条件根据时间条件路由呼叫。您可以使用时间条件将呼叫发送到IVR菜单、外部号码、脚本或其他目的地。";
+$text['description-time_conditions']['zh-cn'] = "时间条件根据时间条件路由呼叫。您可以使用时间条件将呼叫发送到IVR菜单、外部号码、脚本或其他目的地。";
 $text['description-time_conditions']['ar-eg'] = "";
 $text['description-time_conditions']['de-at'] = "Zeitliche Bedingungen routen Anrufe anhand zeitliche Vorgaben. Sie können zeitliche Bedingungen nutzen um IVR Menüs, Skripte und andere Ziele zu erreichen."; //copied from de-de
 $text['description-time_conditions']['de-ch'] = "Zeitliche Bedingungen routen Anrufe anhand zeitliche Vorgaben. Sie können zeitliche Bedingungen nutzen um IVR Menüs, Skripte und andere Ziele zu erreichen."; //copied from de-de

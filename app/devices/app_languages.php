@@ -1012,8 +1012,8 @@ $text['label-device_profile_enabled']['sv-se'] = "Aktiverad";
 $text['label-device_profile_enabled']['uk-ua'] = "Включено";
 
 //$text['label-profile_domain']['en-us'] = "Domain";
-$text['label-profile_domain']['en-us'] = "领域";
-$text['label-profile_domain']['zh-cn'] = "领域";
+$text['label-profile_domain']['en-us'] = "域";
+$text['label-profile_domain']['zh-cn'] = "域";
 $text['label-profile_domain']['ar-eg'] = "النطاق";
 $text['label-profile_domain']['de-at'] = "Domäne"; //copied from de-de
 $text['label-profile_domain']['de-ch'] = "Domäne"; //copied from de-de
@@ -2398,8 +2398,8 @@ $text['label-domain-name']['sv-se'] = "Domän Namn";
 $text['label-domain-name']['uk-ua'] = "";
 
 //$text['label-domain']['en-us'] = "Domain";
-$text['label-domain']['en-us'] = "领域";
-$text['label-domain']['zh-cn'] = "领域";
+$text['label-domain']['en-us'] = "域";
+$text['label-domain']['zh-cn'] = "域";
 $text['label-domain']['ar-eg'] = "النطاق";
 $text['label-domain']['de-at'] = "Domäne"; //copied from de-de
 $text['label-domain']['de-ch'] = "Domäne"; //copied from de-de
@@ -4282,8 +4282,8 @@ $text['label-busy_lamp_field']['sv-se'] = "";
 $text['label-busy_lamp_field']['uk-ua'] = "";
 
 //$text['label-call_appearance']['en-us'] = "Call Appearance";
-$text['label-call_appearance']['en-us'] = "调用外观";
-$text['label-call_appearance']['zh-cn'] = "调用外观";
+$text['label-call_appearance']['en-us'] = "呼叫外观";
+$text['label-call_appearance']['zh-cn'] = "呼叫外观";
 $text['label-call_appearance']['ar-eg'] = "";
 $text['label-call_appearance']['de-at'] = "";
 $text['label-call_appearance']['de-ch'] = "";

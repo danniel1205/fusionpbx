@@ -618,8 +618,8 @@ $text['label-hostname']['sv-se'] = "Hostname";
 $text['label-hostname']['uk-ua'] = "Назва хоста";
 
 //$text['label-domain']['en-us'] = "Domain";
-$text['label-domain']['en-us'] = "领域";
-$text['label-domain']['zh-cn'] = "领域";
+$text['label-domain']['en-us'] = "域";
+$text['label-domain']['zh-cn'] = "域";
 $text['label-domain']['ar-eg'] = "النطاق";
 $text['label-domain']['de-at'] = "Domain"; //copied from de-de
 $text['label-domain']['de-ch'] = "Domain"; //copied from de-de
@@ -1014,8 +1014,8 @@ $text['description-register']['sv-se'] = "Välj om du vill registrera.";
 $text['description-register']['uk-ua'] = "Choose whether to register.";
 
 //$text['description-realm']['en-us'] = "Enter the realm here.";
-$text['description-realm']['en-us'] = "在此处输入领域。";
-$text['description-realm']['zh-cn'] = "在此处输入领域。";
+$text['description-realm']['en-us'] = "在此处输入域。";
+$text['description-realm']['zh-cn'] = "在此处输入域。";
 $text['description-realm']['ar-eg'] = "";
 $text['description-realm']['de-at'] = "Geben Sie den Realm hier an."; //copied from de-de
 $text['description-realm']['de-ch'] = "Geben Sie den Realm hier an."; //copied from de-de

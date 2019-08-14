@@ -1234,8 +1234,8 @@ $text['label-effective_caller_id_name']['sv-se'] = "Effektiv Namnpresentation";
 $text['label-effective_caller_id_name']['uk-ua'] = "";
 
 //$text['label-domain']['en-us'] = "Domain";
-$text['label-domain']['en-us'] = "领域";
-$text['label-domain']['zh-cn'] = "领域";
+$text['label-domain']['en-us'] = "域";
+$text['label-domain']['zh-cn'] = "域";
 $text['label-domain']['ar-eg'] = "النطاق";
 $text['label-domain']['de-at'] = "Domäne"; //copied from de-de
 $text['label-domain']['de-ch'] = "Domäne"; //copied from de-de
@@ -2532,8 +2532,8 @@ $text['description-directory_full_name']['sv-se'] = "Ange förnamn följt av eft
 $text['description-directory_full_name']['uk-ua'] = "";
 
 //$text['description-directory_exten_visible']['en-us'] = "Select whether announce the extension when calling the directory.";
-$text['description-directory_exten_visible']['en-us'] = "选择调用目录时是否通知扩展名。";
-$text['description-directory_exten_visible']['zh-cn'] = "选择调用目录时是否通知扩展名。";
+$text['description-directory_exten_visible']['en-us'] = "选择呼叫目录时是否通知扩展名。";
+$text['description-directory_exten_visible']['zh-cn'] = "选择呼叫目录时是否通知扩展名。";
 $text['description-directory_exten_visible']['ar-eg'] = "";
 $text['description-directory_exten_visible']['de-at'] = "Geben Sie an, ob die Nebenstelle beim Aufruf des Verzeichnises angekündigt werden soll."; //copied from de-de
 $text['description-directory_exten_visible']['de-ch'] = "Geben Sie an, ob die Nebenstelle beim Aufruf des Verzeichnises angekündigt werden soll."; //copied from de-de
