@@ -442,8 +442,8 @@ $text['option-voicemail']['sv-se'] = "Röstbrevlåda";
 $text['option-voicemail']['uk-ua'] = "Голосова пошта";
 
 //$text['option-true']['en-us'] = "True";
-$text['option-true']['en-us'] = "真";
-$text['option-true']['zh-cn'] = "真";
+$text['option-true']['en-us'] = "正确";
+$text['option-true']['zh-cn'] = "正确";
 $text['option-true']['ar-eg'] = "";
 $text['option-true']['de-at'] = "Ein"; //copied from de-de
 $text['option-true']['de-ch'] = "Ein"; //copied from de-de
@@ -838,8 +838,8 @@ $text['option-fax']['sv-se'] = "Fax";
 $text['option-fax']['uk-ua'] = "Факс";
 
 //$text['option-false']['en-us'] = "False";
-$text['option-false']['en-us'] = "假";
-$text['option-false']['zh-cn'] = "假";
+$text['option-false']['en-us'] = "错误";
+$text['option-false']['zh-cn'] = "错误";
 $text['option-false']['ar-eg'] = "";
 $text['option-false']['de-at'] = "Aus"; //copied from de-de
 $text['option-false']['de-ch'] = "Aus"; //copied from de-de
@@ -1520,8 +1520,8 @@ $text['label-url_address']['sv-se'] = "Adress";
 $text['label-url_address']['uk-ua'] = "Адреси";
 
 //$text['label-true']['en-us'] = "True";
-$text['label-true']['en-us'] = "真";
-$text['label-true']['zh-cn'] = "真";
+$text['label-true']['en-us'] = "正确";
+$text['label-true']['zh-cn'] = "正确";
 $text['label-true']['ar-eg'] = "";
 $text['label-true']['de-at'] = "Ein"; //copied from de-de
 $text['label-true']['de-ch'] = "Ein"; //copied from de-de
@@ -1828,8 +1828,8 @@ $text['label-phone_speed_dial']['sv-se'] = "Snabb Nummer";
 $text['label-phone_speed_dial']['uk-ua'] = "";
 
 //$text['label-phone_numbers']['en-us'] = "Numbers";
-$text['label-phone_numbers']['en-us'] = "数字";
-$text['label-phone_numbers']['zh-cn'] = "数字";
+$text['label-phone_numbers']['en-us'] = "号码";
+$text['label-phone_numbers']['zh-cn'] = "号码";
 $text['label-phone_numbers']['ar-eg'] = "";
 $text['label-phone_numbers']['de-at'] = "Nummern"; //copied from de-de
 $text['label-phone_numbers']['de-ch'] = "Nummern"; //copied from de-de
@@ -1850,8 +1850,8 @@ $text['label-phone_numbers']['sv-se'] = "Nummer";
 $text['label-phone_numbers']['uk-ua'] = "Номери";
 
 //$text['label-phone_number']['en-us'] = "Number";
-$text['label-phone_number']['en-us'] = "数";
-$text['label-phone_number']['zh-cn'] = "数";
+$text['label-phone_number']['en-us'] = "号码";
+$text['label-phone_number']['zh-cn'] = "号码";
 $text['label-phone_number']['ar-eg'] = "";
 $text['label-phone_number']['de-at'] = "Nummer"; //copied from de-de
 $text['label-phone_number']['de-ch'] = "Nummer"; //copied from de-de
@@ -2268,8 +2268,8 @@ $text['label-fax']['sv-se'] = "Fax";
 $text['label-fax']['uk-ua'] = "Факс";
 
 //$text['label-false']['en-us'] = "False";
-$text['label-false']['en-us'] = "假";
-$text['label-false']['zh-cn'] = "假";
+$text['label-false']['en-us'] = "错误";
+$text['label-false']['zh-cn'] = "错误";
 $text['label-false']['ar-eg'] = "";
 $text['label-false']['de-at'] = "Aus"; //copied from de-de
 $text['label-false']['de-ch'] = "Aus"; //copied from de-de
@@ -2510,8 +2510,8 @@ $text['label-contact_type']['sv-se'] = "Typ";
 $text['label-contact_type']['uk-ua'] = "Тип";
 
 //$text['label-contact_title']['en-us'] = "Title";
-$text['label-contact_title']['en-us'] = "书名";
-$text['label-contact_title']['zh-cn'] = "书名";
+$text['label-contact_title']['en-us'] = "标题";
+$text['label-contact_title']['zh-cn'] = "标题";
 $text['label-contact_title']['ar-eg'] = "";
 $text['label-contact_title']['de-at'] = "Titel"; //copied from de-de
 $text['label-contact_title']['de-ch'] = "Titel"; //copied from de-de

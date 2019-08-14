@@ -200,8 +200,8 @@ $text['description-control_description']['sv-se'] = "Ange beskrivningen.";
 $text['description-control_description']['uk-ua'] = "";
 
 //$text['label-true']['en-us'] = "true";
-$text['label-真']['en-us'] = "真";
-$text['label-真']['zh-cn'] = "真";
+$text['label-真']['en-us'] = "正确";
+$text['label-真']['zh-cn'] = "正确";
 $text['label-true']['ar-eg'] = "";
 $text['label-true']['de-at'] = "ein"; //copied from de-de
 $text['label-true']['de-ch'] = "ein"; //copied from de-de
@@ -222,8 +222,8 @@ $text['label-true']['sv-se'] = "sann";
 $text['label-true']['uk-ua'] = "";
 
 //$text['label-false']['en-us'] = "false";
-$text['label-假']['en-us'] = "假";
-$text['label-假']['zh-cn'] = "假";
+$text['label-假']['en-us'] = "错误";
+$text['label-假']['zh-cn'] = "错误";
 $text['label-false']['ar-eg'] = "";
 $text['label-false']['de-at'] = "aus"; //copied from de-de
 $text['label-false']['de-ch'] = "aus"; //copied from de-de
@@ -552,8 +552,8 @@ $text['title_description-conference_control_detail']['sv-se'] = "";
 $text['title_description-conference_control_detail']['uk-ua'] = "";
 
 //$text['label-control_digits']['en-us'] = "Digits";
-$text['label-control_digits']['en-us'] = "数字";
-$text['label-control_digits']['zh-cn'] = "数字";
+$text['label-control_digits']['en-us'] = "号码";
+$text['label-control_digits']['zh-cn'] = "号码";
 $text['label-control_digits']['ar-eg'] = "";
 $text['label-control_digits']['de-at'] = "Ziffern"; //copied from de-de
 $text['label-control_digits']['de-ch'] = "Ziffern"; //copied from de-de

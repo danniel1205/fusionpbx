@@ -1,7 +1,9 @@
 <?php
 #This file was last reorganized on 19th of September 2017 08:54:24 AM UTC
 
-$text['title-apps']['en-us'] = "App Manager";
+//$text['title-apps']['en-us'] = "App Manager";
+$text['title-apps']['en-us'] = "应用程序管理器";
+$text['title-apps']['zh-cn'] = "应用程序管理器";
 $text['title-apps']['ar-eg'] = "";
 $text['title-apps']['de-at'] = "Applikation Verwaltung"; //copied from de-de
 $text['title-apps']['de-ch'] = "Applikation Verwaltung"; //copied from de-de
@@ -23,7 +25,9 @@ $text['title-apps']['uk-ua'] = "Керування додатками";
 $text['title-apps']['tr-tr'] = "Uygulama Yöneticisi";
 
 
-$text['title-app-edit']['en-us'] = "App Edit";
+//$text['title-app-edit']['en-us'] = "App Edit";
+$text['title-app-edit']['en-us'] = "应用程序编辑";
+$text['title-app-edit']['zh-cn'] = "应用程序编辑";
 $text['title-app-edit']['ar-eg'] = "";
 $text['title-app-edit']['de-at'] = "Applikationen Editieren"; //copied from de-de
 $text['title-app-edit']['de-ch'] = "Applikationen Editieren"; //copied from de-de
@@ -44,7 +48,9 @@ $text['title-app-edit']['sv-se'] = "Ändra App";
 $text['title-app-edit']['uk-ua'] = "Редагувати додаток";
 $text['title-app-edit']['tr-tr'] = "Uygulama Düzenle";
 
-$text['label-version']['en-us'] = "Version";
+//$text['label-version']['en-us'] = "Version";
+$text['label-version']['en-us'] = "版本";
+$text['label-version']['zh-cn'] = "版本";
 $text['label-version']['ar-eg'] = "";
 $text['label-version']['de-at'] = "Version"; //copied from de-de
 $text['label-version']['de-ch'] = "Version"; //copied from de-de
@@ -65,7 +71,9 @@ $text['label-version']['sv-se'] = "Version";
 $text['label-version']['uk-ua'] = "Версія";
 $text['label-version']['tr-tr'] = "Sürüm";
 
-$text['header-apps']['en-us'] = "App Manager";
+//$text['header-apps']['en-us'] = "App Manager";
+$text['header-apps']['en-us'] = "应用程序管理器";
+$text['header-apps']['zh-cn'] = "应用程序管理器";
 $text['header-apps']['ar-eg'] = "";
 $text['header-apps']['de-at'] = "Applikation verwalten"; //copied from de-de
 $text['header-apps']['de-ch'] = "Applikation verwalten"; //copied from de-de
@@ -86,7 +94,9 @@ $text['header-apps']['sv-se'] = "App Inställningar";
 $text['header-apps']['uk-ua'] = "Керування додатками";
 $text['header-apps']['tr-tr'] = "Uygulama Yöneticisi";
 
-$text['header-app-edit']['en-us'] = "App Edit";
+//$text['header-app-edit']['en-us'] = "App Edit";
+$text['header-app-edit']['en-us'] = "应用程序编辑";
+$text['header-app-edit']['zh-cn'] = "应用程序编辑";
 $text['header-app-edit']['ar-eg'] = "";
 $text['header-app-edit']['de-at'] = "Applikation bearbeiten"; //copied from de-de
 $text['header-app-edit']['de-ch'] = "Applikation bearbeiten"; //copied from de-de
@@ -107,7 +117,9 @@ $text['header-app-edit']['sv-se'] = "Ändra App";
 $text['header-app-edit']['uk-ua'] = "Редагувати додаток";
 $text['header-app-edit']['tr-tr'] = "Uygulama Düzenle";
 
-$text['description-apps']['en-us'] = "Manage the applications that are installed.";
+//$text['description-apps']['en-us'] = "Manage the applications that are installed.";
+$text['description-apps']['en-us'] = "管理已安装的应用程序。";
+$text['description-apps']['zh-cn'] = "管理已安装的应用程序。";
 $text['description-apps']['ar-eg'] = "";
 $text['description-apps']['de-at'] = "Installierte Applikationen verwalten"; //copied from de-de
 $text['description-apps']['de-ch'] = "Installierte Applikationen verwalten"; //copied from de-de
@@ -128,7 +140,9 @@ $text['description-apps']['sv-se'] = "Hantera de applikationer som är installer
 $text['description-apps']['uk-ua'] = "Керування встановленими додатками";
 $text['description-apps']['tr-tr'] = "Yüklü bulunan uygulamaları düzenleyin.";
 
-$text['description-app-edit']['en-us'] = "Manage the applications that are installed.";
+//$text['description-app-edit']['en-us'] = "Manage the applications that are installed.";
+$text['description-app-edit']['en-us'] = "管理已安装的应用程序。";
+$text['description-app-edit']['zh-cn'] = "管理已安装的应用程序。";
 $text['description-app-edit']['ar-eg'] = "";
 $text['description-app-edit']['de-at'] = "Installierte Applikationen verwalten"; //copied from de-de
 $text['description-app-edit']['de-ch'] = "Installierte Applikationen verwalten"; //copied from de-de

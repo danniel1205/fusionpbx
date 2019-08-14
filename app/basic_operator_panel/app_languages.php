@@ -46,8 +46,8 @@ $text['label-status_on_demand']['sv-se'] = "På Begäran";
 $text['label-status_on_demand']['uk-ua'] = "ÐÐ° Ð²Ð¸Ð¼Ð¾Ð³Ñƒ";
 
 //$text['label-status_on_break']['en-us'] = "On Break";
-$text['label-status_on_break']['en-us'] = "休息时";
-$text['label-status_on_break']['zh-cn'] = "休息时";
+$text['label-status_on_break']['en-us'] = "休息中";
+$text['label-status_on_break']['zh-cn'] = "休息中";
 $text['label-status_on_break']['ar-eg'] = "";
 $text['label-status_on_break']['de-at'] = "In Pause"; //copied from de-de
 $text['label-status_on_break']['de-ch'] = "In Pause"; //copied from de-de

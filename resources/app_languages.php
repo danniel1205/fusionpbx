@@ -3374,7 +3374,9 @@ $text['description-description']['sv-se'] = "Fyll i en beskrivning.";
 $text['description-description']['uk-ua'] = "Введіть опис, якщо це необхідно.";
 $text['description-description']['tr-tr'] = "Açıklama girin.";
 
+// $text['description-enabled']['en-us'] = "";
 $text['description-enabled']['en-us'] = "";
+$text['description-enabled']['zh-cn'] = "";
 $text['description-enabled']['ar-eg'] = "";
 $text['description-enabled']['de-at'] = "";
 $text['description-enabled']['de-ch'] = "";

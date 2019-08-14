@@ -354,8 +354,8 @@ $text['label-invalid_sound']['sv-se'] = "Fel Ljud";
 $text['label-invalid_sound']['uk-ua'] = "";
 
 //$text['label-inter-digit_timeout']['en-us'] = "Inter-Digit Timeout";
-$text['label-inter-digit_timeout']['en-us'] = "数字间超时";
-$text['label-inter-digit_timeout']['zh-cn'] = "数字间超时";
+$text['label-inter-digit_timeout']['en-us'] = "数字间超时时间";
+$text['label-inter-digit_timeout']['zh-cn'] = "数字间超时时间";
 $text['label-inter-digit_timeout']['ar-eg'] = "";
 $text['label-inter-digit_timeout']['de-at'] = "Time-Out zwischen Tastendrucke"; //copied from de-de
 $text['label-inter-digit_timeout']['de-ch'] = "Time-Out zwischen Tastendrucke"; //copied from de-de
@@ -442,8 +442,8 @@ $text['label-extension']['sv-se'] = "Anknytning";
 $text['label-extension']['uk-ua'] = "";
 
 //$text['label-exit_sound']['en-us'] = "Exit Sound";
-$text['label-exit_sound']['en-us'] = "出口声音";
-$text['label-exit_sound']['zh-cn'] = "出口声音";
+$text['label-exit_sound']['en-us'] = "退出声音";
+$text['label-exit_sound']['zh-cn'] = "退出声音";
 $text['label-exit_sound']['ar-eg'] = "";
 $text['label-exit_sound']['de-at'] = "Ton bei Verlassen"; //copied from de-de
 $text['label-exit_sound']['de-ch'] = "Ton bei Verlassen"; //copied from de-de
@@ -1168,8 +1168,8 @@ $text['description-greet_long']['sv-se'] = "Den långa hälsningen spelas upp n�
 $text['description-greet_long']['uk-ua'] = "";
 
 //$text['description-extension']['en-us'] = "Enter the extension number.";
-$text['description-extension']['en-us'] = "输入分机号码。";
-$text['description-extension']['zh-cn'] = "输入分机号码。";
+$text['description-extension']['en-us'] = "输入扩展号码。";
+$text['description-extension']['zh-cn'] = "输入扩展号码。";
 $text['description-extension']['ar-eg'] = "";
 $text['description-extension']['de-at'] = "Geben Sie die Nebenstelle ein."; //copied from de-de
 $text['description-extension']['de-ch'] = "Geben Sie die Nebenstelle ein."; //copied from de-de

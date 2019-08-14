@@ -24,8 +24,8 @@ $text['title']['sv-se'] = "Samtalsdistributioner";
 $text['title']['uk-ua'] = "Трансляція дзвінків";
 
 //$text['option-true']['en-us'] = "True";
-$text['option-true']['en-us'] = "真";
-$text['option-true']['zh-cn'] = "真";
+$text['option-true']['en-us'] = "正确";
+$text['option-true']['zh-cn'] = "正确";
 $text['option-true']['ar-eg'] = "";
 $text['option-true']['de-at'] = "Ein"; //copied from de-de
 $text['option-true']['de-ch'] = "Ein"; //copied from de-de
@@ -46,8 +46,8 @@ $text['option-true']['sv-se'] = "Sann";
 $text['option-true']['uk-ua'] = "Так";
 
 //$text['option-false']['en-us'] = "False";
-$text['option-false']['en-us'] = "假";
-$text['option-false']['zh-cn'] = "假";
+$text['option-false']['en-us'] = "错误";
+$text['option-false']['zh-cn'] = "错误";
 $text['option-false']['ar-eg'] = "";
 $text['option-false']['de-at'] = "Aus"; //copied from de-de
 $text['option-false']['de-ch'] = "Aus"; //copied from de-de

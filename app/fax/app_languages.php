@@ -200,8 +200,8 @@ $text['table-file']['sv-se'] = "Fil Namn (Nedladdning)";
 $text['table-file']['uk-ua'] = "";
 
 //$text['option-true']['en-us'] = "True";
-$text['option-true']['en-us'] = "真";
-$text['option-true']['zh-cn'] = "真";
+$text['option-true']['en-us'] = "正确";
+$text['option-true']['zh-cn'] = "正确";
 $text['option-true']['ar-eg'] = "";
 $text['option-true']['de-at'] = "Ein"; //copied from de-de
 $text['option-true']['de-ch'] = "Ein"; //copied from de-de
@@ -288,8 +288,8 @@ $text['option-fax-resolution-fine']['sv-se'] = "Fin";
 $text['option-fax-resolution-fine']['uk-ua'] = "";
 
 //$text['option-false']['en-us'] = "False";
-$text['option-false']['en-us'] = "假";
-$text['option-false']['zh-cn'] = "假";
+$text['option-false']['en-us'] = "错误";
+$text['option-false']['zh-cn'] = "错误";
 $text['option-false']['ar-eg'] = "";
 $text['option-false']['de-at'] = "Aus"; //copied from de-de
 $text['option-false']['de-ch'] = "Aus"; //copied from de-de
@@ -2334,8 +2334,8 @@ $text['description-info']['sv-se'] = "Ange beskrivning här.";
 $text['description-info']['uk-ua'] = "";
 
 //$text['description-forward-number']['en-us'] = "Enter the forward number here. Used to forward the fax to a registered extension or external number.";
-$text['description-forward-number']['en-us'] = "在此处输入前进号码。用于将传真转发到已注册的分机号或外部号码。";
-$text['description-forward-number']['zh-cn'] = "在此处输入前进号码。用于将传真转发到已注册的分机号或外部号码。";
+$text['description-forward-number']['en-us'] = "在此处输入前进号码。用于将传真转发到已注册的扩展号或外部号码。";
+$text['description-forward-number']['zh-cn'] = "在此处输入前进号码。用于将传真转发到已注册的扩展号或外部号码。";
 $text['description-forward-number']['ar-eg'] = "";
 $text['description-forward-number']['de-at'] = "Geben Sie eine Nebenstelle oder externe Nummer ein, auf die eingehende Faxe weitergeleitet werden sollen."; //copied from de-de
 $text['description-forward-number']['de-ch'] = "Geben Sie eine Nebenstelle oder externe Nummer ein, auf die eingehende Faxe weitergeleitet werden sollen."; //copied from de-de

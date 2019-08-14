@@ -244,8 +244,8 @@ $text['option-enabled']['sv-se'] = "Aktiverad";
 $text['option-enabled']['uk-ua'] = "Включено";
 
 //$text['option-disabled']['en-us'] = "Disabled";
-$text['option-disabled']['en-us'] = "残疾人";
-$text['option-disabled']['zh-cn'] = "残疾人";
+$text['option-disabled']['en-us'] = "停用";
+$text['option-disabled']['zh-cn'] = "停用";
 $text['option-disabled']['ar-eg'] = "";
 $text['option-disabled']['de-at'] = "Deaktiviert"; //copied from de-de
 $text['option-disabled']['de-ch'] = "Deaktiviert"; //copied from de-de
@@ -704,8 +704,8 @@ $text['label-ring_group_forward_toll_allow']['sv-se'] = "Spedition Toll Allow";
 $text['label-ring_group_forward_toll_allow']['uk-ua'] = "експедиція";
 
 //$text['label-forward_destination']['en-us'] = "Number";
-$text['label-forward_destination']['en-us'] = "数";
-$text['label-forward_destination']['zh-cn'] = "数";
+$text['label-forward_destination']['en-us'] = "号码";
+$text['label-forward_destination']['zh-cn'] = "号码";
 $text['label-forward_destination']['ar-eg'] = "";
 $text['label-forward_destination']['de-at'] = "Nummer"; //copied from de-de
 $text['label-forward_destination']['de-ch'] = "Nummer"; //copied from de-de
@@ -1342,8 +1342,8 @@ $text['description-missed_call']['sv-se'] = "Välj typ anmälan, och ange lämpl
 $text['description-missed_call']['uk-ua'] = "Виберіть тип повідомлення, і ввести відповідний пункт призначення.";
 
 //$text['description-extension']['en-us'] = "Enter the extension number.";
-$text['description-extension']['en-us'] = "输入分机号码。";
-$text['description-extension']['zh-cn'] = "输入分机号码。";
+$text['description-extension']['en-us'] = "输入扩展号码。";
+$text['description-extension']['zh-cn'] = "输入扩展号码。";
 $text['description-extension']['ar-eg'] = "";
 $text['description-extension']['de-at'] = "Geben Sie eine Nebenstelle an."; //copied from de-de
 $text['description-extension']['de-ch'] = "Geben Sie eine Nebenstelle an."; //copied from de-de

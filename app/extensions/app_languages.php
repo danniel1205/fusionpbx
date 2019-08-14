@@ -354,8 +354,8 @@ $text['label-user_record_outbound']['sv-se'] = "Utgående";
 $text['label-user_record_outbound']['uk-ua'] = "Вихідний";
 
 //$text['label-user_record_none']['en-us'] = "Disabled";
-$text['label-user_record_none']['en-us'] = "残疾人";
-$text['label-user_record_none']['zh-cn'] = "残疾人";
+$text['label-user_record_none']['en-us'] = "停用";
+$text['label-user_record_none']['zh-cn'] = "停用";
 $text['label-user_record_none']['ar-eg'] = "معطل";
 $text['label-user_record_none']['de-at'] = "Ausgeschaltet"; //copied from de-de
 $text['label-user_record_none']['de-ch'] = "Ausgeschaltet"; //copied from de-de
@@ -1014,8 +1014,8 @@ $text['label-missed_call']['sv-se'] = "Missat Samtal";
 $text['label-missed_call']['uk-ua'] = "пропущений Дзвінок";
 
 //$text['label-line']['en-us'] = "Line";
-$text['label-line']['en-us'] = "线";
-$text['label-line']['zh-cn'] = "线";
+$text['label-line']['en-us'] = "线路";
+$text['label-line']['zh-cn'] = "线路";
 $text['label-line']['ar-eg'] = "خط";
 $text['label-line']['de-at'] = "Leitung"; //copied from de-de
 $text['label-line']['de-ch'] = "Leitung"; //copied from de-de
@@ -2004,8 +2004,8 @@ $text['description-range']['sv-se'] = "Ange hur många anknytningar som skall sk
 $text['description-range']['uk-ua'] = "";
 
 //$text['description-provisioning']['en-us'] = "Select a device and line number to assign to this extension.";
-$text['description-provisioning']['en-us'] = "选择要分配给此分机的设备和行号。";
-$text['description-provisioning']['zh-cn'] = "选择要分配给此分机的设备和行号。";
+$text['description-provisioning']['en-us'] = "选择要分配给此分机的设备和线路号。";
+$text['description-provisioning']['zh-cn'] = "选择要分配给此分机的设备和线路号。";
 $text['description-provisioning']['ar-eg'] = "";
 $text['description-provisioning']['de-at'] = "Wählen Sie eine Geräte- und Leitungsnummer um sie dieser Nebenstelle zuzuordnen."; //copied from de-de
 $text['description-provisioning']['de-ch'] = "Wählen Sie eine Geräte- und Leitungsnummer um sie dieser Nebenstelle zuzuordnen."; //copied from de-de

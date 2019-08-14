@@ -134,8 +134,8 @@ $text['label-conference_center_extension']['sv-se'] = "Anknytning";
 $text['label-conference_center_extension']['uk-ua'] = "Розширення (Extention)";
 
 //$text['description-conference_center_extension']['en-us'] = "Enter the conference center extension number.";
-$text['description-conference_center_extension']['en-us'] = "输入会议中心分机号。";
-$text['description-conference_center_extension']['zh-cn'] = "输入会议中心分机号。";
+$text['description-conference_center_extension']['en-us'] = "输入会议中心扩展号。";
+$text['description-conference_center_extension']['zh-cn'] = "输入会议中心扩展号。";
 $text['description-conference_center_extension']['ar-eg'] = "";
 $text['description-conference_center_extension']['de-at'] = "Geben Sie eine Nebenstelle für die Konferenz-Zentrale an."; //copied from de-de
 $text['description-conference_center_extension']['de-ch'] = "Geben Sie eine Nebenstelle für die Konferenz-Zentrale an."; //copied from de-de
@@ -1564,8 +1564,8 @@ $text['description-conference_centers']['sv-se'] = "Konferenscenter är en grupp
 $text['description-conference_centers']['uk-ua'] = "Конференц-центри є група конференц-залів. Вони можуть бути організовані МВЗ, географічно або інших критеріїв.";
 
 //$text['description-conference_center']['en-us'] = "Conference Center is used to setup one or more conference rooms with a name, extension number, a required pin number length, and a description.";
-$text['description-conference_center']['en-us'] = "会议中心用于设置一个或多个具有名称、分机号、所需的PIN号长度和说明的会议室。";
-$text['description-conference_center']['zh-cn'] = "会议中心用于设置一个或多个具有名称、分机号、所需的PIN号长度和说明的会议室。";
+$text['description-conference_center']['en-us'] = "会议中心用于设置一个或多个具有名称、扩展号、所需的PIN号长度和说明的会议室。";
+$text['description-conference_center']['zh-cn'] = "会议中心用于设置一个或多个具有名称、扩展号、所需的PIN号长度和说明的会议室。";
 $text['description-conference_center']['ar-eg'] = "";
 $text['description-conference_center']['de-at'] = "Konferenz Zentralen ermöglichen die Erstellung von einem oder mehrere Konferenzräume mit Namen, Nebenstelle, benötigte PIN Mindestlänge und eine Beschreibung."; //copied from de-de
 $text['description-conference_center']['de-ch'] = "Konferenz Zentralen ermöglichen die Erstellung von einem oder mehrere Konferenzräume mit Namen, Nebenstelle, benötigte PIN Mindestlänge und eine Beschreibung."; //copied from de-de

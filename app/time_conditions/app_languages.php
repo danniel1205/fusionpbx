@@ -288,8 +288,8 @@ $text['label-select_default_destination']['sv-se'] = "Välj Standard Destination
 $text['label-select_default_destination']['uk-ua'] = "";
 
 //$text['label-required-dialplan_number']['en-us'] = "Please provide: Extension Number";
-$text['label-required-dialplan_number']['en-us'] = "请提供：分机号";
-$text['label-required-dialplan_number']['zh-cn'] = "请提供：分机号";
+$text['label-required-dialplan_number']['en-us'] = "请提供：扩展号";
+$text['label-required-dialplan_number']['zh-cn'] = "请提供：扩展号";
 $text['label-required-dialplan_number']['ar-eg'] = "";
 $text['label-required-dialplan_number']['de-at'] = "Bitte geben Sie folgendes an: Nebenstellen Nummer"; //copied from de-de
 $text['label-required-dialplan_number']['de-ch'] = "Bitte geben Sie folgendes an: Nebenstellen Nummer"; //copied from de-de
@@ -596,8 +596,8 @@ $text['label-preset_christmas_day']['sv-se'] = "Juldagen";
 $text['label-preset_christmas_day']['uk-ua'] = "";
 
 //$text['label-number']['en-us'] = "Number";
-$text['label-number']['en-us'] = "数";
-$text['label-number']['zh-cn'] = "数";
+$text['label-number']['en-us'] = "号码";
+$text['label-number']['zh-cn'] = "号码";
 $text['label-number']['ar-eg'] = "";
 $text['label-number']['de-at'] = "Nummer"; //copied from de-de
 $text['label-number']['de-ch'] = "Nummer"; //copied from de-de
@@ -1168,8 +1168,8 @@ $text['description-name']['sv-se'] = "Skriv in namnet på tidsstyrningen.";
 $text['description-name']['uk-ua'] = "Введіть назву меню";
 
 //$text['description-extension']['en-us'] = "Enter the extension number.";
-$text['description-extension']['en-us'] = "输入分机号码。";
-$text['description-extension']['zh-cn'] = "输入分机号码。";
+$text['description-extension']['en-us'] = "输入扩展号码。";
+$text['description-extension']['zh-cn'] = "输入扩展号码。";
 $text['description-extension']['ar-eg'] = "";
 $text['description-extension']['de-at'] = "Geben Sie eine Nebenstelle an."; //copied from de-de
 $text['description-extension']['de-ch'] = "Geben Sie eine Nebenstelle an."; //copied from de-de
