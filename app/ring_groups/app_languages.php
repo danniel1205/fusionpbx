@@ -1234,8 +1234,8 @@ $text['description-skip_active']['sv-se'] = "Hoppa över destinationer med aktiv
 $text['description-skip_active']['uk-ua'] = "";
 
 //$text['description-ringback']['en-us'] = "Defines what the caller will hear while the destination is being called.";
-$text['description-ringback']['en-us'] = "定义调用目标时调用方将听到的内容。";
-$text['description-ringback']['zh-cn'] = "定义调用目标时调用方将听到的内容。";
+$text['description-ringback']['en-us'] = "定义呼叫目标时呼叫方将听到的内容。";
+$text['description-ringback']['zh-cn'] = "定义呼叫目标时呼叫方将听到的内容。";
 $text['description-ringback']['ar-eg'] = "";
 $text['description-ringback']['de-at'] = "Definiert was der Anrufer hört, während die Ziele angerufen werden."; //copied from de-de
 $text['description-ringback']['de-ch'] = "Definiert was der Anrufer hört, während die Ziele angerufen werden."; //copied from de-de
@@ -1256,8 +1256,8 @@ $text['description-ringback']['sv-se'] = "Definierar vad inringande hör under t
 $text['description-ringback']['uk-ua'] = "";
 
 //$text['description-ring-group-forward']['en-us'] = "Forward a called Ring Group to an alternate destination.";
-$text['description-ring-group-forward']['en-us'] = "将被调用的铃声组转发到备用目标。";
-$text['description-ring-group-forward']['zh-cn'] = "将被调用的铃声组转发到备用目标。";
+$text['description-ring-group-forward']['en-us'] = "将被呼叫的铃声组转发到备用目标。";
+$text['description-ring-group-forward']['zh-cn'] = "将被呼叫的铃声组转发到备用目标。";
 $text['description-ring-group-forward']['ar-eg'] = "";
 $text['description-ring-group-forward']['de-at'] = "Leitet Anrufe an ein alternatives Ziel weiter."; //copied from de-de
 $text['description-ring-group-forward']['de-ch'] = "Leitet Anrufe an ein alternatives Ziel weiter."; //copied from de-de
@@ -1520,8 +1520,8 @@ $text['description-cid-name-prefix']['sv-se'] = "Ange namnpresentation prefix.";
 $text['description-cid-name-prefix']['uk-ua'] = "";
 
 //$text['description']['en-us'] = "A ring group is a set of destinations that can be called with a ring strategy.";
-$text['description']['en-us'] = "铃声组是一组可以通过铃声策略调用的目的地。";
-$text['description']['zh-cn'] = "铃声组是一组可以通过铃声策略调用的目的地。";
+$text['description']['en-us'] = "铃声组是一组可以通过铃声策略呼叫的目的地。";
+$text['description']['zh-cn'] = "铃声组是一组可以通过铃声策略呼叫的目的地。";
 $text['description']['ar-eg'] = "";
 $text['description']['de-at'] = "Rufgruppen sind gruppierte Ziele, welche über eine vordefinierte Rufstrategie angerufen werden."; //copied from de-de
 $text['description']['de-ch'] = "Rufgruppen sind gruppierte Ziele, welche über eine vordefinierte Rufstrategie angerufen werden."; //copied from de-de

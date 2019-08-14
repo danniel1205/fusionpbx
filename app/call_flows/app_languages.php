@@ -552,8 +552,8 @@ $text['description-call_flow_context']['sv-se'] = "Ange Context.";
 $text['description-call_flow_context']['uk-ua'] = "Введіть контекст.";
 
 //$text['description-call_flows']['en-us'] = "Direct calls between two destinations by calling a feature code.";
-$text['description-call_flows']['en-us'] = "通过调用特征代码在两个目的地之间直接调用。";
-$text['description-call_flows']['zh-cn'] = "通过调用特征代码在两个目的地之间直接调用。";
+$text['description-call_flows']['en-us'] = "通过调用特征代码在两个目的地之间直接呼叫。";
+$text['description-call_flows']['zh-cn'] = "通过调用特征代码在两个目的地之间直接呼叫。";
 $text['description-call_flows']['ar-eg'] = "";
 $text['description-call_flows']['de-at'] = "Leiten Sie Anrufe zwischen zwei Zielen um indem Sie einen Funktions-Code wählen."; //copied from de-de
 $text['description-call_flows']['de-ch'] = "Leiten Sie Anrufe zwischen zwei Zielen um indem Sie einen Funktions-Code wählen."; //copied from de-de

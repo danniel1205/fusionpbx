@@ -68,8 +68,8 @@ $text['title-sip_profile_domains']['sv-se'] = "Domäner";
 $text['title-sip_profile_domains']['uk-ua'] = "";
 
 //$text['title-sip_profile_domain']['en-us'] = "Domain";
-$text['title-sip_profile_domain']['en-us'] = "领域";
-$text['title-sip_profile_domain']['zh-cn'] = "领域";
+$text['title-sip_profile_domain']['en-us'] = "域";
+$text['title-sip_profile_domain']['zh-cn'] = "域";
 $text['title-sip_profile_domain']['ar-eg'] = "";
 $text['title-sip_profile_domain']['de-at'] = "Domäne"; //copied from de-de
 $text['title-sip_profile_domain']['de-ch'] = "Domäne"; //copied from de-de

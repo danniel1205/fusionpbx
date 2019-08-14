@@ -46,8 +46,8 @@ $text['title-call_recording']['sv-se'] = "";
 $text['title-call_recording']['uk-ua'] = "";
 
 //$text['title_description-call_recording']['en-us'] = "Shows the call recordings with name, length, date and time, and call direction.";
-$text['title_description-call_recording']['en-us'] = "显示具有名称、长度、日期和时间以及调用方向的调用记录。";
-$text['title_description-call_recording']['zh-cn'] = "显示具有名称、长度、日期和时间以及调用方向的调用记录。";
+$text['title_description-call_recording']['en-us'] = "显示具有名称、长度、日期和时间以及呼叫方向的呼叫记录。";
+$text['title_description-call_recording']['zh-cn'] = "显示具有名称、长度、日期和时间以及呼叫方向的呼叫记录。";
 $text['title_description-call_recording']['ar-eg'] = "";
 $text['title_description-call_recording']['de-at'] = "";
 $text['title_description-call_recording']['de-ch'] = "";

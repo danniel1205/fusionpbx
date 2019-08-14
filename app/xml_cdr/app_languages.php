@@ -1740,8 +1740,8 @@ $text['label-domain-name']['sv-se'] = "Domän Namn";
 $text['label-domain-name']['uk-ua'] = "";
 
 //$text['label-domain']['en-us'] = "Domain";
-$text['label-domain']['en-us'] = "领域";
-$text['label-domain']['zh-cn'] = "领域";
+$text['label-domain']['en-us'] = "域";
+$text['label-domain']['zh-cn'] = "域";
 $text['label-domain']['ar-eg'] = "";
 $text['label-domain']['de-at'] = "Domain"; //copied from de-de
 $text['label-domain']['de-ch'] = "Domain"; //copied from de-de
@@ -2048,8 +2048,8 @@ $text['label-call-flow-4']['sv-se'] = "Samtals Flöden: Samtals Profil";
 $text['label-call-flow-4']['uk-ua'] = "";
 
 //$text['label-call-flow-3']['en-us'] = "Call Flow: Extension: Application";
-$text['label-call-flow-3']['en-us'] = "调用流：扩展：应用程序";
-$text['label-call-flow-3']['zh-cn'] = "调用流：扩展：应用程序";
+$text['label-call-flow-3']['en-us'] = "呼叫流：扩展：应用程序";
+$text['label-call-flow-3']['zh-cn'] = "呼叫流：扩展：应用程序";
 $text['label-call-flow-3']['ar-eg'] = "";
 $text['label-call-flow-3']['de-at'] = "Anruf Steuerung: Nebenstelle: Applikation"; //copied from de-de
 $text['label-call-flow-3']['de-ch'] = "Anruf Steuerung: Nebenstelle: Applikation"; //copied from de-de
@@ -2070,8 +2070,8 @@ $text['label-call-flow-3']['sv-se'] = "Samtals Flöden: Anknytning: Applikation"
 $text['label-call-flow-3']['uk-ua'] = "";
 
 //$text['label-call-flow-2']['en-us'] = "Call Flow: Extension: Attributes";
-$text['label-call-flow-2']['en-us'] = "调用流：扩展：属性";
-$text['label-call-flow-2']['zh-cn'] = "调用流：扩展：属性";
+$text['label-call-flow-2']['en-us'] = "呼叫流：扩展：属性";
+$text['label-call-flow-2']['zh-cn'] = "呼叫流：扩展：属性";
 $text['label-call-flow-2']['ar-eg'] = "";
 $text['label-call-flow-2']['de-at'] = "Anruf Steuerung: Nebenstelle: Attribute"; //copied from de-de
 $text['label-call-flow-2']['de-ch'] = "Anruf Steuerung: Nebenstelle: Attribute"; //copied from de-de
@@ -2092,8 +2092,8 @@ $text['label-call-flow-2']['sv-se'] = "Samtals Flöden: Anknytning: Attribut";
 $text['label-call-flow-2']['uk-ua'] = "";
 
 //$text['label-call-flow']['en-us'] = "Call Flow: Attributes";
-$text['label-call-flow']['en-us'] = "调用流：属性";
-$text['label-call-flow']['zh-cn'] = "调用流：属性";
+$text['label-call-flow']['en-us'] = "呼叫流：属性";
+$text['label-call-flow']['zh-cn'] = "呼叫流：属性";
 $text['label-call-flow']['ar-eg'] = "";
 $text['label-call-flow']['de-at'] = "Anruf Steuerung: Attribute"; //copied from de-de
 $text['label-call-flow']['de-ch'] = "Anruf Steuerung: Attribute"; //copied from de-de
@@ -2400,8 +2400,8 @@ $text['description_search']['sv-se'] = "Notera : Källa, Destination och Nummerp
 $text['description_search']['uk-ua'] = "";
 
 //$text['description-7']['en-us'] = "Call variables, call flow, timing information, and other useful call details.";
-$text['description-7']['en-us'] = "调用变量、调用流、计时信息和其他有用的调用详细信息。";
-$text['description-7']['zh-cn'] = "调用变量、调用流、计时信息和其他有用的调用详细信息。";
+$text['description-7']['en-us'] = "呼叫变量、呼叫流、计时信息和其他有用的呼叫详细信息。";
+$text['description-7']['zh-cn'] = "呼叫变量、呼叫流、计时信息和其他有用的呼叫详细信息。";
 $text['description-7']['ar-eg'] = "";
 $text['description-7']['de-at'] = "Anruf Variablen, Ruf-Ablauf, Zeit Information und andere nützliche Anruf Details"; //copied from de-de
 $text['description-7']['de-ch'] = "Anruf Variablen, Ruf-Ablauf, Zeit Information und andere nützliche Anruf Details"; //copied from de-de

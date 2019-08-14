@@ -772,8 +772,8 @@ $text['description-conditions_and_actions']['sv-se'] = "Följande villkor, åtg�
 $text['description-conditions_and_actions']['uk-ua'] = "";
 
 //$text['description-agent_queue_extension']['en-us'] = "The extension number for the Agent FIFO Queue. This is the holding pattern for agents waiting to service calls in the caller FIFO queue.";
-$text['description-agent_queue_extension']['en-us'] = "代理FIFO队列的扩展号。这是等待调用方FIFO队列中服务调用的代理的保持模式。";
-$text['description-agent_queue_extension']['zh-cn'] = "代理FIFO队列的扩展号。这是等待调用方FIFO队列中服务调用的代理的保持模式。";
+$text['description-agent_queue_extension']['en-us'] = "代理FIFO队列的扩展号。这是等待呼叫方FIFO队列中服务呼叫的代理的保持模式。";
+$text['description-agent_queue_extension']['zh-cn'] = "代理FIFO队列的扩展号。这是等待呼叫方FIFO队列中服务呼叫的代理的保持模式。";
 $text['description-agent_queue_extension']['ar-eg'] = "";
 $text['description-agent_queue_extension']['de-at'] = "Die Nebenstelle für die Agent FIFO Warteschlange."; //copied from de-de
 $text['description-agent_queue_extension']['de-ch'] = "Die Nebenstelle für die Agent FIFO Warteschlange."; //copied from de-de

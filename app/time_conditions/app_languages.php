@@ -1036,8 +1036,8 @@ $text['header-time_conditions']['sv-se'] = "Tids Förhållande";
 $text['header-time_conditions']['uk-ua'] = "Часові умови";
 
 //$text['description-time_conditions']['en-us'] = "Dynamically route calls to an IVR menu, external numbers, scripts, or other destinations based on time conditions.";
-$text['description-time_conditions']['en-us'] = "根据时间条件将调用动态路由到IVR菜单、外部号码、脚本或其他目标。";
-$text['description-time_conditions']['zh-cn'] = "根据时间条件将调用动态路由到IVR菜单、外部号码、脚本或其他目标。";
+$text['description-time_conditions']['en-us'] = "根据时间条件将呼叫动态路由到IVR菜单、外部号码、脚本或其他目标。";
+$text['description-time_conditions']['zh-cn'] = "根据时间条件将呼叫动态路由到IVR菜单、外部号码、脚本或其他目标。";
 $text['description-time_conditions']['ar-eg'] = "";
 $text['description-time_conditions']['de-at'] = "Dynamische weiterleitung von Anrufen an IVR Menüs, externe Rufnummern, Skripte, oder andere Ziele abhängig von zeitlichen Bedingungen."; //copied from de-de
 $text['description-time_conditions']['de-ch'] = "Dynamische weiterleitung von Anrufen an IVR Menüs, externe Rufnummern, Skripte, oder andere Ziele abhängig von zeitlichen Bedingungen."; //copied from de-de

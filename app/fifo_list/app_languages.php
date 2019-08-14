@@ -442,8 +442,8 @@ $text['description-queue']['sv-se'] = "Använd denna sida för att monitorera k�
 $text['description-queue']['uk-ua'] = "Використовуйте цю сторінку, щоб стежити за активністю черги.";
 
 //$text['description-active_queues']['en-us'] = "List all the queues that are currently active with one or more callers.";
-$text['description-active_queues']['en-us'] = "列出一个或多个调用方当前处于活动状态的所有队列。";
-$text['description-active_queues']['zh-cn'] = "列出一个或多个调用方当前处于活动状态的所有队列。";
+$text['description-active_queues']['en-us'] = "列出一个或多个呼叫方当前处于活动状态的所有队列。";
+$text['description-active_queues']['zh-cn'] = "列出一个或多个呼叫方当前处于活动状态的所有队列。";
 $text['description-active_queues']['ar-eg'] = "";
 $text['description-active_queues']['de-at'] = "Auflistung aller derzeit aktiven Warteschlangen mit einem oder mehreren Anrufern."; //copied from de-de
 $text['description-active_queues']['de-ch'] = "Auflistung aller derzeit aktiven Warteschlangen mit einem oder mehreren Anrufern."; //copied from de-de
