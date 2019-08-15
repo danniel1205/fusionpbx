@@ -134,8 +134,8 @@ $text['label-line-num']['sv-se'] = "Visa Linje Nummer";
 $text['label-line-num']['uk-ua'] = "Нумерація рядків";
 
 //$text['label-kb']['en-us'] = "KB";
-$text['label-kb']['en-us'] = "知识库";
-$text['label-kb']['zh-cn'] = "知识库";
+$text['label-kb']['en-us'] = "KB";
+$text['label-kb']['zh-cn'] = "KB";
 $text['label-kb']['ar-eg'] = "";
 $text['label-kb']['de-at'] = "KB"; //copied from de-de
 $text['label-kb']['de-ch'] = "KB"; //copied from de-de

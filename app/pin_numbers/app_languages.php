@@ -244,8 +244,8 @@ $text['description-description']['sv-se'] = "Ange beskrivningen.";
 $text['description-description']['uk-ua'] = "";
 
 //$text['label-true']['en-us'] = "true";
-$text['label-真']['en-us'] = "正确";
-$text['label-真']['zh-cn'] = "正确";
+$text['label-true']['en-us'] = "正确";
+$text['label-true']['zh-cn'] = "正确";
 $text['label-true']['ar-eg'] = "";
 $text['label-true']['de-at'] = "ein"; //copied from de-de
 $text['label-true']['de-ch'] = "ein"; //copied from de-de
@@ -266,8 +266,8 @@ $text['label-true']['sv-se'] = "sann";
 $text['label-true']['uk-ua'] = "";
 
 //$text['label-false']['en-us'] = "false";
-$text['label-假']['en-us'] = "错误";
-$text['label-假']['zh-cn'] = "错误";
+$text['label-false']['en-us'] = "错误";
+$text['label-false']['zh-cn'] = "错误";
 $text['label-false']['ar-eg'] = "";
 $text['label-false']['de-at'] = "aus"; //copied from de-de
 $text['label-false']['de-ch'] = "aus"; //copied from de-de
@@ -376,8 +376,8 @@ $text['button-save']['sv-se'] = "Spara";
 $text['button-save']['uk-ua'] = "";
 
 //$text['button-view']['en-us'] = "View";
-$text['button-view']['en-us'] = "视图";
-$text['button-view']['zh-cn'] = "视图";
+$text['button-view']['en-us'] = "查看";
+$text['button-view']['zh-cn'] = "查看";
 $text['button-view']['ar-eg'] = "";
 $text['button-view']['de-at'] = "Anzeigen"; //copied from de-de
 $text['button-view']['de-ch'] = "Anzeigen"; //copied from de-de
@@ -398,8 +398,8 @@ $text['button-view']['sv-se'] = "Visa";
 $text['button-view']['uk-ua'] = "";
 
 //$text['button-back']['en-us'] = "Back";
-$text['button-back']['en-us'] = "背部";
-$text['button-back']['zh-cn'] = "背部";
+$text['button-back']['en-us'] = "返回";
+$text['button-back']['zh-cn'] = "返回";
 $text['button-back']['ar-eg'] = "";
 $text['button-back']['de-at'] = "Zurück"; //copied from de-de
 $text['button-back']['de-ch'] = "Zurück"; //copied from de-de

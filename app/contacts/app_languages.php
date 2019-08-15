@@ -2026,8 +2026,8 @@ $text['label-import_fields']['sv-se'] = "Fält";
 $text['label-import_fields']['uk-ua'] = "Поля";
 
 //$text['label-import_enclosure']['en-us'] = "Enclosure";
-$text['label-import_enclosure']['en-us'] = "圈地";
-$text['label-import_enclosure']['zh-cn'] = "圈地";
+$text['label-import_enclosure']['en-us'] = "附件";
+$text['label-import_enclosure']['zh-cn'] = "附件";
 $text['label-import_enclosure']['ar-eg'] = "";
 $text['label-import_enclosure']['de-at'] = "Abgrenzung"; //copied from de-de
 $text['label-import_enclosure']['de-ch'] = "Abgrenzung"; //copied from de-de
@@ -5722,8 +5722,8 @@ $text['button-save']['sv-se'] = "Spara";
 $text['button-save']['uk-ua'] = "Зберегти";
 
 //$text['button-reload']['en-us'] = "Reload";
-$text['button-reload']['en-us'] = "再装填";
-$text['button-reload']['zh-cn'] = "再装填";
+$text['button-reload']['en-us'] = "再加载";
+$text['button-reload']['zh-cn'] = "再加载";
 $text['button-reload']['ar-eg'] = "";
 $text['button-reload']['de-at'] = "Neu Laden"; //copied from de-de
 $text['button-reload']['de-ch'] = "Neu Laden"; //copied from de-de
@@ -5876,8 +5876,8 @@ $text['button-certificate']['sv-se'] = "Certifikat";
 $text['button-certificate']['uk-ua'] = "";
 
 //$text['button-back']['en-us'] = "Back";
-$text['button-back']['en-us'] = "背部";
-$text['button-back']['zh-cn'] = "背部";
+$text['button-back']['en-us'] = "返回";
+$text['button-back']['zh-cn'] = "返回";
 $text['button-back']['ar-eg'] = "";
 $text['button-back']['de-at'] = "Zurück"; //copied from de-de
 $text['button-back']['de-ch'] = "Zurück"; //copied from de-de

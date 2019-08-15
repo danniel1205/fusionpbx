@@ -376,8 +376,8 @@ $text['label-reference']['sv-se'] = "Referens";
 $text['label-reference']['uk-ua'] = "";
 
 //$text['label-message_view']['en-us'] = "View";
-$text['label-message_view']['en-us'] = "视图";
-$text['label-message_view']['zh-cn'] = "视图";
+$text['label-message_view']['en-us'] = "查看";
+$text['label-message_view']['zh-cn'] = "查看";
 $text['label-message_view']['ar-eg'] = "";
 $text['label-message_view']['de-at'] = "Anzeigen"; //copied from de-de
 $text['label-message_view']['de-ch'] = "Anzeigen"; //copied from de-de

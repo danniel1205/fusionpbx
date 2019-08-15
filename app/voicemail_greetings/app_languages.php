@@ -332,8 +332,8 @@ $text['label-pause']['sv-se'] = "Pausa";
 $text['label-pause']['uk-ua'] = "Призупинити";
 
 //$text['label-greeting']['en-us'] = "Greeting";
-$text['label-greeting']['en-us'] = "招呼";
-$text['label-greeting']['zh-cn'] = "招呼";
+$text['label-greeting']['en-us'] = "问候";
+$text['label-greeting']['zh-cn'] = "问候";
 $text['label-greeting']['ar-eg'] = "";
 $text['label-greeting']['de-at'] = "Begrüßung"; //copied from de-de
 $text['label-greeting']['de-ch'] = "Begrüßung"; //copied from de-de

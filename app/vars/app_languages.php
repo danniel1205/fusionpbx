@@ -112,8 +112,8 @@ $text['label-command']['sv-se'] = "";
 $text['label-command']['uk-ua'] = "";
 
 //$text['option-set']['en-us'] = "set";
-$text['option-设置']['en-us'] = "设置";
-$text['option-设置']['zh-cn'] = "设置";
+$text['option-set']['en-us'] = "设置";
+$text['option-set']['zh-cn'] = "设置";
 $text['option-set']['ar-eg'] = "";
 $text['option-set']['de-at'] = "";
 $text['option-set']['de-ch'] = "";
@@ -134,8 +134,8 @@ $text['option-set']['sv-se'] = "";
 $text['option-set']['uk-ua'] = "";
 
 //$text['option-exec-set']['en-us'] = "exec-set";
-$text['option-执行集']['en-us'] = "执行集";
-$text['option-执行集']['zh-cn'] = "执行集";
+$text['option-exec-set']['en-us'] = "执行集";
+$text['option-exec-set']['zh-cn'] = "执行集";
 $text['option-exec-set']['ar-eg'] = "";
 $text['option-exec-set']['de-at'] = "";
 $text['option-exec-set']['de-ch'] = "";

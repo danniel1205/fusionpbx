@@ -46,8 +46,8 @@ $text['title-command']['sv-se'] = "Kommando";
 $text['title-command']['uk-ua'] = "Команди";
 
 //$text['option-result_type_view']['en-us'] = "View";
-$text['option-result_type_view']['en-us'] = "视图";
-$text['option-result_type_view']['zh-cn'] = "视图";
+$text['option-result_type_view']['en-us'] = "查看";
+$text['option-result_type_view']['zh-cn'] = "查看";
 $text['option-result_type_view']['ar-eg'] = "";
 $text['option-result_type_view']['de-at'] = "Ansicht"; //copied from de-de
 $text['option-result_type_view']['de-ch'] = "Ansicht"; //copied from de-de

@@ -68,8 +68,8 @@ $text['title-domain_setting-add']['sv-se'] = "Lägg Till Domän Inställning";
 $text['title-domain_setting-add']['uk-ua'] = "Додавання домену";
 
 //$text['title-domain-edit']['en-us'] = "Domain";
-$text['title-domain-edit']['en-us'] = "领域";
-$text['title-domain-edit']['zh-cn'] = "领域";
+$text['title-domain-edit']['en-us'] = "域";
+$text['title-domain-edit']['zh-cn'] = "域";
 $text['title-domain-edit']['ar-eg'] = "";
 $text['title-domain-edit']['de-at'] = "Domain"; //copied from de-de
 $text['title-domain-edit']['de-ch'] = "Domain"; //copied from de-de
@@ -464,8 +464,8 @@ $text['label-fixed']['sv-se'] = "Fast";
 $text['label-fixed']['uk-ua'] = "фіксований";
 
 //$text['label-domain']['en-us'] = "Domain";
-$text['label-domain']['en-us'] = "领域";
-$text['label-domain']['zh-cn'] = "领域";
+$text['label-domain']['en-us'] = "域";
+$text['label-domain']['zh-cn'] = "域";
 $text['label-domain']['ar-eg'] = "";
 $text['label-domain']['de-at'] = "Domain"; //copied from de-de
 $text['label-domain']['de-ch'] = "Domain"; //copied from de-de
@@ -662,8 +662,8 @@ $text['header-domain_setting-add']['sv-se'] = "Lägg Till Domän Inställning";
 $text['header-domain_setting-add']['uk-ua'] = "Параметри домену";
 
 //$text['header-domain-edit']['en-us'] = "Domain";
-$text['header-domain-edit']['en-us'] = "领域";
-$text['header-domain-edit']['zh-cn'] = "领域";
+$text['header-domain-edit']['en-us'] = "域";
+$text['header-domain-edit']['zh-cn'] = "域";
 $text['header-domain-edit']['ar-eg'] = "";
 $text['header-domain-edit']['de-at'] = "Domain"; //copied from de-de
 $text['header-domain-edit']['de-ch'] = "Domain"; //copied from de-de

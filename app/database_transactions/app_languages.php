@@ -486,8 +486,8 @@ $text['description-transaction_result']['sv-se'] = "Resultat av transaktionen.";
 $text['description-transaction_result']['uk-ua'] = "";
 
 //$text['label-true']['en-us'] = "true";
-$text['label-真']['en-us'] = "正确";
-$text['label-真']['zh-cn'] = "正确";
+$text['label-true']['en-us'] = "正确";
+$text['label-true']['zh-cn'] = "正确";
 $text['label-true']['ar-eg'] = "";
 $text['label-true']['de-at'] = "wahr"; //copied from de-de
 $text['label-true']['de-ch'] = "wahr"; //copied from de-de
@@ -508,8 +508,8 @@ $text['label-true']['sv-se'] = "sann";
 $text['label-true']['uk-ua'] = "";
 
 //$text['label-false']['en-us'] = "false";
-$text['label-假']['en-us'] = "错误";
-$text['label-假']['zh-cn'] = "错误";
+$text['label-false']['en-us'] = "错误";
+$text['label-false']['zh-cn'] = "错误";
 $text['label-false']['ar-eg'] = "";
 $text['label-false']['de-at'] = "aus"; //copied from de-de
 $text['label-false']['de-ch'] = "aus"; //copied from de-de
@@ -618,8 +618,8 @@ $text['button-save']['sv-se'] = "Spara";
 $text['button-save']['uk-ua'] = "";
 
 //$text['button-view']['en-us'] = "View";
-$text['button-view']['en-us'] = "视图";
-$text['button-view']['zh-cn'] = "视图";
+$text['button-view']['en-us'] = "查看";
+$text['button-view']['zh-cn'] = "查看";
 $text['button-view']['ar-eg'] = "";
 $text['button-view']['de-at'] = "Anzeigen"; //copied from de-de
 $text['button-view']['de-ch'] = "Anzeigen"; //copied from de-de

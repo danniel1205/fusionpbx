@@ -1102,8 +1102,8 @@ $text['label-email']['sv-se'] = "E-post";
 $text['label-email']['uk-ua'] = "Електронна пошта";
 
 //$text['label-domain']['en-us'] = "Domain";
-$text['label-domain']['en-us'] = "领域";
-$text['label-domain']['zh-cn'] = "领域";
+$text['label-domain']['en-us'] = "域";
+$text['label-domain']['zh-cn'] = "域";
 $text['label-domain']['ar-eg'] = "";
 $text['label-domain']['de-at'] = "Domain"; //copied from de-de
 $text['label-domain']['de-ch'] = "Domain"; //copied from de-de
@@ -1652,8 +1652,8 @@ $text['description-enabled']['sv-se'] = "Ange statusen på detta konto..";
 $text['description-enabled']['uk-ua'] = "Вкажіть стан цього облікового запису.";
 
 //$text['description-contact_view']['en-us'] = "View";
-$text['description-contact_view']['en-us'] = "视图";
-$text['description-contact_view']['zh-cn'] = "视图";
+$text['description-contact_view']['en-us'] = "查看";
+$text['description-contact_view']['zh-cn'] = "查看";
 $text['description-contact_view']['ar-eg'] = "";
 $text['description-contact_view']['de-at'] = "Ansicht"; //copied from de-de
 $text['description-contact_view']['de-ch'] = "Ansicht"; //copied from de-de

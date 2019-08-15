@@ -530,8 +530,8 @@ $text['label-wait_for_moderator']['sv-se'] = "Vänta på Moderator";
 $text['label-wait_for_moderator']['uk-ua'] = "Очікування на модератора";
 
 //$text['label-view']['en-us'] = "View";
-$text['label-view']['en-us'] = "视图";
-$text['label-view']['zh-cn'] = "视图";
+$text['label-view']['en-us'] = "查看";
+$text['label-view']['zh-cn'] = "查看";
 $text['label-view']['ar-eg'] = "";
 $text['label-view']['de-at'] = "Ansicht"; //copied from de-de
 $text['label-view']['de-ch'] = "Ansicht"; //copied from de-de
