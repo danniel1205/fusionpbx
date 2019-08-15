@@ -1870,8 +1870,8 @@ $text['description-dialplan_manager-superadmin']['sv-se'] = "Nummerplanen använ
 $text['description-dialplan_manager-superadmin']['uk-ua'] = "Маршрутизація використовується для визначення напрямку дзвінка відповідно до умов і контексту. Можна спрямувати виклики на шлюзи, автоматичне обслуговування, зовнішні номери, сценарії або інші напрямки. ";
 
 //$text['description-dialplan_manager']['en-us'] = "The dialplan provides a view of some of the feature codes, as well as the IVR Menu, Conferences, Queues and other destinations.";
-$text['description-dialplan_manager']['en-us'] = "拨号计划提供了一些功能代码的视图，以及IVR菜单、会议、队列和其他目的地。";
-$text['description-dialplan_manager']['zh-cn'] = "拨号计划提供了一些功能代码的视图，以及IVR菜单、会议、队列和其他目的地。";
+$text['description-dialplan_manager']['en-us'] = "拨号计划提供了一些功能代码的查看，以及IVR菜单、会议、队列和其他目的地。";
+$text['description-dialplan_manager']['zh-cn'] = "拨号计划提供了一些功能代码的查看，以及IVR菜单、会议、队列和其他目的地。";
 $text['description-dialplan_manager']['ar-eg'] = "";
 $text['description-dialplan_manager']['de-at'] = "Der Wählplan bietet eine Ansicht aller Funktions-Codes sowie aller IVR Menüs, Konferenzen, Warteschlangen und anderen Zielen."; //copied from de-de
 $text['description-dialplan_manager']['de-ch'] = "Der Wählplan bietet eine Ansicht aller Funktions-Codes sowie aller IVR Menüs, Konferenzen, Warteschlangen und anderen Zielen."; //copied from de-de

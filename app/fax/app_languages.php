@@ -112,8 +112,8 @@ $text['title-fax_file']['sv-se'] = "Faxfilen";
 $text['title-fax_file']['uk-ua'] = "";
 
 //$text['table-view']['en-us'] = "View";
-$text['table-view']['en-us'] = "视图";
-$text['table-view']['zh-cn'] = "视图";
+$text['table-view']['en-us'] = "查看";
+$text['table-view']['zh-cn'] = "查看";
 $text['table-view']['ar-eg'] = "";
 $text['table-view']['de-at'] = "Ansicht"; //copied from de-de
 $text['table-view']['de-ch'] = "Ansicht"; //copied from de-de
@@ -2092,8 +2092,8 @@ $text['label-accountcode']['sv-se'] = "Kontokod";
 $text['label-accountcode']['uk-ua'] = "";
 
 //$text['label-fax_send_greeting']['en-us'] = "Greeting";
-$text['label-fax_send_greeting']['en-us'] = "招呼";
-$text['label-fax_send_greeting']['zh-cn'] = "招呼";
+$text['label-fax_send_greeting']['en-us'] = "问候";
+$text['label-fax_send_greeting']['zh-cn'] = "问候";
 $text['label-fax_send_greeting']['ar-eg'] = "";
 $text['label-fax_send_greeting']['de-at'] = "Begrüßung"; //copied from de-de
 $text['label-fax_send_greeting']['de-ch'] = "Begrüßung"; //copied from de-de

@@ -68,8 +68,8 @@ $text['label-active_conferences']['sv-se'] = "Aktiva Konferenser";
 $text['label-active_conferences']['uk-ua'] = "";
 
 //$text['button-view_active']['en-us'] = "View Active";
-$text['button-view_active']['en-us'] = "视图活动";
-$text['button-view_active']['zh-cn'] = "视图活动";
+$text['button-view_active']['en-us'] = "查看活动";
+$text['button-view_active']['zh-cn'] = "查看活动";
 $text['button-view_active']['ar-eg'] = "";
 $text['button-view_active']['de-at'] = "Aktive anzeigen"; //copied from de-de
 $text['button-view_active']['de-ch'] = "Aktive anzeigen"; //copied from de-de

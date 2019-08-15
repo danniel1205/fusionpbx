@@ -354,8 +354,8 @@ $text['button-save']['sv-se'] = "Spara";
 $text['button-save']['uk-ua'] = "";
 
 //$text['button-view']['en-us'] = "View";
-$text['button-view']['en-us'] = "视图";
-$text['button-view']['zh-cn'] = "视图";
+$text['button-view']['en-us'] = "查看";
+$text['button-view']['zh-cn'] = "查看";
 $text['button-view']['ar-eg'] = "";
 $text['button-view']['de-at'] = "Anzeigen"; //copied from de-de
 $text['button-view']['de-ch'] = "Anzeigen"; //copied from de-de
@@ -376,8 +376,8 @@ $text['button-view']['sv-se'] = "Visa";
 $text['button-view']['uk-ua'] = "";
 
 //$text['button-back']['en-us'] = "Back";
-$text['button-back']['en-us'] = "背部";
-$text['button-back']['zh-cn'] = "背部";
+$text['button-back']['en-us'] = "返回";
+$text['button-back']['zh-cn'] = "返回";
 $text['button-back']['ar-eg'] = "";
 $text['button-back']['de-at'] = "Zurück"; //copied from de-de
 $text['button-back']['de-ch'] = "Zurück"; //copied from de-de

@@ -112,8 +112,8 @@ $text['option-global']['sv-se'] = "Global";
 $text['option-global']['uk-ua'] = "Глобальний";
 
 //$text['option-default']['en-us'] = "Default";
-$text['option-default']['en-us'] = "违约";
-$text['option-default']['zh-cn'] = "违约";
+$text['option-default']['en-us'] = "默认";
+$text['option-default']['zh-cn'] = "默认";
 $text['option-default']['ar-eg'] = "";
 $text['option-default']['de-at'] = "Standard"; //copied from de-de
 $text['option-default']['de-ch'] = "Standard"; //copied from de-de
@@ -772,8 +772,8 @@ $text['label-delete-category']['sv-se'] = "Ta Bort Kategori";
 $text['label-delete-category']['uk-ua'] = "Видалити категорію";
 
 //$text['label-default']['en-us'] = "Default";
-$text['label-default']['en-us'] = "违约";
-$text['label-default']['zh-cn'] = "违约";
+$text['label-default']['en-us'] = "默认";
+$text['label-default']['zh-cn'] = "默认";
 $text['label-default']['ar-eg'] = "";
 $text['label-default']['de-at'] = "Standard"; //copied from de-de
 $text['label-default']['de-ch'] = "Standard"; //copied from de-de

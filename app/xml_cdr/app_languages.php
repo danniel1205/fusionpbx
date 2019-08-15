@@ -484,8 +484,8 @@ $text['option-last_hour']['sv-se'] = "Senaste Timman";
 $text['option-last_hour']['uk-ua'] = "За останню годину";
 
 //$text['option-default']['en-us'] = "Default";
-$text['option-default']['en-us'] = "违约";
-$text['option-default']['zh-cn'] = "违约";
+$text['option-default']['en-us'] = "默认";
+$text['option-default']['zh-cn'] = "默认";
 $text['option-default']['ar-eg'] = "";
 $text['option-default']['de-at'] = "Vorgabe"; //copied from de-de
 $text['option-default']['de-ch'] = "Vorgabe"; //copied from de-de
@@ -2464,8 +2464,8 @@ $text['description-6']['sv-se'] = "Informationen innehåller presentation av nam
 $text['description-6']['uk-ua'] = "";
 
 //$text['description-5']['en-us'] = "A detailed view of the call and all information regarding it.";
-$text['description-5']['en-us'] = "通话的详细视图以及所有相关信息。";
-$text['description-5']['zh-cn'] = "通话的详细视图以及所有相关信息。";
+$text['description-5']['en-us'] = "通话的详细查看以及所有相关信息。";
+$text['description-5']['zh-cn'] = "通话的详细查看以及所有相关信息。";
 $text['description-5']['ar-eg'] = "";
 $text['description-5']['de-at'] = "Eine detaillierte Ansicht des Anrufes mit allen zugehörigen Informationen."; //copied from de-de
 $text['description-5']['de-ch'] = "Eine detaillierte Ansicht des Anrufes mit allen zugehörigen Informationen."; //copied from de-de

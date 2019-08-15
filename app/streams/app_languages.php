@@ -1,7 +1,9 @@
 <?php
 
 	//Streams
-		$text['title-streams']['en-us'] = 'Streams';
+// 		$text['title-streams']['en-us'] = 'Streams';
+		$text['title-streams']['en-us'] = '直播';
+		$text['title-streams']['zh-cn'] = '直播';
 		$text['title-streams']['ar-eg'] = '';
 		$text['title-streams']['de-at'] = '';
 		$text['title-streams']['de-ch'] = '';
@@ -21,7 +23,9 @@
 		$text['title-streams']['sv-se'] = '';
 		$text['title-streams']['uk-ua'] = '';
 
-		$text['title-stream']['en-us'] = 'Stream';
+// 		$text['title-stream']['en-us'] = 'Stream';
+		$text['title-stream']['en-us'] = '直播';
+		$text['title-stream']['zh-cn'] = '直播';
 		$text['title-stream']['ar-eg'] = '';
 		$text['title-stream']['de-at'] = '';
 		$text['title-stream']['de-ch'] = '';
@@ -41,7 +45,9 @@
 		$text['title-stream']['sv-se'] = '';
 		$text['title-stream']['uk-ua'] = '';
 
-		$text['title_description-stream']['en-us'] = 'Define details for streaming audio.';
+// 		$text['title_description-stream']['en-us'] = 'Define details for streaming audio.';
+		$text['title_description-stream']['en-us'] = '定义流式音频的详细信息.';
+		$text['title_description-stream']['zh-cn'] = '定义流式音频的详细信息.';
 		$text['title_description-stream']['ar-eg'] = '';
 		$text['title_description-stream']['de-at'] = '';
 		$text['title_description-stream']['de-ch'] = '';
@@ -61,7 +67,9 @@
 		$text['title_description-stream']['sv-se'] = '';
 		$text['title_description-stream']['uk-ua'] = '';
 
-		$text['label-stream_name']['en-us'] = 'Name';
+// 		$text['label-stream_name']['en-us'] = 'Name';
+		$text['label-stream_name']['en-us'] = '名称';
+		$text['label-stream_name']['zh-cn'] = '名称';
 		$text['label-stream_name']['ar-eg'] = '';
 		$text['label-stream_name']['de-at'] = '';
 		$text['label-stream_name']['de-ch'] = '';
@@ -81,7 +89,9 @@
 		$text['label-stream_name']['sv-se'] = '';
 		$text['label-stream_name']['uk-ua'] = '';
 
-		$text['description-stream_name']['en-us'] = 'Enter the name.';
+// 		$text['description-stream_name']['en-us'] = 'Enter the name.';
+		$text['description-stream_name']['en-us'] = '输入名称。';
+		$text['description-stream_name']['zh-cn'] = '输入名称。';
 		$text['description-stream_name']['ar-eg'] = '';
 		$text['description-stream_name']['de-at'] = '';
 		$text['description-stream_name']['de-ch'] = '';
@@ -101,7 +111,9 @@
 		$text['description-stream_name']['sv-se'] = '';
 		$text['description-stream_name']['uk-ua'] = '';
 
-		$text['label-stream_location']['en-us'] = 'Location';
+// 		$text['label-stream_location']['en-us'] = 'Location';
+		$text['label-stream_location']['en-us'] = '位置';
+		$text['label-stream_location']['zh-cn'] = '位置';
 		$text['label-stream_location']['ar-eg'] = '';
 		$text['label-stream_location']['de-at'] = '';
 		$text['label-stream_location']['de-ch'] = '';
@@ -121,7 +133,9 @@
 		$text['label-stream_location']['sv-se'] = '';
 		$text['label-stream_location']['uk-ua'] = '';
 
-		$text['description-stream_location']['en-us'] = 'Enter the location.';
+// 		$text['description-stream_location']['en-us'] = 'Enter the location.';
+		$text['description-stream_location']['en-us'] = '输入位置.';
+		$text['description-stream_location']['zh-cn'] = '输入位置.';
 		$text['description-stream_location']['ar-eg'] = '';
 		$text['description-stream_location']['de-at'] = '';
 		$text['description-stream_location']['de-ch'] = '';
@@ -141,7 +155,9 @@
 		$text['description-stream_location']['sv-se'] = '';
 		$text['description-stream_location']['uk-ua'] = '';
 
-		$text['label-stream_enabled']['en-us'] = 'Enabled';
+// 		$text['label-stream_enabled']['en-us'] = 'Enabled';
+		$text['label-stream_enabled']['en-us'] = '已启用';
+		$text['label-stream_enabled']['zh-cn'] = '已启用';
 		$text['label-stream_enabled']['ar-eg'] = '';
 		$text['label-stream_enabled']['de-at'] = '';
 		$text['label-stream_enabled']['de-ch'] = '';
@@ -161,7 +177,9 @@
 		$text['label-stream_enabled']['sv-se'] = '';
 		$text['label-stream_enabled']['uk-ua'] = '';
 
-		$text['description-stream_enabled']['en-us'] = 'Enable or disable this stream. ';
+// 		$text['description-stream_enabled']['en-us'] = 'Enable or disable this stream. ';
+		$text['description-stream_enabled']['en-us'] = '启用或禁用这个直播. ';
+		$text['description-stream_enabled']['zh-cn'] = '启用或禁用这个直播. ';
 		$text['description-stream_enabled']['ar-eg'] = '';
 		$text['description-stream_enabled']['de-at'] = '';
 		$text['description-stream_enabled']['de-ch'] = '';
@@ -181,7 +199,9 @@
 		$text['description-stream_enabled']['sv-se'] = '';
 		$text['description-stream_enabled']['uk-ua'] = '';
 
-		$text['label-stream_description']['en-us'] = 'Description';
+// 		$text['label-stream_description']['en-us'] = 'Description';
+		$text['label-stream_description']['en-us'] = '说明';
+		$text['label-stream_description']['zh-cn'] = '说明';
 		$text['label-stream_description']['ar-eg'] = '';
 		$text['label-stream_description']['de-at'] = '';
 		$text['label-stream_description']['de-ch'] = '';
@@ -201,7 +221,9 @@
 		$text['label-stream_description']['sv-se'] = '';
 		$text['label-stream_description']['uk-ua'] = '';
 
-		$text['description-stream_description']['en-us'] = 'Enter the description.';
+// 		$text['description-stream_description']['en-us'] = 'Enter the description.';
+		$text['description-stream_description']['en-us'] = '输入说明.';
+		$text['description-stream_description']['zh-cn'] = '输入说明.';
 		$text['description-stream_description']['ar-eg'] = '';
 		$text['description-stream_description']['de-at'] = '';
 		$text['description-stream_description']['de-ch'] = '';

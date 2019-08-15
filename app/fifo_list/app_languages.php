@@ -68,8 +68,8 @@ $text['label-waiting_count']['sv-se'] = "Antal Väntande";
 $text['label-waiting_count']['uk-ua'] = "Кількість в очікуванні";
 
 //$text['label-view']['en-us'] = "View";
-$text['label-view']['en-us'] = "视图";
-$text['label-view']['zh-cn'] = "视图";
+$text['label-view']['en-us'] = "查看";
+$text['label-view']['zh-cn'] = "查看";
 $text['label-view']['ar-eg'] = "";
 $text['label-view']['de-at'] = "Ansicht"; //copied from de-de
 $text['label-view']['de-ch'] = "Ansicht"; //copied from de-de

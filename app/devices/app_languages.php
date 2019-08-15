@@ -924,8 +924,8 @@ $text['label-pickup']['sv-se'] = "Plocka";
 $text['label-pickup']['uk-ua'] = "";
 
 //$text['label-public_hold']['en-us'] = "Public Hold";
-$text['label-public_hold']['en-us'] = "公众持股";
-$text['label-public_hold']['zh-cn'] = "公众持股";
+$text['label-public_hold']['en-us'] = "公共待机";
+$text['label-public_hold']['zh-cn'] = "公共待机";
 $text['label-public_hold']['ar-eg'] = "";
 $text['label-public_hold']['de-at'] = "Allgemeines Halten"; //copied from de-de
 $text['label-public_hold']['de-ch'] = "Allgemeines Halten"; //copied from de-de
@@ -3293,8 +3293,8 @@ $text['label-call_agent']['sv-se'] = "Agent Samtal";
 $text['label-call_agent']['uk-ua'] = "";
 
 //$text['label-button']['en-us'] = "Button";
-$text['label-button']['en-us'] = "纽扣";
-$text['label-button']['zh-cn'] = "纽扣";
+$text['label-button']['en-us'] = "按钮";
+$text['label-button']['zh-cn'] = "按钮";
 $text['label-button']['ar-eg'] = "";
 $text['label-button']['de-at'] = "Taste"; //copied from de-de
 $text['label-button']['de-ch'] = "Taste"; //copied from de-de
@@ -3337,8 +3337,8 @@ $text['label-broadsoft_phonebook']['sv-se'] = "Broadsoft Telefonbok";
 $text['label-broadsoft_phonebook']['uk-ua'] = "";
 
 //$text['label-broadsoft_group']['en-us'] = "Broadsoft Group";
-$text['label-broadsoft_group']['en-us'] = "BroadSoft集团";
-$text['label-broadsoft_group']['zh-cn'] = "BroadSoft集团";
+$text['label-broadsoft_group']['en-us'] = "BroadSoft组";
+$text['label-broadsoft_group']['zh-cn'] = "BroadSoft组";
 $text['label-broadsoft_group']['ar-eg'] = "";
 $text['label-broadsoft_group']['de-at'] = "Broadsoft Gruppe"; //copied from de-de
 $text['label-broadsoft_group']['de-ch'] = "Broadsoft Gruppe"; //copied from de-de
@@ -3534,8 +3534,8 @@ $text['label-callers']['sv-se'] = "Uppringare";
 $text['label-callers']['uk-ua'] = "";
 
 //$text['label-xfer']['en-us'] = "Xfer";
-$text['label-xfer']['en-us'] = "XFER";
-$text['label-xfer']['zh-cn'] = "XFER";
+$text['label-xfer']['en-us'] = "Xfer";
+$text['label-xfer']['zh-cn'] = "Xfer";
 $text['label-xfer']['ar-eg'] = "";
 $text['label-xfer']['de-at'] = "Xfer"; //copied from de-de
 $text['label-xfer']['de-ch'] = "Xfer"; //copied from de-de
