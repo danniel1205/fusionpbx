@@ -370,8 +370,8 @@ $text['button-apply']['uk-ua'] = "";
 $text['button-apply']['tr-tr'] = "Uygula";
 
 //$text['button-provision']['en-us'] = "Provision";
-$text['button-provision']['en-us'] = "准备金";
-$text['button-provision']['zh-cn'] = "准备金";
+$text['button-provision']['en-us'] = "保证";
+$text['button-provision']['zh-cn'] = "保证";
 $text['button-provision']['ar-eg'] = "";
 $text['button-provision']['de-at'] = "Bereitstellen"; //copied from de-de
 $text['button-provision']['de-ch'] = "Bereitstellen"; //copied from de-de

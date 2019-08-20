@@ -3654,8 +3654,8 @@ $text['label-attachment_description']['sv-se'] = "";
 $text['label-attachment_description']['uk-ua'] = "";
 
 //$text['header_contact_times']['en-us'] = "Times";
-$text['header_contact_times']['en-us'] = "时间";
-$text['header_contact_times']['zh-cn'] = "时间";
+$text['header_contact_times']['en-us'] = "批次";
+$text['header_contact_times']['zh-cn'] = "批次";
 $text['header_contact_times']['ar-eg'] = "";
 $text['header_contact_times']['de-at'] = "Zeiten"; //copied from de-de
 $text['header_contact_times']['de-ch'] = "Zeiten"; //copied from de-de

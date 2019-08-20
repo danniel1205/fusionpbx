@@ -1058,8 +1058,8 @@ $text['label-fax_file']['sv-se'] = "Fil Bana";
 $text['label-fax_file']['uk-ua'] = "";
 
 //$text['label-fax_epoch']['en-us'] = "Epoch";
-$text['label-fax_epoch']['en-us'] = "时代";
-$text['label-fax_epoch']['zh-cn'] = "时代";
+$text['label-fax_epoch']['en-us'] = "批次";
+$text['label-fax_epoch']['zh-cn'] = "批次";
 $text['label-fax_epoch']['ar-eg'] = "";
 $text['label-fax_epoch']['de-at'] = "Zeitraum"; //copied from de-de
 $text['label-fax_epoch']['de-ch'] = "Zeitraum"; //copied from de-de
@@ -2796,8 +2796,8 @@ $text['description-fax_file']['sv-se'] = "Faxfiler";
 $text['description-fax_file']['uk-ua'] = "";
 
 //$text['description-fax_epoch']['en-us'] = "Epoch.";
-$text['description-fax_epoch']['en-us'] = "时代。";
-$text['description-fax_epoch']['zh-cn'] = "时代。";
+$text['description-fax_epoch']['en-us'] = "批次。";
+$text['description-fax_epoch']['zh-cn'] = "批次。";
 $text['description-fax_epoch']['ar-eg'] = "";
 $text['description-fax_epoch']['de-at'] = "Epoche."; //copied from de-de
 $text['description-fax_epoch']['de-ch'] = "Epoche."; //copied from de-de
