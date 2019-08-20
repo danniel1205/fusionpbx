@@ -1,6 +1,8 @@
 <?php
 
-//$apps[$x]['menu'][0]['title']['en-us'] = "Install";
+////$apps[$x]['menu'][0]['title']['en-us'] = "Install";
+//$apps[$x]['menu'][0]['title']['en-us'] = "安装";
+//$apps[$x]['menu'][0]['title']['zh-cn'] = "安装";
 //$apps[$x]['menu'][0]['title']['de-de'] = "Installation";
 //$apps[$x]['menu'][0]['title']['de-at'] = "Installation";
 //$apps[$x]['menu'][0]['title']['ru-ru'] = "Установка";

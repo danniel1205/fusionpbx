@@ -7,7 +7,9 @@
 		$apps[$x]['subcategory'] = "";
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['url'] = "http://www.fusionpbx.com";
-		$apps[$x]['description']['en-us'] = "Configure notification preferences.";
+//		$apps[$x]['description']['en-us'] = "Configure notification preferences.";
+		$apps[$x]['description']['en-us'] = "配置通知首选项。";
+		$apps[$x]['description']['zh-cn'] = "配置通知首选项。";
 		$apps[$x]['description']['ar-eg'] = "";
 		$apps[$x]['description']['de-at'] = "Verwalte Benachrichtigunggseinstellungen.";
 		$apps[$x]['description']['de-ch'] = "";
@@ -40,6 +42,8 @@
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name']['text'] = "project_notifications";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "";
 
 ?>

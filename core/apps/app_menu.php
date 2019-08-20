@@ -1,7 +1,9 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Apps";
+//	$apps[$x]['menu'][$y]['title']['en-us'] = "Apps";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "应用程序";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "应用程序";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Applikationen";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "Applikationen";
@@ -29,7 +31,9 @@
 	$apps[$x]['menu'][$y]['groups'][] = "admin";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;	
-	$apps[$x]['menu'][$y]['title']['en-us'] = "App Manager";
+//	$apps[$x]['menu'][$y]['title']['en-us'] = "App Manager";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "应用程序管理器";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "应用程序管理器";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Applikation Verwalten";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "Applikation Verwalten";

@@ -1,7 +1,9 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Databases";
+//	$apps[$x]['menu'][$y]['title']['en-us'] = "Databases";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "数据库";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "数据库";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "قواعد البيانات";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Datenbanken";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "Datenbanken";

@@ -1,7 +1,9 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Domains";
+//	$apps[$x]['menu'][$y]['title']['en-us'] = "Domains";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "域";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "域";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Domänen";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "Domänen";
@@ -25,7 +27,9 @@
 	$apps[$x]['menu'][$y]['path'] = "/core/domain_settings/domains.php";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Domain Settings";
+//	$apps[$x]['menu'][$y]['title']['en-us'] = "Domain Settings";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "域设置";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "域设置";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Domänen Einstellungen";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "Domänen Einstellungen";
