@@ -8,7 +8,9 @@
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "Mozilla Public License 1.1";
 		$apps[$x]['url'] = "http://www.fusionpbx.com";
-		$apps[$x]['description']['en-us'] = "Provides an authentication framework with plugins to check if a user is authorized to login.";
+//		$apps[$x]['description']['en-us'] = "Provides an authentication framework with plugins to check if a user is authorized to login.";
+		$apps[$x]['description']['en-us'] = "提供带有插件的身份验证框架，以检查用户是否有权登录。";
+		$apps[$x]['description']['zh-cn'] = "提供带有插件的身份验证框架，以检查用户是否有权登录。";
 		$apps[$x]['description']['ar-eg'] = "";
 		$apps[$x]['description']['de-at'] = "";
 		$apps[$x]['description']['de-ch'] = "";

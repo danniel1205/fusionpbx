@@ -8,7 +8,9 @@
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "Mozilla Public License 1.1";
 		$apps[$x]['url'] = "http://www.fusionpbx.com";
-		$apps[$x]['description']['en-us'] = "Manage Applications";
+//		$apps[$x]['description']['en-us'] = "Manage Applications";
+		$apps[$x]['description']['en-us'] = "管理应用程序";
+		$apps[$x]['description']['zh-cn'] = "管理应用程序";
 		$apps[$x]['description']['ar-eg'] = "";
 		$apps[$x]['description']['de-at'] = "Applikationen Verwalten";
 		$apps[$x]['description']['de-ch'] = "";
@@ -56,14 +58,20 @@
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "app_category";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "app_version";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "app_enabled";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "";
 
 ?>
