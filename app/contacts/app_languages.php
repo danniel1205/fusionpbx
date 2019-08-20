@@ -3500,8 +3500,8 @@ $text['label-address_address']['sv-se'] = "Adress";
 $text['label-address_address']['uk-ua'] = "Адреси";
 
 //$text['header_contact_times']['en-us'] = "Times";
-$text['header_contact_times']['en-us'] = "时代";
-$text['header_contact_times']['zh-cn'] = "时代";
+$text['header_contact_times']['en-us'] = "批次";
+$text['header_contact_times']['zh-cn'] = "批次";
 $text['header_contact_times']['ar-eg'] = "";
 $text['header_contact_times']['de-at'] = "Zeiten"; //copied from de-de
 $text['header_contact_times']['de-ch'] = "Zeiten"; //copied from de-de

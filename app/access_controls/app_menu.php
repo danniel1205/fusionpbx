@@ -1,7 +1,9 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Access Controls";
+// 	$apps[$x]['menu'][$y]['title']['en-us'] = "Access Controls";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "访问控制";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "访问控制";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "عناصر التحكم في الوصول";
 	$apps[$x]['menu'][$y]['title']['de-at'] = " Zugriffskontrolle";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "";

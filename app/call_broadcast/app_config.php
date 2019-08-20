@@ -8,7 +8,9 @@
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "Mozilla Public License 1.1";
 		$apps[$x]['url'] = "http://www.fusionpbx.com";
-		$apps[$x]['description']['en-us'] = "Schedule to immediately make multiple calls to the extension, an IVR Menu, Conference Room, or any other number.";
+// 		$apps[$x]['description']['en-us'] = "Schedule to immediately make multiple calls to the extension, an IVR Menu, Conference Room, or any other number.";
+		$apps[$x]['description']['en-us'] = "安排立即拨打分机、IVR菜单、会议室或任何其他号码的多个电话.";
+		$apps[$x]['description']['zh-cn'] = "安排立即拨打分机、IVR菜单、会议室或任何其他号码的多个电话.";
 		$apps[$x]['description']['ar-eg'] = "";
 		$apps[$x]['description']['de-at'] = "Methode um sofort mehrere parallele Anrufe an Nebenstellen, Automatische Zentralen, Conferenzräume oder andere Rufnummern zu leiten.";
 		$apps[$x]['description']['de-ch'] = "";

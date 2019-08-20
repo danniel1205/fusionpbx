@@ -8,7 +8,9 @@
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "Mozilla Public License 1.1";
 		$apps[$x]['url'] = "http://www.fusionpbx.com";
-		$apps[$x]['description']['en-us'] = "Manage access control lists";
+// 		$apps[$x]['description']['en-us'] = "Manage access control lists";
+		$apps[$x]['description']['en-us'] = "管理访问控制列表";
+		$apps[$x]['description']['zh-cn'] = "管理访问控制列表";
 		$apps[$x]['description']['ar-eg'] = "";
 		$apps[$x]['description']['de-at'] = "Zugriffssteuerungslisten verwalten";
 		$apps[$x]['description']['de-ch'] = "";
