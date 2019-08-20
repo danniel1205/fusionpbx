@@ -8,7 +8,9 @@
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "Mozilla Public License 1.1";
 		$apps[$x]['url'] = "http://www.fusionpbx.com";
-		$apps[$x]['description']['en-us'] = "Operator panel shows the status.";
+//		$apps[$x]['description']['en-us'] = "Operator panel shows the status.";
+		$apps[$x]['description']['en-us'] = "操作员面板显示状态。";
+		$apps[$x]['description']['zh-cn'] = "操作员面板显示状态。";
 		$apps[$x]['description']['ar-eg'] = "";
 		$apps[$x]['description']['de-at'] = "Das Bedienfeld zeigt den Status an.";
 		$apps[$x]['description']['de-ch'] = "";

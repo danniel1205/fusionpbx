@@ -1,7 +1,9 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Email Logs";
+//	$apps[$x]['menu'][$y]['title']['en-us'] = "Email Logs";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "电子邮件";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "电子邮件";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Emails";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "";

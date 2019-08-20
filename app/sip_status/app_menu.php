@@ -1,7 +1,9 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "SIP Status";
+//	$apps[$x]['menu'][$y]['title']['en-us'] = "SIP Status";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "SIP状态";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "SIP状态";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "SIP Status";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "SIP Status";

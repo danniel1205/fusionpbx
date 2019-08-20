@@ -8,7 +8,9 @@
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "";
 		$apps[$x]['url'] = "http://www.fusionpbx.com";
+//		$apps[$x]['description']['en-us'] = "";
 		$apps[$x]['description']['en-us'] = "";
+		$apps[$x]['description']['zh-cn'] = "";
 		$apps[$x]['description']['ar-eg'] = "";
 		$apps[$x]['description']['de-at'] = "";
 		$apps[$x]['description']['de-ch'] = "";

@@ -1,6 +1,8 @@
 <?php
 
-$apps[$x]['menu'][0]['title']['en-us'] = 'Email Templates';
+// $apps[$x]['menu'][0]['title']['en-us'] = 'Email Templates';
+$apps[$x]['menu'][0]['title']['en-us'] = '邮件模板';
+$apps[$x]['menu'][0]['title']['zh-cn'] = '邮件模板';
 $apps[$x]['menu'][0]['title']['es-cl'] = '';
 $apps[$x]['menu'][0]['title']['fr-fr'] = '';
 $apps[$x]['menu'][0]['title']['fr-ca'] = '';

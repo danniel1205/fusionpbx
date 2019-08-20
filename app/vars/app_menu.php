@@ -1,7 +1,9 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Variables";
+//	$apps[$x]['menu'][$y]['title']['en-us'] = "Variables";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "变量";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "变量";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Variablen";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "Variablen";

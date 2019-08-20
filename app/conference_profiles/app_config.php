@@ -8,7 +8,9 @@
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "Mozilla Public License 1.1";
 		$apps[$x]['url'] = "http://www.fusionpbx.com";
-		$apps[$x]['description']['en-us'] = "A group of conference parameters saved together as a profile.";
+//		$apps[$x]['description']['en-us'] = "A group of conference parameters saved together as a profile.";
+		$apps[$x]['description']['en-us'] = "一组会议参数保存在一起作为配置文件。";
+		$apps[$x]['description']['zh-cn'] = "一组会议参数保存在一起作为配置文件。";
 		$apps[$x]['description']['ar-eg'] = "";
 		$apps[$x]['description']['de-at'] = "Eine Gruppe von Konferenz-Parametern zu einem Profil zusammengefasst.";
 		$apps[$x]['description']['de-ch'] = "";
@@ -79,15 +81,21 @@
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "profile_name";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the profile name.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the profile name.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "输入配置文件名称。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "输入配置文件名称。";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "profile_enabled";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Set the status of the profile.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Set the status of the profile.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "设置配置文件的状态。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "设置配置文件的状态。";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "profile_description";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the description.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the description.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "输入说明。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "输入说明。";
 
 		$y++;
 		$apps[$x]['db'][$y]['table']['name'] = "v_conference_profile_params";
@@ -109,18 +117,26 @@
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "profile_param_name";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the parameter name.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the parameter name.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "输入参数名称。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "输入参数名称。";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "profile_param_value";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the value.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the value.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "输入值。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "输入值。";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "profile_param_enabled";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Set the status of the parameter.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Set the status of the parameter.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "设置参数的状态。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "设置参数的状态。";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "profile_param_description";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the description.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the description.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "输入说明。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "输入说明。";
 
 ?>

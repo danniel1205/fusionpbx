@@ -8,7 +8,9 @@
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "Mozilla Public License 1.1";
 		$apps[$x]['url'] = "http://www.fusionpbx.com";
-		$apps[$x]['description']['en-us'] = "Manage settings for the SIP profiles.";
+//		$apps[$x]['description']['en-us'] = "Manage settings for the SIP profiles.";
+		$apps[$x]['description']['en-us'] = "管理SIP配置文件的设置。";
+		$apps[$x]['description']['zh-cn'] = "管理SIP配置文件的设置。";
 		$apps[$x]['description']['ar-eg'] = "";
 		$apps[$x]['description']['de-at'] = "Einstellungen der SIP-Profile verwalten.";
 		$apps[$x]['description']['de-ch'] = "";
@@ -95,7 +97,9 @@
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "sip_profile_name";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the SIP Profile name.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the SIP Profile name.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "输入SIP配置文件名。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "输入SIP配置文件名。";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "sip_profile_hostname";
 		$apps[$x]['db'][$y]['fields'][$z]['type']['pgsql'] = "text";
@@ -104,11 +108,15 @@
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "sip_profile_enabled";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "sip_profile_description";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the description.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the description.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "输入说明。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "输入说明。";
 
 		$y++;
 		$apps[$x]['db'][$y]['table']['name'] = "v_sip_profile_domains";
@@ -130,15 +138,21 @@
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "sip_profile_domain_name";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the name.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the name.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "输入名称。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "输入名称。";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "sip_profile_domain_alias";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enable or disable the alias.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enable or disable the alias.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "启用或禁用别名。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "启用或禁用别名。";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "sip_profile_domain_parse";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enable or disable the parsing.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enable or disable the parsing.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "启用或禁用分析。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "启用或禁用分析。";
 
 		$y++;
 		$apps[$x]['db'][$y]['table']['name'] = "v_sip_profile_settings";
@@ -160,18 +174,26 @@
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "sip_profile_setting_name";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the name.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the name.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "输入名称。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "输入名称。";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "sip_profile_setting_value";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the value.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the value.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "输入值。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "输入值。";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "sip_profile_setting_enabled";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Choose to enable or disable this.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Choose to enable or disable this.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "选择启用或禁用此功能。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "选择启用或禁用此功能。";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "sip_profile_setting_description";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the description.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the description.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "输入说明。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "输入说明。";
 
 ?>

@@ -1,7 +1,9 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Phrases";
+//	$apps[$x]['menu'][$y]['title']['en-us'] = "Phrases";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "短语";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "短语";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Phrasen";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "Phrasen";

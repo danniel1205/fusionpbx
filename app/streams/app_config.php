@@ -53,19 +53,27 @@
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = 'stream_name';
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = 'text';
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = 'Enter the name.';
+// 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = 'Enter the name.';
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = '输入名称.';
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = '输入名称.';
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = 'stream_location';
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = 'text';
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = 'Enter the location.';
+// 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = 'Enter the location.';
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = '输入位置.';
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = '输入位置.';
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = 'stream_enabled';
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = 'text';
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = 'Enable or disable this stream. ';
+// 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = 'Enable or disable this stream. ';
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = '启用或禁用该直播. ';
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = '启用或禁用该直播. ';
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = 'stream_description';
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = 'text';
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = 'Enter the description.';
+// 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = 'Enter the description.';
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = '输入说明.';
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = '输入说明.';
 		$z++;
 
 ?>

@@ -1,7 +1,9 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "IVR Menus";
+//	$apps[$x]['menu'][$y]['title']['en-us'] = "IVR Menus";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "IVR菜单";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "IVR菜单";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Automatische Vermittlung";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "Automatische Vermittlung";

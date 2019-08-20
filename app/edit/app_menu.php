@@ -1,7 +1,9 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Script Editor";
+//	$apps[$x]['menu'][$y]['title']['en-us'] = "Script Editor";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "脚本编辑器";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "脚本编辑器";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Skript Editor";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "";
@@ -27,7 +29,9 @@
 	$apps[$x]['menu'][$y]['path'] = "/app/edit/index.php?dir=scripts";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "XML Editor";
+//	$apps[$x]['menu'][$y]['title']['en-us'] = "XML Editor";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "XML编辑器";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "XML编辑器";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "XML Editor";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "";
@@ -53,7 +57,9 @@
 	$apps[$x]['menu'][$y]['path'] = "/app/edit/index.php?dir=xml";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Provision Editor";
+//	$apps[$x]['menu'][$y]['title']['en-us'] = "Provision Editor";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "设置编辑器";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "设置编辑器";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Bereitstellungs Editor";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "";
@@ -79,7 +85,9 @@
 	$apps[$x]['menu'][$y]['path'] = "/app/edit/index.php?dir=provision";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "PHP Editor";
+//	$apps[$x]['menu'][$y]['title']['en-us'] = "PHP Editor";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "PHP编辑器";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "PHP编辑器";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "PHP Editor";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "";
@@ -105,7 +113,9 @@
 	$apps[$x]['menu'][$y]['path'] = "/app/edit/index.php?dir=php";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Grammar Editor";
+//	$apps[$x]['menu'][$y]['title']['en-us'] = "Grammar Editor";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "语法编辑器";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "语法编辑器";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Grammatik Editor";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "";

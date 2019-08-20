@@ -8,7 +8,9 @@
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "Mozilla Public License 1.1";
 		$apps[$x]['url'] = "http://www.fusionpbx.com";
-		$apps[$x]['description']['en-us'] = "Add, edit, delete, and search users. ";
+//		$apps[$x]['description']['en-us'] = "Add, edit, delete, and search users. ";
+		$apps[$x]['description']['en-us'] = "添加、编辑、删除和搜索用户。";
+		$apps[$x]['description']['zh-cn'] = "添加、编辑、删除和搜索用户。";
 		$apps[$x]['description']['ar-eg'] = "";
 		$apps[$x]['description']['de-at'] = "";
 		$apps[$x]['description']['de-ch'] = "";
@@ -83,19 +85,27 @@
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "moderator_pin";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "numeric";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the moderator PIN number.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the moderator PIN number.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "输入版主PIN号。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "输入版主PIN号。";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "participant_pin";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "numeric";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the participant PIN number.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the participant PIN number.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "输入参与者密码。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "输入参与者密码。";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "enabled";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Select to enable or disable the meeting.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Select to enable or disable the meeting.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "选择以启用或禁用会议。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "选择以启用或禁用会议。";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "description";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Description.for the meeting description.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Description.for the meeting description.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "说明。用于会议说明。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "说明。用于会议说明。";
 
 		$y++;
 		$apps[$x]['db'][$y]['table']['name'] = "v_meeting_users";
@@ -131,5 +141,6 @@
 		$apps[$x]['db'][$y]['fields'][$z]['key']['reference']['table'] = "v_users";
 		$apps[$x]['db'][$y]['fields'][$z]['key']['reference']['field'] = "user_uuid";
 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "";
 
 ?>

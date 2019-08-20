@@ -8,7 +8,9 @@
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "Mozilla Public License 1.1";
 		$apps[$x]['url'] = "http://www.fusionpbx.com";
-		$apps[$x]['description']['en-us'] = "Call controls enable ability to assign digits to actions. They can be used to mute, unmute, or other actions during the conference call.";
+//		$apps[$x]['description']['en-us'] = "Call controls enable ability to assign digits to actions. They can be used to mute, unmute, or other actions during the conference call.";
+		$apps[$x]['description']['en-us'] = "呼叫控制可以为动作分配数字。它们可用于在电话会议期间静音、取消静音或其他操作。";
+		$apps[$x]['description']['zh-cn'] = "呼叫控制可以为动作分配数字。它们可用于在电话会议期间静音、取消静音或其他操作。";
 		$apps[$x]['description']['ar-eg'] = "";
 		$apps[$x]['description']['de-at'] = "Anrufsteuerung anhand von zugeordneten Ziffern. Diese können verschiedene Aktionen wie Stummschaltung, usw. während einer Konferenz auslösen.";
 		$apps[$x]['description']['de-ch'] = "";
@@ -79,15 +81,21 @@
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "control_name";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the conference control name.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the conference control name.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "输入会议控件名称。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "输入会议控件名称。";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "control_enabled";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Set the stats of the control.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Set the stats of the control.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "设置控件的统计信息。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "设置控件的统计信息。";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "control_description";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the description.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the description.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "输入说明。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "输入说明。";
 
 		$y++;
 		$apps[$x]['db'][$y]['table']['name'] = "v_conference_control_details";
@@ -109,18 +117,26 @@
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "control_digits";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the digits.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the digits.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "输入数字。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "输入数字。";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "control_action";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the action.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the action.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "输入操作。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "输入操作。";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "control_data";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the data.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Enter the data.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "输入数据。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "输入数据。";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "control_enabled";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Set the status of the control.";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "Set the status of the control.";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "设置控件的状态。";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "设置控件的状态。";
 
 ?>

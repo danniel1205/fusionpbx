@@ -1,6 +1,8 @@
 <?php
 
-	//$apps[$x]['menu'][0]['title']['en-us'] = "Users";
+//	//$apps[$x]['menu'][0]['title']['en-us'] = "Users";
+	//$apps[$x]['menu'][0]['title']['en-us'] = "用户";
+	//$apps[$x]['menu'][0]['title']['zh-cn'] = "用户";
 	//$apps[$x]['menu'][0]['title']['de-de'] = "Benutzer";
 	//$apps[$x]['menu'][0]['title']['de-at'] = "Benutzer";
 	//$apps[$x]['menu'][0]['title']['ru-ru'] = "Пользователи";

@@ -1,7 +1,9 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Number Translations";
+//	$apps[$x]['menu'][$y]['title']['en-us'] = "Number Translations";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "数字转换";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "数字转换";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "عدد الترجمة"; //Google translate
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Nummer Übersetzung";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "Nummer Übersetzung";
