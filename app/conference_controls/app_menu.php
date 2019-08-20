@@ -1,7 +1,9 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = 'Conference Controls';
+// 	$apps[$x]['menu'][$y]['title']['en-us'] = 'Conference Controls';
+	$apps[$x]['menu'][$y]['title']['en-us'] = '会议控制';
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = '会议控制';
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = 'Konferenzsteuerung';
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "";

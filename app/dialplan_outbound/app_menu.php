@@ -1,7 +1,9 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Outbound Routes";
+//	$apps[$x]['menu'][$y]['title']['en-us'] = "Outbound Routes";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "出站路线";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "出站路线";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Ausgehendes Routing";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "";

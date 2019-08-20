@@ -1,7 +1,9 @@
 <?php
 
 	$y=0;
-	$apps[$x]['menu'][$y]['title']['en-us'] = "Gateways";
+//	$apps[$x]['menu'][$y]['title']['en-us'] = "Gateways";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "网关";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "网关";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "البوابات";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Gateways";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "Gateways";

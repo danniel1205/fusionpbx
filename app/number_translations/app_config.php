@@ -112,15 +112,21 @@
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = 'number_translation_detail_regex';
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = 'text';
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = 'Enter the regular expression that identifies the number to replace.';
+// 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = 'Enter the regular expression that identifies the number to replace.';
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = '输入用于标识要替换的数字的正则表达式 .';
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = '输入用于标识要替换的数字的正则表达式 .';
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = 'number_translation_detail_replace';
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = 'text';
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = 'Enter the number translation detail replace.';
+// 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = 'Enter the number translation detail replace.';
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = '输入替换的数字转换详细信息.';
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = '输入替换的数字转换详细信息.';
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = 'number_translation_detail_order';
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = 'text';
-		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = 'Select the rule order.';
+// 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = 'Select the rule order.';
+		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = '选择规则顺序.';
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = '选择规则顺序.';
 		$z++;
 
 ?>

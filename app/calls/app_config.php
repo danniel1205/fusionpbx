@@ -8,7 +8,9 @@
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "Mozilla Public License 1.1";
 		$apps[$x]['url'] = "http://www.fusionpbx.com";
-		$apps[$x]['description']['en-us'] = "Call Forward, Follow Me and Do Not Disturb.";
+//		$apps[$x]['description']['en-us'] = "Call Forward, Follow Me and Do Not Disturb.";
+		$apps[$x]['description']['en-us'] = "呼叫转移，关注我且不要打扰。";
+		$apps[$x]['description']['zh-cn'] = "呼叫转移，关注我且不要打扰。";
 		$apps[$x]['description']['ar-eg'] = "";
 		$apps[$x]['description']['de-at'] = "Anrufweiterleitung, Follow Me und Nicht-Stören.";
 		$apps[$x]['description']['de-ch'] = "";

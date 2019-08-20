@@ -46,6 +46,7 @@
 		$text['title-email_template']['uk-ua'] = '';
 
 		$text['title_description-email_template']['en-us'] = '';
+		$text['title_description-email_template']['zh-cn'] = '';
 		$text['title_description-email_template']['ar-eg'] = '';
 		$text['title_description-email_template']['de-at'] = '';
 		$text['title_description-email_template']['de-ch'] = '';

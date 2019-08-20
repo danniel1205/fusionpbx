@@ -8,7 +8,9 @@
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "Mozilla Public License 1.1";
 		$apps[$x]['url'] = "http://www.fusionpbx.com";
-		$apps[$x]['description']['en-us'] = "Manage failed email messages.";
+//		$apps[$x]['description']['en-us'] = "Manage failed email messages.";
+		$apps[$x]['description']['en-us'] = "管理失败的电子邮件。";
+		$apps[$x]['description']['zh-cn'] = "管理失败的电子邮件。";
 		$apps[$x]['description']['ar-eg'] = "";
 		$apps[$x]['description']['de-at'] = "Fehlgeschlagene Email Benachrichtigungen verwalten.";
 		$apps[$x]['description']['de-ch'] = "";
@@ -59,7 +61,9 @@
 		$apps[$x]['db'][$y]['fields'][$z]['type']['sqlite'] = "text";
 		$apps[$x]['db'][$y]['fields'][$z]['type']['mysql'] = "char(36)";
 		$apps[$x]['db'][$y]['fields'][$z]['key']['type'] = "primary";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "call_uuid";
 		$apps[$x]['db'][$y]['fields'][$z]['type']['pgsql'] = "uuid";
@@ -68,7 +72,9 @@
 		$apps[$x]['db'][$y]['fields'][$z]['key']['type'] = "foreign";
 		$apps[$x]['db'][$y]['fields'][$z]['key']['reference']['table'] = "v_xml_cdr";
 		$apps[$x]['db'][$y]['fields'][$z]['key']['reference']['field'] = "uuid";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "domain_uuid";
 		$apps[$x]['db'][$y]['fields'][$z]['type']['pgsql'] = "uuid";
@@ -77,24 +83,34 @@
 		$apps[$x]['db'][$y]['fields'][$z]['key']['type'] = "foreign";
 		$apps[$x]['db'][$y]['fields'][$z]['key']['reference']['table'] = "v_domains";
 		$apps[$x]['db'][$y]['fields'][$z]['key']['reference']['field'] = "domain_uuid";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "sent_date";
 		$apps[$x]['db'][$y]['fields'][$z]['type']['pgsql'] = "timestamp";
 		$apps[$x]['db'][$y]['fields'][$z]['type']['sqlite'] = "date";
 		$apps[$x]['db'][$y]['fields'][$z]['type']['mysql'] = "timestamp";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "type";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "status";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "";
 		$z++;
 		$apps[$x]['db'][$y]['fields'][$z]['name'] = "email";
 		$apps[$x]['db'][$y]['fields'][$z]['type'] = "text";
+//		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
+		$apps[$x]['db'][$y]['fields'][$z]['description']['zh-cn'] = "";
 
 ?>

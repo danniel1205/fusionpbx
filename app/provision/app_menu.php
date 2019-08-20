@@ -1,6 +1,8 @@
 <?php
 
-	//$apps[$x]['menu'][0]['title']['en-us'] = "Provision";
+//	//$apps[$x]['menu'][0]['title']['en-us'] = "Provision";
+	//$apps[$x]['menu'][0]['title']['en-us'] = "供给";
+	//$apps[$x]['menu'][0]['title']['zh-cn'] = "供给";
 	//$apps[$x]['menu'][0]['title']['fr-fr'] = "Provision";
 	//$apps[$x]['menu'][0]['title']['ru-ru'] = "Обеспечение";
 	//$apps[$x]['menu'][0]['title']['de-de'] = "Bereitstellung";

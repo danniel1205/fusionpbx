@@ -8,7 +8,9 @@
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "Mozilla Public License 1.1";
 		$apps[$x]['url'] = "http://www.fusionpbx.com";
-		$apps[$x]['description']['en-us'] = "Queues are used to setup waiting lines for callers. Also known as FIFO Queues.";
+//		$apps[$x]['description']['en-us'] = "Queues are used to setup waiting lines for callers. Also known as FIFO Queues.";
+		$apps[$x]['description']['en-us'] = "队列用于为呼叫者设置等待线路。也称为FIFO队列。";
+		$apps[$x]['description']['zh-cn'] = "队列用于为呼叫者设置等待线路。也称为FIFO队列。";
 		$apps[$x]['description']['ar-eg'] = "";
 		$apps[$x]['description']['de-at'] = "Warteschlangen werden verwendet um Warteschleifen für Anrufer bereit zu stellen. Diese sind auch als FIFO-Warteschlangen bekannt.";
 		$apps[$x]['description']['de-ch'] = "";

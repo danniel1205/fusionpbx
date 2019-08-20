@@ -8,7 +8,9 @@
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "Mozilla Public License 1.1";
 		$apps[$x]['url'] = "http://www.fusionpbx.com";
-		$apps[$x]['description']['en-us'] = "The public dialplan is used to route incoming calls to destinations based on one or more conditions and context.";
+//		$apps[$x]['description']['en-us'] = "The public dialplan is used to route incoming calls to destinations based on one or more conditions and context.";
+		$apps[$x]['description']['en-us'] = "公用拨号计划用于根据一个或多个条件和上下文将传入呼叫路由到目标。";
+		$apps[$x]['description']['zh-cn'] = "公用拨号计划用于根据一个或多个条件和上下文将传入呼叫路由到目标。";
 		$apps[$x]['description']['ar-eg'] = "";
 		$apps[$x]['description']['de-at'] = "Der öffentliche Wählplan wird verwendet um eingehende Anrufe anhand von einer oder mehreren Bedingungen und Kontext an die Ziele weiterzuleiten.";
 		$apps[$x]['description']['de-ch'] = "";
