@@ -219,7 +219,7 @@
 		echo "	}\n";
 		echo "\n";
 		echo "	$( document ).ready(function() {\n";
-		echo "		$('#default_setting_search').focus();\n";
+		echo "		$('#default_setting_search').trigger('focus').trigger('select');\n";
 		if ($search == '') {
 			echo "		// scroll to previous category\n";
 			echo "		var category_span_id;\n";
@@ -240,7 +240,7 @@
 //prevent enter key submit on search field
 	echo "<script language='javascript' type='text/javascript'>\n";
 	echo "	$(document).ready(function() {\n";
-	echo "		$('#default_setting_search').keydown(function(event){\n";
+	echo "		$('#default_setting_search').on('keydown',function(event){\n";
 	echo "			if (event.keyCode == 13) {\n";
 	echo "				event.preventDefault();\n";
 	echo "				return false;\n";
@@ -356,15 +356,17 @@
 				echo "</tr>\n";
 			}
 
-			$tr_link = (permission_exists('default_setting_edit')) ? "href=\"javascript:document.location.href='default_setting_edit.php?id=".escape($row['default_setting_uuid'])."&search='+$('#default_setting_search').val();\"" : null;
+			$tr_link = (permission_exists('default_setting_edit')) ? "href=\"default_setting_edit.php?id=".urlencode($row['default_setting_uuid'])."\"" : null;
 			echo "<tr id='setting_".$row['default_setting_uuid']."' ".$tr_link.">\n";
 			if ( (permission_exists("domain_select") && permission_exists("domain_setting_add") && count($_SESSION['domains']) > 1) || permission_exists("default_setting_delete") ) {
-				echo "	<td valign='top' class='".$row_style[$c]." tr_link_void' style='text-align: center; padding: 3px 3px 0px 8px;'><input type='checkbox' name='id[]' id='checkbox_".escape($row['default_setting_uuid'])."' value='".escape($row['default_setting_uuid'])."' onclick=\"if (!this.checked) { document.getElementById('chk_all_".escape($row['default_setting_category'])."').checked = false; }\"></td>\n";
-				$subcat_ids[strtolower($row['default_setting_category'])][] = 'checkbox_'.$row['default_setting_uuid'];
+				echo "	<td valign='top' class='".$row_style[$c]." tr_link_void' style='text-align: center; padding: 3px 3px 0px 8px;'>\n";
+				echo "		<input type='checkbox' name='id[]' id='checkbox_".escape($row['default_setting_uuid'])."' value='".escape($row['default_setting_uuid'])."' onclick=\"if (!this.checked) { document.getElementById('chk_all_".escape($row['default_setting_category'])."').checked = false; }\">\n";
+				echo "	</td>\n";
+				$subcat_ids[strtolower($row['default_setting_category'])][] = 'checkbox_'.escape($row['default_setting_uuid']);
 			}
 			echo "	<td valign='top' class='".$row_style[$c]."'>";
 			if (permission_exists('default_setting_edit')) {
-				echo "<a href=\"javascript:document.location.href='default_setting_edit.php?id=".$row['default_setting_uuid']."&search='+$('#default_setting_search').val(); return false;\">".escape($row['default_setting_subcategory'])."</a>";
+				echo "<a href=\"default_setting_edit.php?id=".urlencode($row['default_setting_uuid'])."\">".escape($row['default_setting_subcategory'])."</a>";
 			}
 			else {
 				echo $row['default_setting_subcategory'];
@@ -432,6 +434,7 @@
 			echo "	</td>\n";
 			echo "	<td valign='top' class='row_stylebg' style='width: 40%; max-width: 50px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;'>".escape($row['default_setting_description'])."&nbsp;</td>\n";
 			echo "	<td class='list_control_icons' nowrap='nowrap'>";
+//this one works
 			if (permission_exists('default_setting_edit')) {
 				echo "<a href=\"javascript:document.location.href='default_setting_edit.php?id=".escape($row['default_setting_uuid'])."&search='+$('#default_setting_search').val();\" alt='".$text['button-edit']."'>$v_link_label_edit</a>";
 			}
@@ -476,7 +479,7 @@
 			foreach ($subcat_ids as $default_setting_category => $checkbox_ids) {
 				echo "if (category == '".escape($default_setting_category)."') {\n";
 				foreach ($checkbox_ids as $index => $checkbox_id) {
-					echo "document.getElementById('".escape($checkbox_id)."').checked = (what == 'all') ? true : false;\n";
+					echo "document.getElementById('".$checkbox_id."').checked = (what == 'all') ? true : false;\n";
 				}
 				echo "}\n";
 			}
@@ -530,7 +533,6 @@
 	//auto run, if search term passed back
 		if ($search != '') {
 			echo "	setting_search();";
-			echo "	$('#default_setting_search').select();\n";
 		}
 		echo "</script>\n";
 

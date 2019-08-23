@@ -124,6 +124,7 @@
 	}
 	$page = $_GET['page'];
 	if (strlen($page) == 0) { $page = 0; $_GET['page'] = 0; }
+	list($paging_controls_mini, $rows_per_page, $var_3) = paging($num_rows, $param, $rows_per_page, true);
 	list($paging_controls, $rows_per_page, $var3) = paging($num_rows, $param, $rows_per_page);
 	$offset = $rows_per_page * $page;
 
@@ -211,6 +212,9 @@
 
 	echo "				<input type='text' class='txt' style='width: 150px; margin-left: 15px;' name='search' id='search' value='".escape($search)."'>\n";
 	echo "				<input type='submit' class='btn' name='submit' value='".$text['button-search']."'>\n";
+	if ($paging_controls_mini != '') {
+		echo "			<span style='margin-left: 15px;'>".$paging_controls_mini."</span>\n";
+	}
 	echo "			</td>\n";
 	echo "		</form>\n";
 	echo "	</tr>\n";
@@ -233,7 +237,9 @@
 	echo th_order_by('destination_type', $text['label-destination_type'], $order_by, $order, $param);
 	echo th_order_by('destination_number', $text['label-destination_number'], $order_by, $order, $param);
 	echo  "<th>". $text['label-detail_action']."</th>";
-	echo th_order_by('destination_context', $text['label-destination_context'], $order_by, $order, $param);
+	if (permission_exists("destination_context")) {
+		echo th_order_by('destination_context', $text['label-destination_context'], $order_by, $order, $param);
+	}
 	if (permission_exists('outbound_caller_id_select')) {
 		echo th_order_by('destination_caller_id_name', $text['label-destination_caller_id_name'], $order_by, $order, $param);
 		echo th_order_by('destination_caller_id_number', $text['label-destination_caller_id_number'], $order_by, $order, $param);
@@ -265,7 +271,7 @@
 			echo "	</td>\n";
 			if ($_GET['show'] == "all" && permission_exists('destination_all')) {
 				if (strlen($_SESSION['domains'][$row['domain_uuid']]['domain_name']) > 0) {
-					$domain = escape($_SESSION['domains'][$row['domain_uuid']]['domain_name']);
+					$domain = $_SESSION['domains'][$row['domain_uuid']]['domain_name'];
 				}
 				else {
 					$domain = $text['label-global'];
@@ -274,9 +280,11 @@
 			}
 			echo "	<td valign='top' class='".$row_style[$c]."'>".escape($row['destination_type'])."&nbsp;</td>\n";
 			echo "	<td valign='top' class='".$row_style[$c]."'>".escape(format_phone($row['destination_number']))."&nbsp;</td>\n";
-			echo "	<td valign='top' class='".$row_style[$c]."'>".escape($action_name)."&nbsp;</td>\n";
+			echo "	<td valign='top' class='".$row_style[$c]."'>".$action_name."&nbsp;</td>\n";
 			//echo "	<td valign='top' class='".$row_style[$c]."'>".$row['destination_number_regex']."&nbsp;</td>\n";
-			echo "	<td valign='top' class='".$row_style[$c]."'>".escape($row['destination_context'])."&nbsp;</td>\n";
+			if (permission_exists("destination_context")) {
+				echo "	<td valign='top' class='".$row_style[$c]."'>".escape($row['destination_context'])."&nbsp;</td>\n";
+			}
 			//echo "	<td valign='top' class='".$row_style[$c]."'>".escape($row['fax_uuid'])."&nbsp;</td>\n";
 			if (permission_exists('outbound_caller_id_select')) {
 				echo "	<td valign='top' class='".$row_style[$c]."'>".escape($row['destination_caller_id_name'])."&nbsp;</td>\n";
@@ -294,7 +302,7 @@
 				echo "<a href='destination_edit.php?id=".escape($row['destination_uuid'])."' alt='".$text['button-edit']."'>$v_link_label_edit</a>";
 			}
 			if (permission_exists('destination_delete')) {
-				echo "<button type='submit' class='btn btn-default list_control_icon' name=\"destinations[$x][action]\" alt='".$text['button-delete']."' value='delete'><span class='glyphicon glyphicon-remove'></span></button>";
+				echo "<button type='submit' class='btn btn-default list_control_icon' name=\"destinations[$x][action]\" alt='".$text['button-delete']."' value='delete'><span class='fas fa-minus'></span></button>";
 			}
 			echo "	</td>\n";
 			echo "</tr>\n";

@@ -1,6 +1,4 @@
-The purpose of this project is to add Chinese language support
-
-What is [FusionPBX](http://fusionpbx.com/)?
+What is [FusionPBX](https://www.fusionpbx.com/)?
 --------------------------------------
 
 [FusionPBX](https://www.fusionpbx.com/) can be used as a single or domain based multi-tenant PBX, carrier grade switch, call center server, fax server, VoIP server, voicemail server, conference server, voice application server, multi-tenant appliance framework and more. [FreeSWITCH™](https://freeswitch.com) is a highly scalable, multi-threaded, multi-platform communication platform. 
@@ -34,23 +32,30 @@ How to Install FusionPBX
 ----------------------------
 * As root do the following:
 
-```bash
-apt-get update && apt-get upgrade && apt-get install -y git
+Debian Install
 ```
-```bash
-cd /usr/src
+wget -O - https://raw.githubusercontent.com/fusionpbx/fusionpbx-install.sh/master/debian/pre-install.sh | sh;
+cd /usr/src/fusionpbx-install.sh/debian && ./install.sh
 ```
-```bash
-git clone https://github.com/fusionpbx/fusionpbx-install.sh.git
+
+Ubuntu Install
 ```
-```bash
-chmod 755 -R /usr/src/fusionpbx-install.sh
+wget -O - https://raw.githubusercontent.com/fusionpbx/fusionpbx-install.sh/master/ubuntu/pre-install.sh | sh;
+cd /usr/src/fusionpbx-install.sh/ubuntu && ./install.sh
 ```
-```bash
-cd /usr/src/fusionpbx-install.sh/debian
+
+FreeBSD Install
 ```
-```bash
-./install.sh
+pkg install --yes git
+cd /usr/src && git clone https://github.com/fusionpbx/fusionpbx-install.sh.git
+cd /usr/src/fusionpbx-install.sh/freebsd && ./install.sh
+```
+
+CentOS Install
+```
+yum install wget
+wget -O - https://raw.githubusercontent.com/fusionpbx/fusionpbx-install.sh/master/centos/pre-install.sh | sh
+cd /usr/src/fusionpbx-install.sh/centos && ./install.sh
 ```
 
 This install script is designed to be an fast, simple, and in a modular way to install FusionPBX. Start with a minimal install of Debian 9 with SSH enabled. Run the following commands under root. The script installs FusionPBX, FreeSWITCH release package and its dependencies, IPTables, Fail2ban, NGINX, PHP FPM and PostgreSQL.

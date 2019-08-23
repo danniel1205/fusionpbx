@@ -114,7 +114,7 @@
 						$array['contacts'][0]['contact_uuid'] = $contact_uuid;
 
 						message::add($text['message-add']);
-						$location = "contact_edit.php?id=".$contact_uuid;
+						$location = "contact_edit.php?id=".urlencode($contact_uuid);
 					}
 
 				//update the contact
@@ -122,7 +122,7 @@
 						$array['contacts'][0]['contact_uuid'] = $contact_uuid;
 
 						message::add($text['message-update']);
-						$location = "contact_edit.php?id=".escape($contact_uuid);
+						$location = "contact_edit.php?id=".urlencode($contact_uuid);
 					}
 
 				//create array
@@ -166,10 +166,10 @@
 				//assign the contact to the group
 					if (is_uuid($group_uuid) && permission_exists('contact_group_add')) {
 						$contact_group_uuid = uuid();
-						$array['contact_group'][0]['contact_group_uuid'] = $contact_group_uuid;
-						$array['contact_group'][0]['domain_uuid'] = $domain_uuid;
-						$array['contact_group'][0]['contact_uuid'] = $contact_uuid;
-						$array['contact_group'][0]['group_uuid'] = $group_uuid;
+						$array['contact_groups'][0]['contact_group_uuid'] = $contact_group_uuid;
+						$array['contact_groups'][0]['domain_uuid'] = $domain_uuid;
+						$array['contact_groups'][0]['contact_uuid'] = $contact_uuid;
+						$array['contact_groups'][0]['group_uuid'] = $group_uuid;
 
 						$p->add('contact_group_add', 'temp');
 					}
@@ -188,7 +188,7 @@
 
 				//handle redirect
 					if ($_POST['submit'] == $text['button-add']) {
-						$location = "contact_edit.php?id=".escape($contact_uuid);
+						$location = "contact_edit.php?id=".urlencode($contact_uuid);
 					}
 
 				//redirect the browser
@@ -305,10 +305,10 @@
 	echo "		box-shadow: 0px 1px 20px #888;";
 	echo "	}";
 	echo "</style>";
-	echo "<script src='".PROJECT_PATH."/resources/jquery/jquery.qrcode-0.8.0.min.js'></script>";
+	echo "<script src='".PROJECT_PATH."/resources/jquery/jquery-qrcode.min.js'></script>";
 	echo "<script language='JavaScript' type='text/javascript'>";
 	echo "	$(document).ready(function() {";
-	echo "		$(window).load(function() {";
+	echo "		$(window).on('load', function() {";
 	echo "			$('#qr_code').qrcode({ ";
 	echo "				render: 'canvas', ";
 	echo "				minVersion: 6, ";
@@ -346,7 +346,7 @@
 	}
 	echo "</b></td>\n";
 	echo "<td valign='top' width='70%' align='right'>\n";
-	echo "	<input type='button' class='btn' name='' alt='".$text['button-back']."' onclick=\"window.location='contacts.php?".$_GET["query_string"]."'\" value='".$text['button-back']."'>\n";
+	echo "	<input type='button' class='btn' name='' alt='".$text['button-back']."' onclick=\"window.location='contacts.php'\" value='".$text['button-back']."'>\n";
 	if ($action == "update") {
 		if (permission_exists('contact_time_add')) {
 			//detect timer state (and start time)
@@ -365,19 +365,19 @@
 			$time_start = $database->select($sql, $parameters, 'column');
 			$btn_mod = $time_start != '' ? "style='background-color: #3693df; background-image: none;'" : null;
 			unset($sql, $parameters);
-			echo "	<input type='button' class='btn' ".$btn_mod." alt='".$text['button-timer']."' ".($time_start != '' ? "title='".escape($time_start)."'" : null)." onclick=\"window.open('contact_timer.php?domain_uuid=".escape($domain_uuid)."&contact_uuid=".escape($contact_uuid)."','contact_time_".escape($contact_uuid)."','width=300, height=375, top=30, left='+(screen.width - 350)+', menubar=no, scrollbars=no, status=no, toolbar=no, resizable=no');\" value='".$text['button-timer']."'>\n";
+			echo "	<input type='button' class='btn' ".$btn_mod." alt='".$text['button-timer']."' ".($time_start != '' ? "title='".escape($time_start)."'" : null)." onclick=\"window.open('contact_timer.php?domain_uuid=".urlencode($domain_uuid)."&contact_uuid=".urlencode($contact_uuid)."','contact_time_".escape($contact_uuid)."','width=300, height=375, top=30, left='+(screen.width - 350)+', menubar=no, scrollbars=no, status=no, toolbar=no, resizable=no');\" value='".$text['button-timer']."'>\n";
 		}
 		echo "	<input type='button' class='btn' name='' alt='".$text['button-qr_code']."' onclick=\"$('#qr_code_container').fadeIn(400);\" value='".$text['button-qr_code']."'>\n";
-		echo "	<input type='button' class='btn' name='' alt='".$text['button-vcard']."' onclick=\"window.location='contacts_vcard.php?id=".escape($contact_uuid)."&type=download'\" value='".$text['button-vcard']."'>\n";
+		echo "	<input type='button' class='btn' name='' alt='".$text['button-vcard']."' onclick=\"window.location='contacts_vcard.php?id=".urlencode($contact_uuid)."&type=download'\" value='".$text['button-vcard']."'>\n";
 	}
 	if ($action == "update" && is_dir($_SERVER["DOCUMENT_ROOT"].PROJECT_PATH.'/app/invoices')) {
-		echo "	<input type='button' class='btn' name='' alt='".$text['button-invoices']."' onclick=\"window.location='".PROJECT_PATH."/app/invoices/invoices.php?id=".escape($contact_uuid)."'\" value='".$text['button-invoices']."'>\n";
+		echo "	<input type='button' class='btn' name='' alt='".$text['button-invoices']."' onclick=\"window.location='".PROJECT_PATH."/app/invoices/invoices.php?id=".urlencode($contact_uuid)."'\" value='".$text['button-invoices']."'>\n";
 	}
 	if ($action == "update" && is_dir($_SERVER["DOCUMENT_ROOT"].PROJECT_PATH.'/app/certificates')) {
-		echo "	<input type='button' class='btn' name='' alt='".$text['button-certificate']."' onclick=\"window.location='".PROJECT_PATH."/app/certificates/index.php?name=".urlencode(escape($contact_name_given)." ".escape($contact_name_family))."'\" value='".$text['button-certificate']."'>\n";
+		echo "	<input type='button' class='btn' name='' alt='".$text['button-certificate']."' onclick=\"window.location='".PROJECT_PATH."/app/certificates/index.php?name=".urlencode($contact_name_given." ".$contact_name_family)."'\" value='".$text['button-certificate']."'>\n";
 	}
 	if ($action == "update" && permission_exists('user_edit') && is_uuid($contact_user_uuid)) {
-		echo "	<input type='button' class='btn' name='' alt='".$text['button-user']."' onclick=\"window.location='".PROJECT_PATH."/core/users/user_edit.php?id=".$contact_user_uuid."'\" value='".$text['button-user']."'>\n";
+		echo "	<input type='button' class='btn' name='' alt='".$text['button-user']."' onclick=\"window.location='".PROJECT_PATH."/core/users/user_edit.php?id=".urlencode($contact_user_uuid)."'\" value='".$text['button-user']."'>\n";
 	}
 	echo "	<input type='submit' name='submit' class='btn' value='".$text['button-save']."'>\n";
 	echo "</td>\n";
@@ -407,8 +407,8 @@
 			sort($_SESSION["contact"]["type"]);
 			echo "	<select class='formfld' name='contact_type'>\n";
 			echo "		<option value=''></option>\n";
-			foreach($_SESSION["contact"]["type"] as $row) {
-				echo "	<option value='".escape($row)."' ".(($row == $contact_type) ? "selected='selected'" : null).">".escape($row)."</option>\n";
+			foreach($_SESSION["contact"]["type"] as $type) {
+				echo "	<option value='".escape($type)."' ".(($type == $contact_type) ? "selected='selected'" : null).">".escape($type)."</option>\n";
 			}
 			echo "	</select>\n";
 		}
@@ -428,8 +428,8 @@
 			echo "		<option value='volunteer' ".(($contact_type == "volunteer") ? "selected='selected'" : null).">".$text['option-contact_type_volunteer']."</option>\n";
 			echo "	</select>\n";
 		}
-//		echo "<br />\n";
-//		echo $text['description-contact_type']."\n";
+		//echo "<br />\n";
+		//echo $text['description-contact_type']."\n";
 		echo "</td>\n";
 		echo "</tr>\n";
 
@@ -439,8 +439,8 @@
 		echo "</td>\n";
 		echo "<td class='vtable' align='left'>\n";
 		echo "	<input class='formfld' type='text' name='contact_organization' maxlength='255' value=\"".escape($contact_organization)."\">\n";
-// 		echo "<br />\n";
-// 		echo $text['description-contact_organization']."\n";
+		//echo "<br />\n";
+		//echo $text['description-contact_organization']."\n";
 		echo "</td>\n";
 		echo "</tr>\n";
 
@@ -450,8 +450,8 @@
 		echo "</td>\n";
 		echo "<td class='vtable' align='left'>\n";
 		echo "	<input class='formfld' type='text' name='contact_name_prefix' maxlength='255' value=\"".escape($contact_name_prefix)."\">\n";
-// 		echo "<br />\n";
-// 		echo $text['description-contact_name_prefix']."\n";
+		//echo "<br />\n";
+		//echo $text['description-contact_name_prefix']."\n";
 		echo "</td>\n";
 		echo "</tr>\n";
 
@@ -461,8 +461,8 @@
 		echo "</td>\n";
 		echo "<td class='vtable' align='left'>\n";
 		echo "	<input class='formfld' type='text' name='contact_name_given' maxlength='255' value=\"".escape($contact_name_given)."\">\n";
-// 		echo "<br />\n";
-// 		echo $text['description-contact_name_given']."\n";
+		//echo "<br />\n";
+		//echo $text['description-contact_name_given']."\n";
 		echo "</td>\n";
 		echo "</tr>\n";
 
@@ -472,8 +472,8 @@
 		echo "</td>\n";
 		echo "<td class='vtable' align='left'>\n";
 		echo "	<input class='formfld' type='text' name='contact_name_middle' maxlength='255' value=\"".escape($contact_name_middle)."\">\n";
-// 		echo "<br />\n";
-// 		echo $text['description-contact_name_middle']."\n";
+		//echo "<br />\n";
+		//echo $text['description-contact_name_middle']."\n";
 		echo "</td>\n";
 		echo "</tr>\n";
 
@@ -483,8 +483,8 @@
 		echo "</td>\n";
 		echo "<td class='vtable' align='left'>\n";
 		echo "	<input class='formfld' type='text' name='contact_name_family' maxlength='255' value=\"".escape($contact_name_family)."\">\n";
-// 		echo "<br />\n";
-// 		echo $text['description-contact_name_family']."\n";
+		//echo "<br />\n";
+		//echo $text['description-contact_name_family']."\n";
 		echo "</td>\n";
 		echo "</tr>\n";
 
@@ -494,8 +494,8 @@
 		echo "</td>\n";
 		echo "<td class='vtable' align='left'>\n";
 		echo "	<input class='formfld' type='text' name='contact_name_suffix' maxlength='255' value=\"".escape($contact_name_suffix)."\">\n";
-// 		echo "<br />\n";
-// 		echo $text['description-contact_name_suffix']."\n";
+		//echo "<br />\n";
+		//echo $text['description-contact_name_suffix']."\n";
 		echo "</td>\n";
 		echo "</tr>\n";
 
@@ -505,8 +505,8 @@
 		echo "</td>\n";
 		echo "<td class='vtable' align='left'>\n";
 		echo "	<input class='formfld' type='text' name='contact_nickname' maxlength='255' value=\"".escape($contact_nickname)."\">\n";
-// 		echo "<br />\n";
-// 		echo $text['description-contact_nickname']."\n";
+		//echo "<br />\n";
+		//echo $text['description-contact_nickname']."\n";
 		echo "</td>\n";
 		echo "</tr>\n";
 
@@ -519,16 +519,16 @@
 			sort($_SESSION["contact"]["title"]);
 			echo "	<select class='formfld' name='contact_title'>\n";
 			echo "	<option value=''></option>\n";
-			foreach($_SESSION["contact"]["title"] as $row) {
-				echo "	<option value='".escape($row)."' ".(($row == $contact_title) ? "selected='selected'" : null).">".escape($row)."</option>\n";
+			foreach($_SESSION["contact"]["title"] as $title) {
+				echo "	<option value='".escape($title)."' ".(($title == $contact_title) ? "selected='selected'" : null).">".escape($title)."</option>\n";
 			}
 			echo "	</select>\n";
 		}
 		else {
 			echo "	<input class='formfld' type='text' name='contact_title' maxlength='255' value=\"".escape($contact_title)."\">\n";
 		}
-// 		echo "<br />\n";
-// 		echo $text['description-contact_title']."\n";
+		//echo "<br />\n";
+		//echo $text['description-contact_title']."\n";
 		echo "</td>\n";
 		echo "</tr>\n";
 
@@ -541,16 +541,16 @@
 			sort($_SESSION["contact"]["category"]);
 			echo "	<select class='formfld' name='contact_category'>\n";
 			echo "	<option value=''></option>\n";
-			foreach($_SESSION["contact"]["category"] as $row) {
-				echo "	<option value='".escape($row)."' ".(($row == $contact_category) ? "selected='selected'" : null).">".escape($row)."</option>\n";
+			foreach($_SESSION["contact"]["category"] as $category) {
+				echo "	<option value='".escape($category)."' ".(($category == $contact_category) ? "selected='selected'" : null).">".escape($category)."</option>\n";
 			}
 			echo "	</select>\n";
 		}
 		else {
 			echo "	<input class='formfld' type='text' name='contact_category' maxlength='255' value=\"".escape($contact_category)."\">\n";
 		}
-// 		echo "<br />\n";
-// 		echo $text['description-contact_category']."\n";
+		//echo "<br />\n";
+		//echo $text['description-contact_category']."\n";
 		echo "</td>\n";
 		echo "</tr>\n";
 
@@ -563,16 +563,16 @@
 			sort($_SESSION["contact"]["role"]);
 			echo "	<select class='formfld' name='contact_role'>\n";
 			echo "	<option value=''></option>\n";
-			foreach($_SESSION["contact"]["role"] as $row) {
-				echo "	<option value='".escape($row)."' ".(($row == $contact_role) ? "selected='selected'" : null).">".escape($row)."</option>\n";
+			foreach($_SESSION["contact"]["role"] as $role) {
+				echo "	<option value='".escape($role)."' ".(($role == $contact_role) ? "selected='selected'" : null).">".escape($role)."</option>\n";
 			}
 			echo "	</select>\n";
 		}
 		else {
 			echo "	<input class='formfld' type='text' name='contact_role' maxlength='255' value=\"".escape($contact_role)."\">\n";
 		}
-// 		echo "<br />\n";
-// 		echo $text['description-contact_role']."\n";
+		//echo "<br />\n";
+		//echo $text['description-contact_role']."\n";
 		echo "</td>\n";
 		echo "</tr>\n";
 
@@ -582,8 +582,8 @@
 		echo "</td>\n";
 		echo "<td class='vtable' align='left'>\n";
 		echo "	<input class='formfld' type='text' name='contact_time_zone' maxlength='255' value=\"".escape($contact_time_zone)."\">\n";
-// 		echo "<br />\n";
-// 		echo $text['description-contact_time_zone']."\n";
+		//echo "<br />\n";
+		//echo $text['description-contact_time_zone']."\n";
 		echo "</td>\n";
 		echo "</tr>\n";
 
@@ -598,7 +598,7 @@
 					echo "				<td class='vtable'>".escape($field['username'])."</td>\n";
 					echo "				<td style='width: 25px;' align='right'>\n";
 					if (permission_exists('contact_user_delete')) {
-						echo "					<a href='contact_user_delete.php?id=".escape($field['contact_user_uuid'])."&contact_uuid=".escape($contact_uuid)."' alt='delete' onclick=\"return confirm(".$text['confirm-delete'].")\">$v_link_label_delete</a>\n";
+						echo "					<a href='contact_user_delete.php?id=".urlencode($field['contact_user_uuid'])."&contact_uuid=".urlencode($contact_uuid)."' alt='delete' onclick=\"return confirm(".$text['confirm-delete'].")\">$v_link_label_delete</a>\n";
 					}
 					echo "				</td>\n";
 					echo "			</tr>\n";
@@ -650,10 +650,10 @@
 				foreach($result as $field) {
 					if (strlen($field['group_name']) > 0) {
 						echo "<tr>\n";
-						echo "	<td class='vtable'>".$field['group_name']."</td>\n";
+						echo "	<td class='vtable'>".escape($field['group_name'])."</td>\n";
 						echo "	<td>\n";
 						if (permission_exists('contact_group_delete') || if_group("superadmin")) {
-							echo "	<a href='contact_group_delete.php?id=".escape($field['contact_group_uuid'])."&contact_uuid=".escape($contact_uuid)."' alt='".$text['button-delete']."' onclick=\"return confirm('".$text['confirm-delete']."')\">$v_link_label_delete</a>\n";
+							echo "	<a href='contact_group_delete.php?id=".urlencode($field['contact_group_uuid'])."&contact_uuid=".urlencode($contact_uuid)."' alt='".$text['button-delete']."' onclick=\"return confirm('".$text['confirm-delete']."')\">$v_link_label_delete</a>\n";
 						}
 						echo "	</td>\n";
 						echo "</tr>\n";
@@ -709,15 +709,16 @@
 		}
 
 		echo "<tr>\n";
-		echo "<td width='30%' class='vncell' valign='top' align='left' nowrap='nowrap'>\n";
-		echo "	".$text['label-contact_note']."\n";
-		echo "</td>\n";
-		echo "<td width='70%' class='vtable' align='left'>\n";
-		echo "  <textarea class='formfld' style='width: 100%; height: 80px;' name='contact_note'>".escape($contact_note)."</textarea>\n";
-// 		echo "<br />\n";
-// 		echo $text['description-contact_note']."\n";
-		echo "</td>\n";
+		echo "	<td width='30%' class='vncell' valign='top' align='left' nowrap='nowrap'>\n";
+		echo "		".$text['label-contact_note']."\n";
+		echo "	</td>\n";
+		echo "	<td width='70%' class='vtable' align='left'>\n";
+		echo "		<textarea class='formfld' style='width: 100%; height: 80px;' name='contact_note'>".$contact_note."</textarea>\n";
+		//echo "<br />\n";
+		//echo $text['description-contact_note']."\n";
+		echo "	</td>\n";
 		echo "</tr>\n";
+
 		echo "	<tr>\n";
 		echo "		<td colspan='2' align='right'>\n";
 		if ($action == "update") {

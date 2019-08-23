@@ -259,13 +259,15 @@
 			case 'pgsql': $sql = "select table_name as name from information_schema.tables where table_schema='public' and table_type='BASE TABLE' order by table_name"; break;
 			case 'mysql': $sql = "show tables"; break;
 		}
-		$prep_statement = $db->prepare(check_sql($sql));
-		$prep_statement->execute();
-		$result = $prep_statement->fetchAll(PDO::FETCH_NAMED);
-		foreach ($result as &$row) {
-			$row = array_values($row);
-			echo "					<option value='".escape($row[0])."'>".escape($row[0])."</option>\n";
+		$database = new database;
+		$result = $database->select($sql, null, 'all');
+		if (is_array($result) && @sizeof($result) != 0) {
+			foreach ($result as &$row) {
+				$row = array_values($row);
+				echo "					<option value='".escape($row[0])."'>".escape($row[0])."</option>\n";
+			}
 		}
+		unset($sql, $result, $row);
 		echo "					</select>\n";
 		//echo "					<br /><br />\n";
 		//echo "					".$text['label-result_type']."<br />";
@@ -303,10 +305,10 @@
 	echo "		<td style='width: 210px;' valign='top' nowrap>";
 
 	echo "			<table cellpadding='0' cellspacing='0' border='0' width='100%' height='100%'>";
-	if (permission_exists('script_editor_view') && file_exists($_SERVER["PROJECT_ROOT"]."/app/edit/")) {
+	if (permission_exists('edit_view') && file_exists($_SERVER["PROJECT_ROOT"]."/app/edit/")) {
 		echo "			<tr>";
 		echo "				<td valign='top' height='100%'>";
-		echo "					<iframe id='clip_list' src='".PROJECT_PATH."/app/edit/cliplist.php' style='border: none; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; height: calc(100% - 2px); width: calc(100% - 15px);'></iframe>\n";
+		echo "					<iframe id='clip_list' src='".PROJECT_PATH."/app/edit/clip_list.php' style='border: none; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; height: calc(100% - 2px); width: calc(100% - 15px);'></iframe>\n";
 		echo "				</td>";
 		echo "			</tr>";
 	}
@@ -366,21 +368,21 @@
 			<td valign='middle' style='padding-left: 4px; padding-right: 0px;'>
 				<select id='theme' style='height: 23px;' onchange="editor.setTheme('ace/theme/' + this.options[this.selectedIndex].value); focus_editor();">
 					<?php
-					$themes['Bright']['chrome']= 'Chrome';
-					$themes['Bright']['clouds']= 'Clouds';
-					$themes['Bright']['crimson_editor']= 'Crimson Editor';
-					$themes['Bright']['dawn']= 'Dawn';
-					$themes['Bright']['dreamweaver']= 'Dreamweaver';
-					$themes['Bright']['eclipse']= 'Eclipse';
-					$themes['Bright']['github']= 'GitHub';
-					$themes['Bright']['iplastic']= 'IPlastic';
-					$themes['Bright']['solarized_light']= 'Solarized Light';
-					$themes['Bright']['textmate']= 'TextMate';
-					$themes['Bright']['tomorrow']= 'Tomorrow';
-					$themes['Bright']['xcode']= 'XCode';
-					$themes['Bright']['kuroir']= 'Kuroir';
-					$themes['Bright']['katzenmilch']= 'KatzenMilch';
-					$themes['Bright']['sqlserver']= 'SQL Server';
+					$themes['Light']['chrome']= 'Chrome';
+					$themes['Light']['clouds']= 'Clouds';
+					$themes['Light']['crimson_editor']= 'Crimson Editor';
+					$themes['Light']['dawn']= 'Dawn';
+					$themes['Light']['dreamweaver']= 'Dreamweaver';
+					$themes['Light']['eclipse']= 'Eclipse';
+					$themes['Light']['github']= 'GitHub';
+					$themes['Light']['iplastic']= 'IPlastic';
+					$themes['Light']['solarized_light']= 'Solarized Light';
+					$themes['Light']['textmate']= 'TextMate';
+					$themes['Light']['tomorrow']= 'Tomorrow';
+					$themes['Light']['xcode']= 'XCode';
+					$themes['Light']['kuroir']= 'Kuroir';
+					$themes['Light']['katzenmilch']= 'KatzenMilch';
+					$themes['Light']['sqlserver']= 'SQL Server';
 					$themes['Dark']['ambiance']= 'Ambiance';
 					$themes['Dark']['chaos']= 'Chaos';
 					$themes['Dark']['clouds_midnight']= 'Clouds Midnight';
@@ -416,7 +418,7 @@
 	</table>
 	<div id='editor'><?php echo escape($command); ?></div>
 
-<?php
+	<?php
 	echo "		</td>";
 	echo "	</tr>\n";
 	echo "</table>";
@@ -467,7 +469,7 @@
 			switch ($handler) {
 				case 'shell':
 					if (permission_exists('exec_command') && $command_authorized) {
-						$result = escape(shell_exec($command . " 2>&1"));
+						$result = shell_exec($command . " 2>&1");
 					}
 					break;
 				case 'php':

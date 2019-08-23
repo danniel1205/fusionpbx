@@ -100,6 +100,7 @@ if (count($_POST) > 0 && strlen($_POST["persistformvar"]) == 0) {
 				unset($sql, $parameters);
 
 				if ($num_rows == 0) {
+					$domain_enabled = 'true';
 					$array['domains'][0]['domain_uuid'] = uuid();
 					$array['domains'][0]['domain_name'] = $domain_name;
 					$array['domains'][0]['domain_enabled'] = $domain_enabled;
@@ -513,8 +514,8 @@ if (count($_POST) > 0 && strlen($_POST["persistformvar"]) == 0) {
 		echo "		});\n";
 		echo "	}\n";
 		echo "\n";
-		echo "	$( document ).ready(function() {\n";
-		echo "		$('#domain_setting_search').focus();\n";
+		echo "	$(document).ready(function() {\n";
+		echo "		$('#domain_setting_search').trigger('focus');\n";
 		if ($search == '') {
 			echo "		// scroll to previous category\n";
 			echo "		var category_span_id;\n";
@@ -588,19 +589,19 @@ if (count($_POST) > 0 && strlen($_POST["persistformvar"]) == 0) {
 	echo "</td>\n";
 	echo "</tr>\n";
 
-	echo "<tr>\n";
-	echo "<td class='vncellreq' valign='top' align='left' nowrap='nowrap'>\n";
-	echo "	".$text['label-enabled']."\n";
-	echo "</td>\n";
-	echo "<td class='vtable' align='left'>\n";
-	echo "	<select class='formfld' name='domain_enabled'>\n";
-	echo "		<option value='true' ".(($domain_enabled == "true") ? "selected='selected'" : null).">".$text['label-true']."</option>\n";
-	echo "		<option value='false' ".(($domain_enabled == "false") ? "selected='selected'" : null).">".$text['label-false']."</option>\n";
-	echo "	</select>\n";
-	echo "<br />\n";
-	echo $text['description-domain_enabled']."\n";
-	echo "</td>\n";
-	echo "</tr>\n";
+	//echo "<tr>\n";
+	//echo "<td class='vncellreq' valign='top' align='left' nowrap='nowrap'>\n";
+	//echo "	".$text['label-enabled']."\n";
+	//echo "</td>\n";
+	//echo "<td class='vtable' align='left'>\n";
+	//echo "	<select class='formfld' name='domain_enabled'>\n";
+	//echo "		<option value='true' ".(($domain_enabled == "true") ? "selected='selected'" : null).">".$text['label-true']."</option>\n";
+	//echo "		<option value='false' ".(($domain_enabled == "false") ? "selected='selected'" : null).">".$text['label-false']."</option>\n";
+	//echo "	</select>\n";
+	//echo "<br />\n";
+	//echo $text['description-domain_enabled']."\n";
+	//echo "</td>\n";
+	//echo "</tr>\n";
 
 	echo "<tr>\n";
 	echo "<td class='vncell' valign='top' align='left' nowrap='nowrap'>\n";

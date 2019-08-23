@@ -35,11 +35,11 @@
 	$text = $language->get();
 
 //get user uuid
-	if (is_uuid($_REQUEST["id"]) && (permission_exists('user_edit') || $_REQUEST["id"] == $_SESSION['user_uuid'])) {
+	if ((is_uuid($_REQUEST["id"]) && permission_exists('user_edit')) || (is_uuid($_REQUEST["id"]) && $_REQUEST["id"] == $_SESSION['user_uuid']))  {
 		$user_uuid = $_REQUEST["id"];
 		$action = 'edit';
 	}
-	else if (permission_exists('user_add') && !is_uuid($_REQUEST["id"])) {
+	elseif (permission_exists('user_add') && !isset($_REQUEST["id"])) {
 		$user_uuid = uuid();
 		$action = 'add';
 	}
@@ -121,6 +121,7 @@
 			$username = $_POST["username"];
 			$password = $_POST["password"];
 			$password_confirm = $_POST["password_confirm"];
+			$user_email = $_POST["user_email"];
 			$user_status = $_POST["user_status"];
 			$user_language = $_POST["user_language"];
 			$user_time_zone = $_POST["user_time_zone"];
@@ -128,7 +129,6 @@
 				$contact_uuid = $_POST["contact_uuid"];
 			}
 			else if (permission_exists('user_add') && $action == 'add') {
-				$user_email = $_POST["user_email"];
 				$contact_organization = $_POST["contact_organization"];
 				$contact_name_given = $_POST["contact_name_given"];
 				$contact_name_family = $_POST["contact_name_family"];
@@ -474,6 +474,7 @@
 				$array['users'][$x]['password'] = md5($salt.$password);
 				$array['users'][$x]['salt'] = $salt;
 			}
+			$array['users'][$x]['user_email'] = $user_email;
 			$array['users'][$x]['user_status'] = $user_status;
 			if (permission_exists('user_add') || permission_exists('user_edit')) {
 				$array['users'][$x]['api_key'] = ($api_key != '') ? $api_key : null;
@@ -580,6 +581,7 @@
 				$domain_uuid = $row["domain_uuid"];
 				$user_uuid = $row["user_uuid"];
 				$username = $row["username"];
+				$user_email = $row["user_email"];
 				$api_key = $row["api_key"];
 				$user_enabled = $row["user_enabled"];
 				$contact_uuid = $row["contact_uuid"];
@@ -658,10 +660,13 @@
 
 	echo "<div style='float:right; white-space: nowrap;'>\n";
 	if ($unsaved) {
-		echo "<span style='color: #b00;'>".$text['message-unsaved_changes']." <i class='glyphicon glyphicon-warning-sign' style='margin-right: 15px;'></i></span>";
+		echo "<span style='color: #b00;'>".$text['message-unsaved_changes']." <i class='fas fa-exclamation-triangle' style='margin-right: 15px;'></i></span>";
 	}
 	if (permission_exists('user_add') || permission_exists('user_edit')) {
 		echo "	<input type='button' class='btn' style='margin-right: 10px;' onclick=\"window.location='users.php'\" value='".$text['button-back']."'>";
+	}
+	if (permission_exists('ticket_add') || permission_exists('ticket_edit')) {
+		echo "	<input type='button' class='btn' style='margin-right: 3px;' onclick=\"window.location='/app/tickets/tickets.php?user_uuid=".escape($user_uuid)."'\" value='".$text['button-tickets']."'>";
 	}
 	echo "	<input type='submit' class='btn' value='".$text['button-save']."'>";
 	echo "</div>\n";
@@ -728,6 +733,11 @@
 	echo "		</td>";
 	echo "	</tr>";
 
+	echo "	<tr>";
+	echo "		<td class='vncellreq'>".$text['label-email']."</td>";
+	echo "		<td class='vtable'><input type='text' class='formfld' name='user_email' value='".escape($user_email)."' required='required'></td>";
+	echo "	</tr>";
+
 	echo "	<tr>\n";
 	echo "	<td width='20%' class=\"vncell\" valign='top'>\n";
 	echo "		".$text['label-user_language']."\n";
@@ -748,7 +758,7 @@
 	if (is_array($_SESSION['app']['languages']) && sizeof($_SESSION['app']['languages']) != 0) {
 		foreach ($_SESSION['app']['languages'] as $code) {
 			$selected = ($code == $user_settings['domain']['language']['code']) ? "selected='selected'" : null;
-			echo "	<option value='".escape($code)."' ".escape($selected).">".escape($language_codes[$code])." [".escape($code)."]</option>\n";
+			echo "	<option value='".$code."' ".$selected.">".escape($language_codes[$code])." [".escape($code)."]</option>\n";
 		}
 	}
 	echo "		</select>\n";
@@ -871,10 +881,6 @@
 		echo "	</tr>";
 	}
 	else if ($action == 'add' && permission_exists("user_add")) {
-		echo "	<tr>";
-		echo "		<td class='vncellreq'>".$text['label-email']."</td>";
-		echo "		<td class='vtable'><input type='text' class='formfld' name='user_email' value='".escape($user_email)."' ".($action == 'add' ? "required='required'" : null)."></td>";
-		echo "	</tr>";
 		echo "	<tr>";
 		echo "		<td class='vncell'>".$text['label-first_name']."</td>";
 		echo "		<td class='vtable'><input type='text' class='formfld' name='contact_name_given' value='".escape($contact_name_given)."'></td>";
@@ -1039,7 +1045,7 @@
 	}
 	echo "			<br>";
 	if ($unsaved) {
-		echo "		<span style='color: #b00;'>".$text['message-unsaved_changes']." <i class='glyphicon glyphicon-warning-sign' style='margin-right: 15px;'></i></span>";
+		echo "		<span style='color: #b00;'>".$text['message-unsaved_changes']." <i class='fas fa-exclamation-triangle' style='margin-right: 15px;'></i></span>";
 	}
 	echo "			<input type='submit' class='btn' value='".$text['button-save']."'>";
 	echo "		</td>";

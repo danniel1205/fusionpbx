@@ -1623,6 +1623,19 @@ function number_pad($number,$n) {
 		}
 	}
 
+//detect if php is running as command line interface
+	if (!function_exists('is_cli')) {
+		function is_cli() {
+			if (defined('STDIN')) {
+				return true;
+			}
+			if (php_sapi_name() == 'cli' && !isset($_SERVER['HTTP_USER_AGENT']) && is_numeric($_SERVER['argc'])) {
+				return true;
+			}
+			return false;
+		}
+	}
+
 //format mac address
 	if (!function_exists('format_mac')) {
 		function format_mac($str, $delim = '-', $case = 'lower') {
@@ -1708,6 +1721,12 @@ function number_pad($number,$n) {
 					default:
 						return;
 				}
+			//filter direction
+				switch ($direction) {
+					case 'down': $direction = 'keydown'; break;
+					case 'press': $direction = 'keypress'; break;
+					case 'up': $direction = 'keyup'; break;
+				}
 			//check for element exceptions
 				if (sizeof($exceptions) > 0) {
 					$exceptions = "!$(e.target).is('".implode(',', $exceptions)."') && ";
@@ -1719,7 +1738,7 @@ function number_pad($number,$n) {
 				if ($script_wrapper) {
 					echo "<script language='JavaScript' type='text/javascript'>\n";
 				}
-				echo "	$(".$subject.").key".$direction."(function(e) {\n";
+				echo "	$(".$subject.").on('".$direction."', function(e) {\n";
 				echo "		if (".$exceptions.$key_code.") {\n";
 				if ($prompt != '') {
 					$action = ($action != '') ? $action : "alert('".$key."');";
@@ -2018,8 +2037,8 @@ function number_pad($number,$n) {
 
 //escape user data
 	function escape($string) {
-		return htmlspecialchars($string, ENT_QUOTES, 'UTF-8');
-		//return htmlentities($string, ENT_QUOTES, 'UTF-8');
+		return htmlentities($string, ENT_QUOTES | ENT_HTML5, 'UTF-8');
+		//return htmlspecialchars($string, ENT_QUOTES, 'UTF-8');
 	}
 
 //output pre-formatted array keys and values
@@ -2124,10 +2143,11 @@ function number_pad($number,$n) {
 
 //validate and format order by clause of select statement
 	if (!function_exists('order_by')) {
-		function order_by($col, $dir) {
+		function order_by($col, $dir, $col_default = '', $dir_default = 'asc') {
 			$col = preg_replace('#[^a-zA-Z0-9-_.]#', '', $col);
 			$dir = strtolower($dir) == 'desc' ? 'desc' : 'asc';
 			if ($col != '') { return ' order by '.$col.' '.$dir.' '; }
+			else if ($col_default != '') { return ' order by '.$col_default.' '.$dir.' '; }
 		}
 	}
 
@@ -2143,6 +2163,33 @@ function number_pad($number,$n) {
 				$clause .= ' offset '.$offset;
 			}
 			return $clause.' ';
+		}
+	}
+
+//add a random_bytes function when it doesn't exist for old versions of PHP
+	if (!function_exists('random_bytes')) {
+		function random_bytes($length) {
+			$charset .= "0123456789";
+			$charset .= "abcdefghijkmnopqrstuvwxyz";
+			$charset .= "ABCDEFGHIJKLMNPQRSTUVWXYZ";
+			srand((double)microtime() * rand(1000000, 9999999));
+			while ($length > 0) {
+				$string .= $charset[rand(0, strlen($charset)-1)];
+				$length--;
+			}
+			return $string.' ';
+		}
+	}
+
+//add a hash_equals function when it doesn't exist for old versions of PHP
+	if (!function_exists('hash_equals')) {
+		function hash_equals($var1, $var2) {
+			if ($var1 == $var2) {
+				return true;
+			}
+			else {
+				return false;
+			}
 		}
 	}
 

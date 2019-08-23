@@ -1064,6 +1064,18 @@
 					}
 				}
 
+			//memory available
+				if (stristr(PHP_OS, 'Linux')) {
+					$result = trim(shell_exec('free -hw | grep \'Mem:\' | cut -d\' \' -f 58-64'));
+					if ($result != '') {
+						$hud[$n]['html'] .= "<tr class='tr_link_void'>\n";
+						$hud[$n]['html'] .= "<td valign='top' class='".$row_style[$c]." hud_text'>".$text['label-memory_available']."</td>\n";
+						$hud[$n]['html'] .= "<td valign='top' class='".$row_style[$c]." hud_text' style='text-align: right;'>".$result."</td>\n";
+						$hud[$n]['html'] .= "</tr>\n";
+						$c = ($c) ? 0 : 1;
+					}
+				}
+
 			//disk usage
 				if (stristr(PHP_OS, 'Linux')) {
 					//calculated above
@@ -1201,7 +1213,7 @@
 			echo "	<div class='row' style='padding: 6px;'>";
 			echo "		<div class='col-md-12 hud_box' style='padding: 0;'>";
 			echo 			$block['html'];
-			echo "			<span class='hud_expander' onclick=\"$('#hud_'+".$index."+'_details').slideToggle('fast');\"><span class='glyphicon glyphicon-option-horizontal'></span></span>";
+			echo "			<span class='hud_expander' onclick=\"$('#hud_'+".$index."+'_details').slideToggle('fast');\"><span class='fas fa-ellipsis-h'></span></span>";
 			echo "		</div>";
 			echo "	</div>";
 			echo "</div>";
