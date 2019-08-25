@@ -27,8 +27,8 @@
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
 //	$apps[$x]['menu'][$y]['title']['en-us'] = "Home";
-	$apps[$x]['menu'][$y]['title']['en-us'] = "家";
-	$apps[$x]['menu'][$y]['title']['zh-cn'] = "家";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "主页";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "主页";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Home";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "Home";

@@ -1344,8 +1344,8 @@ $text['label-gateways']['sv-se'] = "Gateways";
 $text['label-gateways']['uk-ua'] = "Шлюзи";
 
 //$text['label-followme']['en-us'] = "Follow Me";
-$text['label-followme']['en-us'] = "跟着我";
-$text['label-followme']['zh-cn'] = "跟着我";
+$text['label-followme']['en-us'] = "关注我";
+$text['label-followme']['zh-cn'] = "关注我";
 $text['label-followme']['ar-eg'] = "خدمة اتبعني";
 $text['label-followme']['de-at'] = "Anrufweiterschaltung"; //copied from de-de
 $text['label-followme']['de-ch'] = "Anrufweiterschaltung"; //copied from de-de
