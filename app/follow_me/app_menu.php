@@ -2,8 +2,8 @@
 
 	$y=0;
 //	$apps[$x]['menu'][$y]['title']['en-us'] = "Follow Me";
-	$apps[$x]['menu'][$y]['title']['en-us'] = "跟着我";
-	$apps[$x]['menu'][$y]['title']['zh-cn'] = "跟着我";
+	$apps[$x]['menu'][$y]['title']['en-us'] = "关注我";
+	$apps[$x]['menu'][$y]['title']['zh-cn'] = "关注我";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Follow Me";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "Follow Me";

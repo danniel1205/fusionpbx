@@ -288,8 +288,8 @@ $text['label-ignore_busy']['sv-se'] = "Ignorera Upptaget";
 $text['label-ignore_busy']['uk-ua'] = "";
 
 //$text['label-follow-me']['en-us'] = "Follow Me";
-$text['label-follow-me']['en-us'] = "跟着我";
-$text['label-follow-me']['zh-cn'] = "跟着我";
+$text['label-follow-me']['en-us'] = "关注我";
+$text['label-follow-me']['zh-cn'] = "关注我";
 $text['label-follow-me']['ar-eg'] = "";
 $text['label-follow-me']['de-at'] = "Anrufweiterschaltung"; //copied from de-de
 $text['label-follow-me']['de-ch'] = "Anrufweiterschaltung"; //copied from de-de

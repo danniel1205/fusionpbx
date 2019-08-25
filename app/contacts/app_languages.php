@@ -750,8 +750,8 @@ $text['option-import_duplicates_replace']['sv-se'] = "Byt Ut";
 $text['option-import_duplicates_replace']['uk-ua'] = "Замінити";
 
 //$text['option-home']['en-us'] = "Home";
-$text['option-home']['en-us'] = "家";
-$text['option-home']['zh-cn'] = "家";
+$text['option-home']['en-us'] = "主页";
+$text['option-home']['zh-cn'] = "主页";
 $text['option-home']['ar-eg'] = "";
 $text['option-home']['de-at'] = "Privat"; //copied from de-de
 $text['option-home']['de-ch'] = "Privat"; //copied from de-de
