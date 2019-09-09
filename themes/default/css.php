@@ -248,7 +248,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 /* MENU: BEGIN ******************************************************************/
 
 	/* help bootstrap v4 menu be scrollable on mobile */
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 575px) {
 		.navbar-collapse {
 			max-height: calc(100vh - 60px);
 			overflow-y: auto;
@@ -315,9 +315,9 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		padding: 15px 10px 14px 10px; !important;
 		}
 
-	.navbar .navbar-nav > li:hover > a,
-	.navbar .navbar-nav > li:focus > a,
-	.navbar .navbar-nav > li:active > a {
+	ul.navbar-nav > li.nav-item:hover > a.nav-link,
+	ul.navbar-nav > li.nav-item:focus > a.nav-link,
+	ul.navbar-nav > li.nav-item:active > a.nav-link {
 		color: <?php echo ($_SESSION['theme']['menu_main_text_color_hover']['text'] != '') ? $_SESSION['theme']['menu_main_text_color_hover']['text'] : '#fd9c03'; ?>;
 		background: <?php echo ($_SESSION['theme']['menu_main_background_color_hover']['text'] != '') ? $_SESSION['theme']['menu_main_background_color_hover']['text'] : 'rgba(0,0,0,1.0)'; ?>
 		}
@@ -527,20 +527,20 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		text-decoration: none;
 		}
 
-	a.menu_side_item_main {
+	div#menu_side_container > a.menu_side_item_main {
 		display: block;
 		width: 100%;
 		padding: 10px 20px;
 		text-align: left;
 		font-family: <?php echo ($_SESSION['theme']['menu_main_text_font']['text'] != '') ? $_SESSION['theme']['menu_main_text_font']['text'] : 'arial'; ?>;
 		font-size: <?php echo ($_SESSION['theme']['menu_main_text_size']['text'] != '') ? $_SESSION['theme']['menu_main_text_size']['text'] : '10.25pt'; ?>;
-		color: <?php echo ($_SESSION['theme']['menu_main_text_color']['text'] != '') ? $_SESSION['theme']['menu_main_text_color']['text'] : '#fff'; ?> !important;
+		color: <?php echo ($_SESSION['theme']['menu_main_text_color']['text'] != '') ? $_SESSION['theme']['menu_main_text_color']['text'] : '#fff'; ?>;
 		cursor: pointer;
 		}
 
-	a.menu_side_item_main:hover,
-	a.menu_side_item_main:focus,
-	a.menu_side_item_main:active {
+	div#menu_side_container > a.menu_side_item_main:hover,
+	div#menu_side_container a.menu_side_item_main:focus,
+	div#menu_side_container a.menu_side_item_main:active {
 		color: <?php echo ($_SESSION['theme']['menu_main_text_color_hover']['text'] != '') ? $_SESSION['theme']['menu_main_text_color_hover']['text'] : '#fd9c03'; ?>;
 		background: <?php echo ($_SESSION['theme']['menu_main_background_color_hover']['text'] != '') ? $_SESSION['theme']['menu_main_background_color_hover']['text'] : 'rgba(0,0,0,1.0)'; ?>;
 		text-decoration: none;
@@ -779,7 +779,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		border: 1px solid #a4aebf;
 		}
 
-	div.domains_list_item, div.domains_list_item_active {
+	div.domains_list_item, div.domains_list_item_active, div.domains_list_item_inactive {
 		text-align: left;
 		border-bottom: 1px solid #c5d1e5;
 		padding: 5px 8px 8px 8px;
@@ -788,7 +788,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		cursor: pointer;
 		}
 
-	div.domains_list_item span.domain_list_item_description, div.domains_list_item_active span.domain_list_item_description {
+	div.domains_list_item span.domain_list_item_description, div.domains_list_item_active span.domain_list_item_description, div.domains_list_item_inactive span.domain_list_item_description {
 		color: #999;
 		font-size: 11px;
 		}
@@ -801,6 +801,11 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 	div.domains_list_item_active:hover a,
 	div.domains_list_item_active:hover span {
 		color: <?php echo ($_SESSION['theme']['domain_active_text_color_hover']['text']); ?>;
+	}
+	
+	div.domains_list_item_inactive:hover a,
+	div.domains_list_item_inactive:hover span {
+		color: <?php echo ($_SESSION['theme']['domain_inactive_text_color_hover']['text']); ?>;
 	}
 
 /* DOMAIN SELECTOR: END ********************************************************/
@@ -1197,10 +1202,6 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 	input.fileinput {
 		padding: 1px;
 		display: inline;
-		}
-
-	textarea {
-		min-height: 75px;
 		}
 
 	label {
@@ -1795,6 +1796,21 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		background: <?php echo ($_SESSION['theme']['dashboard_number_background_color']['text'] != '') ? $_SESSION['theme']['dashboard_number_background_color']['text'] : '#a4aebf'; ?>;
 		border-top: 1px solid <?php echo ($_SESSION['theme']['dashboard_number_background_color']['text'] != '') ? color_adjust($_SESSION['theme']['dashboard_number_background_color']['text'], 0.2) : '#c5d1e5'; ?>;
 		overflow: hidden;
+		<?php
+		//calculate font padding
+		if ($_SESSION['theme']['dashboard_heading_text_size']['text'] != '') {
+			$font_size = strtolower($_SESSION['theme']['dashboard_heading_text_size']['text']);
+			$tmp = str_replace(' ', '', $font_size);
+			$tmp = str_replace('pt', '', $tmp);
+			$tmp = str_replace('px', '', $tmp);
+			$tmp = str_replace('em', '', $tmp);
+			$tmp = str_replace('%', '', $tmp);
+			$font_size_number = $tmp;
+			$padding_top_bottom = (int) floor((100-$tmp) * 0.25);
+		}
+		?>
+		padding-top: <?php echo $padding_top_bottom.'px' ?>;
+		padding-bottom: <?php echo $padding_top_bottom.'px' ?>;
 		}
 
 	span.hud_stat:hover {

@@ -49,7 +49,7 @@
 	// moved to functions.php
 
 //action add or update
-	if (is_uuid($_REQUEST["id"])) {
+	if (is_uuid($_REQUEST["id"]) || is_uuid($_REQUEST["ivr_menu_uuid"])) {
 		$action = "update";
 		$ivr_menu_uuid = $_REQUEST["id"];
 		if (is_uuid($_REQUEST["ivr_menu_uuid"])) {
@@ -231,7 +231,7 @@
 					}
 
 				//add a uuid to ivr_menu_uuid if it is empty
-					if ($action = 'add') {
+					if ($action == 'add') {
 						$_POST["ivr_menu_uuid"] = $ivr_menu_uuid;
 					}
 
@@ -292,10 +292,10 @@
 
 				//add the dialplan permission
 					$p = new permissions;
-					if ($action = "add") {
+					if ($action == "add") {
 						$p->add("dialplan_add", "temp");
 					}
-					else if ($action = "update") {
+					else if ($action == "update") {
 						$p->add("dialplan_edit", "temp");
 					}
 
@@ -307,7 +307,7 @@
 						$database->uuid($ivr_menu_uuid);
 					}
 					$database->save($array);
-					$message = $database->message;
+					//$message = $database->message;
 
 				//remove the temporary permission
 					$p->delete("dialplan_add", "temp");
@@ -340,7 +340,7 @@
 					}
 
 				//redirect the user
-					header("Location: ivr_menu_edit.php?id=".escape($ivr_menu_uuid));
+					header("Location: ivr_menu_edit.php?id=".urlencode($ivr_menu_uuid));
 					return;
 
 			} //if ($_POST["persistformvar"] != "true")
@@ -1113,7 +1113,6 @@
 						echo "	<option value='phrase:".escape($row["phrase_uuid"])."'>".escape($row["phrase_name"])."</option>\n";
 					}
 				}
-				unset ($prep_statement);
 				echo "</optgroup>\n";
 			}
 		//sounds
@@ -1203,7 +1202,6 @@
 						echo "	<option value='phrase:".escape($row["phrase_uuid"])."'>".escape($row["phrase_name"])."</option>\n";
 					}
 				}
-				unset ($prep_statement);
 				echo "</optgroup>\n";
 			}
 		//sounds
@@ -1414,7 +1412,7 @@
 	echo "	".$text['label-description']."\n";
 	echo "</td>\n";
 	echo "<td class='vtable' align='left'>\n";
-	echo "	<textarea class='formfld' style='width: 450px; height: 100px;' name='ivr_menu_description'>".escape($ivr_menu_description)."</textarea>\n";
+	echo "	<textarea class='formfld' style='width: 450px; height: 100px;' name='ivr_menu_description'>".$ivr_menu_description."</textarea>\n";
 	echo "<br />\n";
 	echo $text['description-description']."\n";
 	echo "</td>\n";

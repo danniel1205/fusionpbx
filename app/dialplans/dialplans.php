@@ -17,7 +17,7 @@
 
 	The Initial Developer of the Original Code is
 	Mark J Crane <markjcrane@fusionpbx.com>
-	Portions created by the Initial Developer are Copyright (C) 2008-2017
+	Portions created by the Initial Developer are Copyright (C) 2008-2019
 	the Initial Developer. All Rights Reserved.
 
 	Contributor(s):
@@ -277,7 +277,7 @@
 	echo "<table class='tr_hover' width='100%' border='0' cellpadding='0' cellspacing='0'>\n";
 	echo "<tr>\n";
 	if (permission_exists('dialplan_delete') && @sizeof($dialplans) != 0) {
-		echo "<th style='width: 30px; text-align: center; padding: 3px 0px 0px 0px;' width='1'><input type='checkbox' style='margin: 0px 0px 0px 2px;' onchange=\"(this.checked) ? check('all') : check('none');\"></th>";
+		echo "<th style='width: 30px; text-align: center; padding: 3px 0px 0px 0px;' width='1'><input type='checkbox' id='chk_all' style='margin: 0px 0px 0px 2px;' onchange=\"(this.checked) ? check('all') : check('none');\"></th>";
 	}
 	if ($_GET['show'] == "all" && permission_exists('destination_all')) {
 		echo th_order_by('domain_name', $text['label-domain'], $order_by, $order, $param);
@@ -347,7 +347,7 @@
 			}
 			if ($_GET['show'] == "all" && permission_exists('dialplan_all')) {
 				if (strlen($_SESSION['domains'][$row['domain_uuid']]['domain_name']) > 0) {
-					$domain = escape($_SESSION['domains'][$row['domain_uuid']]['domain_name']);
+					$domain = $_SESSION['domains'][$row['domain_uuid']]['domain_name'];
 				}
 				else {
 					$domain = $text['label-global'];
@@ -449,8 +449,9 @@
 	if (sizeof($dialplan_ids) > 0) {
 		echo "<script>\n";
 		echo "	function check(what) {\n";
+		echo "		document.getElementById('chk_all').checked = (what == 'all') ? true : false;\n";
 		foreach ($dialplan_ids as $checkbox_id) {
-			echo "document.getElementById('".escape($checkbox_id)."').checked = (what == 'all') ? true : false;\n";
+			echo "document.getElementById('$checkbox_id').checked = (what == 'all') ? true : false;\n";
 		}
 		echo "	}\n";
 		echo "</script>\n";

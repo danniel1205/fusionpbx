@@ -220,7 +220,7 @@
 
 <?php
 
-//gnerate the captcha image
+//generate the captcha image
 	$_SESSION['captcha'] = generate_password(7, 2);
 	$captcha = new captcha;
 	$captcha->code = $_SESSION['captcha'];
@@ -281,14 +281,14 @@
 	echo "					<input type='button' class='btn' style='margin-top: 0px;' title=\"".$text['button-execute']." [Ctrl+Enter]\" value=\"    ".$text['button-execute']."    \" onclick=\"$('form#frm').submit();\">";
 	echo "					<input type='button' class='btn' style='margin-top: 0px;' title=\"\" value=\"    ".$text['button-reset']."    \" onclick=\"reset_editor();\">";
 
-	if (permission_exists('exec_sql')) {
-		echo "			<span class='sql_controls' ".(($handler != 'sql') ? "style='display: none;'" : null).">";
-		//echo "				<input type='button' class='btn' alt='".$text['button-select_database']."' onclick=\"document.location.href='sql_query_db.php'\" value='".$text['button-select_database']."'>\n";
-		if (permission_exists('exec_sql_backup')) {
-			echo "			<input type='button' class='btn' alt='".$text['button-backup']."' onclick=\"document.location.href='sql_backup.php".((strlen($_REQUEST['id']) > 0) ? "?id=".$_REQUEST['id'] : null)."'\" value='".$text['button-backup']."'>\n";
-		}
-		echo "			</span>";
-	}
+	//if (permission_exists('exec_sql')) {
+	//	echo "			<span class='sql_controls' ".(($handler != 'sql') ? "style='display: none;'" : null).">";
+	//	//echo "				<input type='button' class='btn' alt='".$text['button-select_database']."' onclick=\"document.location.href='sql_query_db.php'\" value='".$text['button-select_database']."'>\n";
+	//	if (permission_exists('exec_sql_backup')) {
+	//		echo "			<input type='button' class='btn' alt='".$text['button-backup']."' onclick=\"document.location.href='sql_backup.php".((strlen($_REQUEST['id']) > 0) ? "?id=".$_REQUEST['id'] : null)."'\" value='".$text['button-backup']."'>\n";
+	//	}
+	//	echo "			</span>";
+	//}
 	echo "		</td>";
 	echo "	</tr>";
 	echo "	<tr><td colspan='2'>\n";
@@ -416,7 +416,7 @@
 			</td>
 		</tr>
 	</table>
-	<div id='editor'><?php echo escape($command); ?></div>
+	<div id='editor'><?php echo $command; ?></div>
 
 	<?php
 	echo "		</td>";
@@ -485,7 +485,6 @@
 						$fp = event_socket_create($_SESSION['event_socket_ip_address'], $_SESSION['event_socket_port'], $_SESSION['event_socket_password']);
 						if ($fp) { 
 							$result = event_socket_request($fp, 'api '.$command);
-							$result = htmlspecialchars(utf8_encode($result), ENT_QUOTES);
 						}
 					}
 					break;
@@ -494,7 +493,7 @@
 				echo "<span id='response'>";
 				echo "<b>".$text['label-response']."</b>\n";
 				echo "<br /><br />\n";
-				echo ($handler == 'switch') ? "<textarea style='width: 100%; height: 450px; font-family: monospace; padding: 15px;' wrap='off'>".escape($result)."</textarea>\n" : "<pre>".escape($result)."</pre>";
+				echo ($handler == 'switch') ? "<textarea style='width: 100%; height: 450px; font-family: monospace; padding: 15px;' wrap='off'>".$result."</textarea>\n" : "<pre>".escape($result)."</pre>";
 				echo "</span>";
 			}
 		}

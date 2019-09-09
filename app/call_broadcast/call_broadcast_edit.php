@@ -17,7 +17,7 @@
 
 	The Initial Developer of the Original Code is
 	Mark J Crane <markjcrane@fusionpbx.com>
-	Portions created by the Initial Developer are Copyright (C) 2008-2018
+	Portions created by the Initial Developer are Copyright (C) 2008-2019
 	the Initial Developer. All Rights Reserved.
 
 	Contributor(s):
@@ -58,27 +58,27 @@
 		if (isset($_FILES['broadcast_phone_numbers_file']) && !empty($_FILES['broadcast_phone_numbers_file']) && $_FILES['broadcast_phone_numbers_file']['size'] > 0) {
 			$filename=$_FILES["broadcast_phone_numbers_file"]["tmp_name"];
 			$file_extension = array('application/octet-stream','application/vnd.ms-excel','text/plain','text/csv','text/tsv');
-			if (in_array($_FILES['broadcast_phone_numbers_file']['type'],$file_extension)) {											
+			if (in_array($_FILES['broadcast_phone_numbers_file']['type'],$file_extension)) {
 					$file = fopen($filename, "r");
 					$count = 0;
 					while (($getData = fgetcsv($file, 0, "\n")) !== FALSE)
 					{
 						$count++;
 						if ($count == 1) { continue; }
-						$getData = preg_split('/[ ,|]/', $getData[0], null, PREG_SPLIT_NO_EMPTY);						
+						$getData = preg_split('/[ ,|]/', $getData[0], null, PREG_SPLIT_NO_EMPTY);
 						$separator = $getData[0];
 						$separator .= (isset($getData[1]) && $getData[1] != '')? '|'.$getData[1] : '';
 						$separator .= (isset($getData[2]) && $getData[2] != '')? ','.$getData[2] : '';
 						$separator .= '\n';
 						$upload_csv .= $separator;
 					}
-				 fclose($file);  		
+				 fclose($file);
 			}
-			else {					  
+			else {
 				return array('code'=>false,'sql'=>'');
-			}	
-		}				
-		if (!empty($broadcast_phone_numbers) && !empty($upload_csv)) { 					
+			}
+		}
+		if (!empty($broadcast_phone_numbers) && !empty($upload_csv)) {
 			$sql .= "E'"; 
 			$sql .= $broadcast_phone_numbers.'\n'.$upload_csv;
 			$sql .= "',";
@@ -183,7 +183,7 @@ if (count($_POST) > 0 && strlen($_POST["persistformvar"]) == 0) {
 					message::add($text['confirm-update']);
 
 				//set return url on error
-					$error_return_url = "call_broadcast_edit.php?id=".$_GET['id'];
+					$error_return_url = "call_broadcast_edit.php?id=".urlencode($_GET['id']);
 			}
 
 		//execute
@@ -231,7 +231,7 @@ if (count($_POST) > 0 && strlen($_POST["persistformvar"]) == 0) {
 }
 
 //pre-populate the form
-	if (count($_GET)>0 && $_POST["persistformvar"] != "true") {
+	if (count($_GET) > 0 && $_POST["persistformvar"] != "true") {
 		$call_broadcast_uuid = $_GET["id"];
 		$sql = "select * from v_call_broadcasts ";
 		$sql .= "where domain_uuid = :domain_uuid ";
@@ -366,18 +366,21 @@ if (count($_POST) > 0 && strlen($_POST["persistformvar"]) == 0) {
 	//echo "		<option></option>\n";
 	//$sql = "";
 	//$sql .= "select * from v_recordings ";
-	//$sql .= "where domain_uuid = '$domain_uuid' ";
-	//$prep_statement = $db->prepare(check_sql($sql));
-	//$prep_statement->execute();
-	//while($row = $prep_statement->fetch()) {
-	//	if ($recording_uuid == $row['recording_uuid']) {
-	//		echo "		<option value='".$row['recording_uuid']."' selected='yes'>".escape($row['recordingname'])."</option>\n";
-	//	}
-	//	else {
-	//		echo "		<option value='".$row['recording_uuid']."'>".escape($row['recordingname'])."</option>\n";
+	//$sql .= "where domain_uuid = :domain_uuid ";
+	//$parameters['domain_uuid'] = $domain_uuid;
+	//$database = new database;
+	//$rows = $database->select($sql, $parameters, 'all');
+	//if (is_array($rows) && @sizeof($rows) != 0) {
+	//	foreach ($rows as $row) {
+	//		if ($recording_uuid == $row['recording_uuid']) {
+	//			echo "		<option value='".$row['recording_uuid']."' selected='yes'>".escape($row['recordingname'])."</option>\n";
+	//		}
+	//		else {
+	//			echo "		<option value='".$row['recording_uuid']."'>".escape($row['recordingname'])."</option>\n";
+	//		}
 	//	}
 	//}
-	//unset ($prep_statement);
+	//unset($sql, $parameters, $rows, $row);
 	//echo "		</select>\n";
 	//echo "<br />\n";
 	//echo "Recording to play when the call is answered.<br />\n";
@@ -452,7 +455,7 @@ if (count($_POST) > 0 && strlen($_POST["persistformvar"]) == 0) {
 	echo "</td>\n";
 	echo "<td class='vtable' align='left'>\n";
 
-	echo "	<textarea class='formfld' type='text' name='broadcast_phone_numbers' rows='10'>".escape($broadcast_phone_numbers)."</textarea>";
+	echo "	<textarea class='formfld' type='text' name='broadcast_phone_numbers' rows='10'>".$broadcast_phone_numbers."</textarea>";
 	echo "<br>";
 	echo " <span class='' style='margin-left: 37px;'>OR </span> ";
 	echo "<br>";
@@ -525,22 +528,24 @@ if (count($_POST) > 0 && strlen($_POST["persistformvar"]) == 0) {
 		echo "		<select name='user_category' class='formfld'>\n";
 		echo "		<option></option>\n";
 		$sql = "";
-		$sql .= "select distinct(user_category) as user_category from v_users ";
-		//$sql .= "where domain_uuid = '$domain_uuid' ";
-		$prep_statement = $db->prepare(check_sql($sql));
-		$prep_statement->execute();
-		while($row = $prep_statement->fetch()) {
-			if ($user_category   == $row['user_category']) {
-				echo "		<option value='".escape($row['user_category'])."' selected='yes'>".escape($row['user_category'])."</option>\n";
-			}
-			else {
-				echo "		<option value='".escape($row['user_category'])."'>".escape($row['user_category'])."</option>\n";
+		$sql .= "select distinct user_category as user_category from v_users ";
+		//$sql .= "where domain_uuid = :domain_uuid ";
+		//$parameters['domain_uuid'] = $domain_uuid;
+		$database = new database;
+		$rows = $database->select($sql, null, 'all');
+		if (is_array($rows) && @sizeof($rows) != 0) {
+			foreach ($rows as $row) {
+				if ($user_category   == $row['user_category']) {
+					echo "		<option value='".escape($row['user_category'])."' selected='yes'>".escape($row['user_category'])."</option>\n";
+				}
+				else {
+					echo "		<option value='".escape($row['user_category'])."'>".escape($row['user_category'])."</option>\n";
+				}
 			}
 		}
-		unset ($prep_statement);
+		unset($sql, $parameters, $rows, $row);
 		echo "		</select>\n";
 		echo "<br />\n";
-		//echo "zzz.<br />\n";
 		echo "\n";
 		echo "</td>\n";
 		echo "</tr>\n";
@@ -554,21 +559,23 @@ if (count($_POST) > 0 && strlen($_POST["persistformvar"]) == 0) {
 		echo "		<option></option>\n";
 		$sql = "";
 		$sql .= "select * from v_groups ";
-		//$sql .= "where domain_uuid = '$domain_uuid' ";
-		$prep_statement = $db->prepare(check_sql($sql));
-		$prep_statement->execute();
-		while($row = $prep_statement->fetch()) {
-			if ($recording_uuid == $row['group_name']) {
-				echo "		<option value='".escape($row['group_name'])."' selected='yes'>".escape($row['group_name'])."</option>\n";
-			}
-			else {
-				echo "		<option value='".escape($row['group_name'])."'>".escape($row['group_name'])."</option>\n";
+		//$sql .= "where domain_uuid = :domain_uuid ";
+		//$parameters['domain_uuid'] = $domain_uuid;
+		$database = new database;
+		$rows = $database->select($sql, null, 'all');
+		if (is_array($rows) && @sizeof($rows) != 0) {
+			foreach ($rows as $row) {
+				if ($recording_uuid == $row['group_name']) {
+					echo "		<option value='".escape($row['group_name'])."' selected='yes'>".escape($row['group_name'])."</option>\n";
+				}
+				else {
+					echo "		<option value='".escape($row['group_name'])."'>".escape($row['group_name'])."</option>\n";
+				}
 			}
 		}
-		unset ($prep_statement);
+		unset($sql, $parameters, $rows, $row);
 		echo "		</select>\n";
 		echo "<br />\n";
-		//echo "zzz.<br />\n";
 		echo "\n";
 		echo "</td>\n";
 		echo "</tr>\n";
@@ -583,18 +590,21 @@ if (count($_POST) > 0 && strlen($_POST["persistformvar"]) == 0) {
 		echo "		<option></option>\n";
 		$sql = "";
 		$sql .= "select * from v_gateways ";
-		//$sql .= "where domain_uuid = '$domain_uuid' ";
-		$prep_statement = $db->prepare(check_sql($sql));
-		$prep_statement->execute();
-		while($row = $prep_statement->fetch()) {
-			if ($gateway == $row['gateway']) {
-				echo "		<option value='".escape($row['gateway'])."' selected='yes'>".escape($row['gateway'])."</option>\n";
-			}
-			else {
-				echo "		<option value='".escape($row['gateway'])."'>".escape($row['gateway'])."</option>\n";
+		//$sql .= "where domain_uuid = :domain_uuid ";
+		//$parameters['domain_uuid'] = $domain_uuid;
+		$database = new database;
+		$rows = $database->select($sql, null, 'all');
+		if (is_array($rows) && @sizeof($rows) != 0) {
+			foreach ($rows as $row) {
+				if ($gateway == $row['gateway']) {
+					echo "		<option value='".escape($row['gateway'])."' selected='yes'>".escape($row['gateway'])."</option>\n";
+				}
+				else {
+					echo "		<option value='".escape($row['gateway'])."'>".escape($row['gateway'])."</option>\n";
+				}
 			}
 		}
-		unset ($prep_statement);
+		unset($sql, $parameters, $rows, $row);
 		echo "		<option value='loopback'>loopback</option>\n";
 		echo "		</select>\n";
 		echo "<br />\n";
@@ -617,7 +627,6 @@ if (count($_POST) > 0 && strlen($_POST["persistformvar"]) == 0) {
 		//echo "		<option value='zzz'>cell</option>\n";
 		echo "		</select>\n";
 		echo "<br />\n";
-		//echo "zzz.<br />\n";
 		echo "\n";
 		echo "</td>\n";
 		echo "</tr>\n";
@@ -636,7 +645,6 @@ if (count($_POST) > 0 && strlen($_POST["persistformvar"]) == 0) {
 		//echo "		<option value='zzz'>cell</option>\n";
 		echo "		</select>\n";
 		echo "<br />\n";
-		//echo "zzz.<br />\n";
 		echo "\n";
 		echo "</td>\n";
 		echo "</tr>\n";
