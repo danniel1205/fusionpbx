@@ -608,7 +608,7 @@
 					if (valid_email($user_email)) {
 						$array['users'][0]['user_email'] = $user_email;
 					}
-					$array['users'][0]['add_date'] = now();
+					$array['users'][0]['add_date'] = 'now()';
 					$array['users'][0]['add_user'] = $_SESSION["username"];
 
 				//build user group insert array
@@ -1571,8 +1571,10 @@ function number_pad($number,$n) {
 					case 'up': $direction = 'keyup'; break;
 				}
 			//check for element exceptions
-				if (sizeof($exceptions) > 0) {
-					$exceptions = "!$(e.target).is('".implode(',', $exceptions)."') && ";
+				if (is_array($exceptions)) {
+					if (sizeof($exceptions) > 0) {
+						$exceptions = "!$(e.target).is('".implode(',', $exceptions)."') && ";
+					}
 				}
 			//quote if selector is id or class
 				$subject = ($subject != 'window' && $subject != 'document') ? "'".$subject."'" : $subject;
